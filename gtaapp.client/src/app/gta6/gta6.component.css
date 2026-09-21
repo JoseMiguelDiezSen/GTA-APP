@@ -1,0 +1,35 @@
+.map-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url('/assets/bg.jpg') center center / cover no-repeat fixed #000;
+}
+
+.no-map {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #111;
+  z-index: 500;
+}
+
+.no-map-title {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.no-map-text {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+}
