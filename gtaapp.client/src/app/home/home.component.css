@@ -5,16 +5,77 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: #000;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-shell::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(34, 139, 34, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 105, 180, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(255, 165, 0, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-shell::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, transparent 20%, rgba(11, 15, 20, 0.8) 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.language-selector {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.language-dropdown {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  color: #fff;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.language-dropdown:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.language-dropdown option {
+  background: #1a1a2e;
+  color: #fff;
 }
 
 .home-title {
   margin: 0;
   color: #fff;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 44px;
+  font-family: 'Pricedown', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 52px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  z-index: 1;
+  text-transform: uppercase;
 }
 
 .home-subtitle {
@@ -22,11 +83,13 @@
   color: rgba(255, 255, 255, 0.6);
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
+  z-index: 1;
 }
 
 .home-actions {
   display: flex;
   gap: 16px;
+  z-index: 1;
 }
 
 .home-btn {
@@ -46,18 +109,39 @@
   transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
 }
 
-.home-btn:hover {
-  background: rgba(255, 165, 0, 0.18);
-  border-color: orange;
-  transform: translateY(-2px);
-}
+
 
 .home-btn-title {
   font-size: 26px;
   font-weight: 700;
+  font-family: 'Pricedown', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .home-btn-sub {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.home-btn-gta5 {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.4);
+}
+
+.home-btn-gta5:hover {
+  background: rgba(34, 197, 94, 0.4);
+  border-color: #22c55e;
+  transform: translateY(-2px);
+}
+
+.home-btn-gta6 {
+  background: rgba(236, 72, 153, 0.2);
+  border-color: rgba(236, 72, 153, 0.4);
+}
+
+.home-btn-gta6:hover {
+  background: rgba(236, 72, 153, 0.4);
+  border-color: #ec4899;
+  transform: translateY(-2px);
 }

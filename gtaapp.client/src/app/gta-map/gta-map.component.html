@@ -5,7 +5,7 @@
 >
   <div id="gta-map"></div>
 
-  <!-- MENU CONTEXTUAL (click derecho sobre el mapa): maquetacion -->
+  <!-- MENU CONTEXTUAL (click derecho sobre el mapa o marcador) -->
   <div
     class="hud-ctx"
     *ngIf="ctxOpen"
@@ -13,171 +13,902 @@
     [style.top.px]="ctxY"
     (click)="$event.stopPropagation()"
   >
+    <!-- Opciones específicas cuando se hace clic derecho sobre un marcador de usuario -->
+    <ng-container *ngIf="isMarkerContext && targetCustomMarker">
+      <div class="hud-ctx-header" style="padding: 6px 12px; font-size: 11px; font-weight: 800; color: #ffb833; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 4px;">
+        {{ targetCustomMarker.name }}
+      </div>
+      <button type="button" class="hud-ctx-item" (click)="runCtxAction('editar_marcador')">
+        Editar nombre
+      </button>
+      <button type="button" class="hud-ctx-item hud-ctx-item-danger" (click)="runCtxAction('borrar_este_marcador')">
+        Eliminar este marcador
+      </button>
+      <div class="hud-ctx-sep"></div>
+    </ng-container>
+
     <button type="button" class="hud-ctx-item" (click)="runCtxAction('marcador')">
-      <span class="hud-ctx-ico">M</span>Anadir marcador
+      Añadir marcador aquí
     </button>
     <button type="button" class="hud-ctx-item" (click)="runCtxAction('centrar')">
-      <span class="hud-ctx-ico">C</span>Centrar mapa aqui
-    </button>
-    <button type="button" class="hud-ctx-item" (click)="runCtxAction('ruta')">
-      <span class="hud-ctx-ico">R</span>Fijar ruta
+      Centrar mapa aquí
     </button>
     <div class="hud-ctx-sep"></div>
     <button type="button" class="hud-ctx-item hud-ctx-item-danger" (click)="runCtxAction('borrar')">
-      <span class="hud-ctx-ico">X</span>Borrar marcadores
+      Borrar mis marcadores
     </button>
   </div>
 
-  <!-- ESQUINA SUP-IZQ: identidad -->
+  <!-- ESQUINA SUP-IZQ: Identidad y HUD Status (barra horizontal alargada) -->
   <div class="hud hud-tl">
     <div class="hud-title">GTA V</div>
-    <div class="hud-subtitle">Los Santos + Blaine County</div>
-    <div class="hud-reticle">
-      <span class="reticle-ring"></span>
-      <span class="reticle-dot"></span>
-    </div>
+    <div class="hud-counter-badge" title="Elementos mapeados">{{ allProperties.length }} Propiedades · {{ allCollectibles.length }} Coleccionables</div>
+    <div class="hud-time-badge" title="Hora del juego (Los Santos)">{{ inGameTimeStr }}</div>
+    <a class="hud-home-btn" routerLink="/" title="Volver a la pantalla de inicio">Inicio</a>
   </div>
 
-  <!-- ESQUINA SUP-DER: base del mapa (solo el mapa base, sin filtros) -->
-  <div class="hud hud-tr">
-    <div class="hud-group">
-      <label class="hud-label" for="mapType">Base del mapa</label>
-      <select
-        id="mapType"
-        class="hud-select"
-        (change)="switchMapType($any($event.target).value)"
+  <!-- ESQUINA INF-IZQ: Panel de control (antigua Leyenda) -->
+  <div class="hud hud-bl" [class.hud-collapsed]="!legendOpen">
+    <div class="hud-panel hud-legend-panel">
+      <!-- Cabecera del Panel de control: SIEMPRE visible, mantiene el ancho y el título -->
+      <div
+        class="hud-panel-head"
+        [class.is-collapsed]="!legendOpen"
+        (click)="!legendOpen ? toggleLegend() : null"
+        [title]="!legendOpen ? 'Clic para desplegar Panel de control' : ''"
       >
-        <option
-          *ngFor="let type of mapTypes"
-          [value]="type.id"
-          [selected]="currentMapType === type.id"
-        >
-          {{ type.label }}
-        </option>
-      </select>
-    </div>
-  </div>
-
-  <!-- BARRA SUP-CENTRO: conmutador de conexion (una sola linea, sin salto) -->
-  <div class="hud hud-topbar hud-segbar">
-    <div class="hud-seg">
-      <button
-        type="button"
-        class="hud-seg-btn seg-offline"
-        [class.is-active]="chipOffline"
-        (click)="chipOffline = true; chipOnline = false"
-      >Offline</button>
-      <button
-        type="button"
-        class="hud-seg-btn seg-online"
-        [class.is-active]="chipOnline"
-        (click)="chipOnline = true; chipOffline = false"
-      >Online</button>
-    </div>
-  </div>
-
-  <!-- ESQUINA INF-IZQ: leyenda -->
-  <div class="hud hud-bl">
-    <div class="hud-group">
-      <label class="hud-label">Leyenda</label>
-      <div class="hud-legend">
-        <span class="legend-item"><i class="legend-dot dot-gold"></i>Punto de interes</span>
-        <span class="legend-item"><i class="legend-dot dot-teal"></i>Negocio local</span>
-        <span class="legend-item"><i class="legend-dot dot-blue"></i>Mision</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- ESQUINA INF-DER: panel de control con acordeones (maquetacion) -->
-  <div class="hud hud-br">
-    <div class="hud-panel">
-      <div class="hud-panel-head">
         <span class="hud-panel-title">Panel de control</span>
-        <span class="hud-panel-badge">GTA V</span>
+        <button
+          type="button"
+          class="legend-toggle-btn"
+          (click)="toggleLegend(); $event.stopPropagation()"
+          [title]="legendOpen ? 'Minimizar panel' : 'Desplegar panel'"
+        >
+          <span class="legend-toggle-caret" [class.is-collapsed]="!legendOpen">▼</span>
+        </button>
       </div>
 
-      <!-- Categoria: Modo de juego -->
-      <div class="hud-acc" [class.is-open]="accordion['modo']">
-        <button type="button" class="hud-acc-head" (click)="toggleSection('modo')">
-          <span class="hud-acc-caret"></span>
-          <span class="hud-acc-title">Modo de juego</span>
-        </button>
-        <div class="hud-acc-body" *ngIf="accordion['modo']">
-          <div class="hud-field">
-            <label class="hud-field-label" for="hud-facing">Modo de juego</label>
-            <select id="hud-facing" class="hud-field-select">
-              <option>Historia</option>
-              <option selected>Online</option>
-              <option>Director</option>
-            </select>
+      <!-- Contenido desplegado del Panel de control con scroll general -->
+      <div class="hud-legend-body" *ngIf="legendOpen">
+
+      <!-- DESPLEGABLE 1: Propiedades -->
+      <div class="hud-acc" [class.is-open]="accordion['propiedades']">
+        <div class="hud-acc-head">
+          <div class="hud-acc-toggle" (click)="toggleSection('propiedades')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Propiedades</span>
           </div>
+          <input
+            type="checkbox"
+            class="hud-acc-check"
+            [checked]="isSectionAllActive(currentPropertyKeys)"
+            (click)="$event.stopPropagation()"
+            (change)="onSectionCheckboxChange(currentPropertyKeys, $event)"
+            title="Activar o desactivar todas las propiedades"
+          />
+        </div>
+
+        <div class="hud-acc-body hud-acc-scroll" *ngIf="accordion['propiedades']">
+          <!-- Negocios Modo Historia (Solo visibles en Modo Historia) -->
+          <button
+            type="button"
+            class="legend-btn"
+            *ngIf="selectedGameMode === 'story'"
+            [class.is-active]="layerFilters['purchasable_business']"
+            (click)="toggleLayer('purchasable_business')"
+          >
+            <i class="legend-dot dot-story"></i>
+            <span class="legend-name">Negocios (Historia)</span>
+            <span class="legend-count">{{ getCategoryCount('purchasable_business') }}</span>
+          </button>
+
+          <!-- Propiedades de GTA Online (Solo visibles en GTA Online) -->
+          <ng-container *ngIf="selectedGameMode === 'online'">
+            <!-- Mansiones (A Safehouse in the Hills) -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['mansion']"
+              (click)="toggleLayer('mansion')"
+            >
+              <i class="legend-dot dot-mansion"></i>
+              <span class="legend-name">Mansiones de Lujo</span>
+              <span class="legend-count">{{ getCategoryCount('mansion') }}</span>
+            </button>
+
+            <!-- Hangares y Aeródromos -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['hangar']"
+              (click)="toggleLayer('hangar')"
+            >
+              <i class="legend-dot dot-hangar"></i>
+              <span class="legend-name">Hangares</span>
+              <span class="legend-count">{{ getCategoryCount('hangar') }}</span>
+            </button>
+
+            <!-- Negocios de Cocaína -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['coke_lockup']"
+              (click)="toggleLayer('coke_lockup')"
+            >
+              <i class="legend-dot dot-coke"></i>
+              <span class="legend-name">Negocios de Cocaína</span>
+              <span class="legend-count">{{ getCategoryCount('coke_lockup') }}</span>
+            </button>
+
+            <!-- Negocios de Marihuana -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['weed_farm']"
+              (click)="toggleLayer('weed_farm')"
+            >
+              <i class="legend-dot dot-weed"></i>
+              <span class="legend-name">Negocios de Marihuana</span>
+              <span class="legend-count">{{ getCategoryCount('weed_farm') }}</span>
+            </button>
+
+            <!-- Laboratorios de Metanfetamina -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['meth_lab']"
+              (click)="toggleLayer('meth_lab')"
+            >
+              <i class="legend-dot dot-meth"></i>
+              <span class="legend-name">Laboratorios de Metanfetamina</span>
+              <span class="legend-count">{{ getCategoryCount('meth_lab') }}</span>
+            </button>
+
+            <!-- Fábricas de Dinero Falso -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['cash_factory']"
+              (click)="toggleLayer('cash_factory')"
+            >
+              <i class="legend-dot dot-cash"></i>
+              <span class="legend-name">Fábricas de Dinero Falso</span>
+              <span class="legend-count">{{ getCategoryCount('cash_factory') }}</span>
+            </button>
+
+            <!-- Falsificación de Documentos -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['doc_forgery']"
+              (click)="toggleLayer('doc_forgery')"
+            >
+              <i class="legend-dot dot-doc"></i>
+              <span class="legend-name">Falsificación de Documentos</span>
+              <span class="legend-count">{{ getCategoryCount('doc_forgery') }}</span>
+            </button>
+
+            <!-- Búnkeres -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['bunker']"
+              (click)="toggleLayer('bunker')"
+            >
+              <i class="legend-dot dot-bunker"></i>
+              <span class="legend-name">Búnkeres</span>
+              <span class="legend-count">{{ getCategoryCount('bunker') }}</span>
+            </button>
+
+            <!-- Instalaciones -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['facility']"
+              (click)="toggleLayer('facility')"
+            >
+              <i class="legend-dot dot-facility"></i>
+              <span class="legend-name">Instalaciones</span>
+              <span class="legend-count">{{ getCategoryCount('facility') }}</span>
+            </button>
+
+            <!-- Clubes Nocturnos -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['nightclub']"
+              (click)="toggleLayer('nightclub')"
+            >
+              <i class="legend-dot dot-nightclub"></i>
+              <span class="legend-name">Clubes Nocturnos</span>
+              <span class="legend-count">{{ getCategoryCount('nightclub') }}</span>
+            </button>
+
+            <!-- Salas Recreativas -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['arcade']"
+              (click)="toggleLayer('arcade')"
+            >
+              <i class="legend-dot dot-arcade"></i>
+              <span class="legend-name">Salas Recreativas</span>
+              <span class="legend-count">{{ getCategoryCount('arcade') }}</span>
+            </button>
+
+            <!-- Talleres Tuners -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['auto_shop']"
+              (click)="toggleLayer('auto_shop')"
+            >
+              <i class="legend-dot dot-autoshop"></i>
+              <span class="legend-name">Talleres (Tuners)</span>
+              <span class="legend-count">{{ getCategoryCount('auto_shop') }}</span>
+            </button>
+
+            <!-- Agencias The Contract -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['agency']"
+              (click)="toggleLayer('agency')"
+            >
+              <i class="legend-dot dot-agency"></i>
+              <span class="legend-name">Agencias (The Contract)</span>
+              <span class="legend-count">{{ getCategoryCount('agency') }}</span>
+            </button>
+
+            <!-- Desguaces The Chop Shop -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['salvage_yard']"
+              (click)="toggleLayer('salvage_yard')"
+            >
+              <i class="legend-dot dot-salvage"></i>
+              <span class="legend-name">Desguaces (The Chop Shop)</span>
+              <span class="legend-count">{{ getCategoryCount('salvage_yard') }}</span>
+            </button>
+
+            <!-- Oficinas CEO -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['ceo_office']"
+              (click)="toggleLayer('ceo_office')"
+            >
+              <i class="legend-dot dot-ceo"></i>
+              <span class="legend-name">Oficinas de CEO</span>
+              <span class="legend-count">{{ getCategoryCount('ceo_office') }}</span>
+            </button>
+
+            <!-- Almacenes de Vehículos (Import / Export) -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['vehicle_warehouse']"
+              (click)="toggleLayer('vehicle_warehouse')"
+            >
+              <i class="legend-dot dot-veh-warehouse"></i>
+              <span class="legend-name">Almacenes Vehículos (I/E)</span>
+              <span class="legend-count">{{ getCategoryCount('vehicle_warehouse') }}</span>
+            </button>
+
+            <!-- Almacenes de Cajas -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['warehouse']"
+              (click)="toggleLayer('warehouse')"
+            >
+              <i class="legend-dot dot-warehouse"></i>
+              <span class="legend-name">Almacenes de Cajas</span>
+              <span class="legend-count">{{ getCategoryCount('warehouse') }}</span>
+            </button>
+          </ng-container>
         </div>
       </div>
 
-      <!-- Categoria: Radio -->
-      <div class="hud-acc" [class.is-open]="accordion['radio']">
-        <button type="button" class="hud-acc-head" (click)="toggleSection('radio')">
-          <span class="hud-acc-caret"></span>
-          <span class="hud-acc-title">Radio</span>
-        </button>
-        <div class="hud-acc-body" *ngIf="accordion['radio']">
-          <div class="hud-field">
-            <label class="hud-field-label" for="hud-radio">Estacion de radio</label>
-            <select id="hud-radio" class="hud-field-select">
-              <option>Los Santos Rock Radio</option>
-              <option>West Coast Classics</option>
-              <option>Vinewood Boulevard</option>
-              <option selected>Non-Stop Pop FM</option>
-              <option>Rebel Radio</option>
-            </select>
+      <!-- DESPLEGABLE 2: Vehículos -->
+      <div class="hud-acc" [class.is-open]="accordion['vehiculos']">
+        <div class="hud-acc-head">
+          <div class="hud-acc-toggle" (click)="toggleSection('vehiculos')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Vehículos</span>
           </div>
+          <input
+            type="checkbox"
+            class="hud-acc-check"
+            [checked]="isSectionAllActive(currentVehicleKeys)"
+            (click)="$event.stopPropagation()"
+            (change)="onSectionCheckboxChange(currentVehicleKeys, $event)"
+            title="Activar o desactivar todos los talleres y vehículos"
+          />
+        </div>
+
+        <div class="hud-acc-body hud-acc-scroll" *ngIf="accordion['vehiculos']">
+          <!-- Los Santos Customs (Disponible en Historia y Online) -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['ls_customs']"
+            (click)="toggleLayer('ls_customs')"
+          >
+            <i class="legend-dot dot-lsc"></i>
+            <span class="legend-name">Los Santos Customs</span>
+            <span class="legend-count">{{ getCategoryCount('ls_customs') }}</span>
+          </button>
+
+          <!-- Benny's Original Motor Works (Solo GTA Online) -->
+          <button
+            type="button"
+            class="legend-btn"
+            *ngIf="selectedGameMode === 'online'"
+            [class.is-active]="layerFilters['bennys']"
+            (click)="toggleLayer('bennys')"
+          >
+            <i class="legend-dot dot-bennys"></i>
+            <span class="legend-name">Taller Benny's</span>
+            <span class="legend-count">{{ getCategoryCount('bennys') }}</span>
+          </button>
+
+          <!-- Garaje de Hao (En ambos modos) -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['hao_garage']"
+            (click)="toggleLayer('hao_garage')"
+          >
+            <i class="legend-dot dot-hao"></i>
+            <span class="legend-name">Garaje de Hao (HSW)</span>
+            <span class="legend-count">{{ getCategoryCount('hao_garage') }}</span>
+          </button>
+
+          <!-- LS Car Meet (Solo GTA Online) -->
+          <button
+            type="button"
+            class="legend-btn"
+            *ngIf="selectedGameMode === 'online'"
+            [class.is-active]="layerFilters['ls_car_meet']"
+            (click)="toggleLayer('ls_car_meet')"
+          >
+            <i class="legend-dot dot-carmeet"></i>
+            <span class="legend-name">LS Car Meet (Cypress)</span>
+            <span class="legend-count">{{ getCategoryCount('ls_car_meet') }}</span>
+          </button>
         </div>
       </div>
 
-      <!-- Categoria: Seguridad -->
-      <div class="hud-acc" [class.is-open]="accordion['seguridad']">
-        <button type="button" class="hud-acc-head" (click)="toggleSection('seguridad')">
-          <span class="hud-acc-caret"></span>
-          <span class="hud-acc-title">Seguridad</span>
-        </button>
-        <div class="hud-acc-body" *ngIf="accordion['seguridad']">
-          <div class="hud-field">
-            <label class="hud-field-label" for="hud-wanted">Nivel buscado</label>
-            <select id="hud-wanted" class="hud-field-select">
-              <option>0 - Sin alerta</option>
-              <option>1 - Busqueda local</option>
-              <option selected>2 - Patrullas</option>
-              <option>3 - Helicopteros</option>
-              <option>4 - Unidades SWAT</option>
-              <option>5 - Bloqueo</option>
-            </select>
+      <!-- DESPLEGABLE 3: Servicios -->
+      <div class="hud-acc" [class.is-open]="accordion['servicios']">
+        <div class="hud-acc-head">
+          <div class="hud-acc-toggle" (click)="toggleSection('servicios')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Servicios</span>
           </div>
+          <input
+            type="checkbox"
+            class="hud-acc-check"
+            [checked]="isSectionAllActive(serviceKeys)"
+            (click)="$event.stopPropagation()"
+            (change)="onSectionCheckboxChange(serviceKeys, $event)"
+            title="Activar o desactivar todos los servicios"
+          />
+        </div>
+
+        <div class="hud-acc-body hud-acc-scroll" *ngIf="accordion['servicios']">
+          <!-- Comisarías de Policía -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['police_station']"
+            (click)="toggleLayer('police_station')"
+          >
+            <i class="legend-dot dot-police"></i>
+            <span class="legend-name">Comisarías de Policía</span>
+            <span class="legend-count">{{ getCategoryCount('police_station') }}</span>
+          </button>
+
+          <!-- Hospitales -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['hospital']"
+            (click)="toggleLayer('hospital')"
+          >
+            <i class="legend-dot dot-hospital"></i>
+            <span class="legend-name">Hospitales</span>
+            <span class="legend-count">{{ getCategoryCount('hospital') }}</span>
+          </button>
+
+          <!-- Estaciones de Bomberos -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['fire_station']"
+            (click)="toggleLayer('fire_station')"
+          >
+            <i class="legend-dot dot-fire"></i>
+            <span class="legend-name">Estaciones de Bomberos</span>
+            <span class="legend-count">{{ getCategoryCount('fire_station') }}</span>
+          </button>
+
+          <!-- Armerías Ammu-Nation -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['service']"
+            (click)="toggleLayer('service')"
+          >
+            <i class="legend-dot dot-service"></i>
+            <span class="legend-name">Armerías Ammu-Nation</span>
+            <span class="legend-count">{{ getCategoryCount('service') }}</span>
+          </button>
+
+          <!-- Tiendas 24/7 (Atracables) -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['convenience_store']"
+            (click)="toggleLayer('convenience_store')"
+          >
+            <i class="legend-dot dot-store"></i>
+            <span class="legend-name">Tiendas 24/7 (Atracables)</span>
+            <span class="legend-count">{{ getCategoryCount('convenience_store') }}</span>
+          </button>
+
+          <!-- Túneles de Lavado -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['car_wash']"
+            (click)="toggleLayer('car_wash')"
+          >
+            <i class="legend-dot dot-carwash"></i>
+            <span class="legend-name">Túneles de Lavado</span>
+            <span class="legend-count">{{ getCategoryCount('car_wash') }}</span>
+          </button>
+
+          <!-- Strip Club Vanilla Unicorn -->
+          <button
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters['strip_club']"
+            (click)="toggleLayer('strip_club')"
+          >
+            <i class="legend-dot dot-stripclub"></i>
+            <span class="legend-name">Vanilla Unicorn (Club)</span>
+            <span class="legend-count">{{ getCategoryCount('strip_club') }}</span>
+          </button>
         </div>
       </div>
 
-      <!-- Categoria: Zona -->
-      <div class="hud-acc" [class.is-open]="accordion['zona']">
-        <button type="button" class="hud-acc-head" (click)="toggleSection('zona')">
-          <span class="hud-acc-caret"></span>
-          <span class="hud-acc-title">Zona</span>
-        </button>
-        <div class="hud-acc-body" *ngIf="accordion['zona']">
-          <div class="hud-field">
-            <label class="hud-field-label" for="hud-zone">Zona activa</label>
-            <select id="hud-zone" class="hud-field-select">
-              <option selected>Todo Los Santos</option>
-              <option>Sandy Shores</option>
-              <option>Paleto Bay</option>
-              <option>Blaine County</option>
-            </select>
+      <!-- DESPLEGABLE 4: Trabajos Roleplay (Los 7 puestos activos) -->
+      <div class="hud-acc" [class.is-open]="accordion['roleplay']">
+        <div class="hud-acc-head">
+          <div class="hud-acc-toggle" (click)="toggleSection('roleplay')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Trabajos Roleplay</span>
           </div>
+          <input
+            type="checkbox"
+            class="hud-acc-check"
+            [checked]="isSectionAllActive(roleplayKeys)"
+            (click)="$event.stopPropagation()"
+            (change)="onSectionCheckboxChange(roleplayKeys, $event)"
+            title="Activar o desactivar todos los trabajos roleplay"
+          />
+        </div>
+
+        <div class="hud-acc-body hud-acc-scroll" *ngIf="accordion['roleplay']">
+          <button
+            *ngFor="let job of roleplayJobs"
+            type="button"
+            class="legend-btn"
+            [class.is-active]="layerFilters[job.id]"
+            (click)="toggleLayer(job.id)"
+          >
+            <i class="legend-dot" [style.background]="job.badge.color" [style.box-shadow]="'0 0 6px ' + job.badge.color"></i>
+            <span class="legend-name">{{ job.name }}</span>
+            <span class="legend-count">{{ job.badge.symbol }}</span>
+          </button>
         </div>
       </div>
 
-      <div class="hud-panel-foot">
-        <button type="button" class="hud-panel-btn">Reiniciar sesion</button>
-        <button type="button" class="hud-panel-btn hud-panel-btn-primary">Guardar</button>
+      <!-- DESPLEGABLE 5: Coleccionables -->
+      <div class="hud-acc" [class.is-open]="accordion['coleccionables']">
+        <div class="hud-acc-head">
+          <div class="hud-acc-toggle" (click)="toggleSection('coleccionables')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Coleccionables</span>
+          </div>
+          <input
+            *ngIf="selectedGameMode === 'online'"
+            type="checkbox"
+            class="hud-acc-check"
+            [checked]="isSectionAllActive(collectibleKeys)"
+            (click)="$event.stopPropagation()"
+            (change)="onSectionCheckboxChange(collectibleKeys, $event)"
+            title="Activar o desactivar todos los coleccionables"
+          />
+        </div>
+
+        <div class="hud-acc-body hud-acc-scroll" *ngIf="accordion['coleccionables']">
+          <ng-container *ngIf="selectedGameMode === 'online'">
+            <!-- Naipes de Baraja (54) -->
+            <button
+              type="button"
+              class="legend-btn legend-btn-collectible"
+              [class.is-active]="layerFilters['playing_card']"
+              (click)="toggleLayer('playing_card')"
+            >
+              <i class="legend-square dot-card"></i>
+              <span class="legend-name">Naipes de Baraja</span>
+              <span class="legend-count">{{ getCollectibleCount('playing_card') }}</span>
+            </button>
+
+            <!-- Figuras de Acción (100) -->
+            <button
+              type="button"
+              class="legend-btn legend-btn-collectible"
+              [class.is-active]="layerFilters['action_figure']"
+              (click)="toggleLayer('action_figure')"
+            >
+              <i class="legend-square dot-figure"></i>
+              <span class="legend-name">Figuras de Acción</span>
+              <span class="legend-count">{{ getCollectibleCount('action_figure') }}</span>
+            </button>
+
+            <!-- Inhibidores de Señal (50) -->
+            <button
+              type="button"
+              class="legend-btn legend-btn-collectible"
+              [class.is-active]="layerFilters['signal_jammer']"
+              (click)="toggleLayer('signal_jammer')"
+            >
+              <i class="legend-square dot-jammer"></i>
+              <span class="legend-name">Inhibidores de Señal</span>
+              <span class="legend-count">{{ getCollectibleCount('signal_jammer') }}</span>
+            </button>
+
+            <!-- Atrezzo de Solomon (10) -->
+            <button
+              type="button"
+              class="legend-btn legend-btn-collectible"
+              [class.is-active]="layerFilters['movie_prop']"
+              (click)="toggleLayer('movie_prop')"
+            >
+              <i class="legend-square dot-prop"></i>
+              <span class="legend-name">Atrezzo de Solomon</span>
+              <span class="legend-count">{{ getCollectibleCount('movie_prop') }}</span>
+            </button>
+
+            <!-- Antenas Still Slipping (10) -->
+            <button
+              type="button"
+              class="legend-btn legend-btn-collectible"
+              [class.is-active]="layerFilters['radio_antenna']"
+              (click)="toggleLayer('radio_antenna')"
+            >
+              <i class="legend-square dot-antenna"></i>
+              <span class="legend-name">Antenas Still Slipping</span>
+              <span class="legend-count">{{ getCollectibleCount('radio_antenna') }}</span>
+            </button>
+          </ng-container>
+
+          <div class="hud-acc-empty" *ngIf="selectedGameMode === 'story'">
+            Los coleccionables están disponibles en el modo GTA Online. Cámbialo en Ajustes.
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ESQUINA INF-DER: Ajustes -->
+  <div class="hud hud-br" [class.hud-collapsed]="!settingsOpen">
+    <div class="hud-panel">
+      <div
+        class="hud-panel-head"
+        [class.is-collapsed]="!settingsOpen"
+        (click)="!settingsOpen ? toggleSettings() : null"
+        [title]="!settingsOpen ? 'Clic para desplegar Ajustes' : ''"
+      >
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="hud-panel-title">Ajustes</span>
+          <span class="hud-panel-badge" *ngIf="settingsOpen">GTA V</span>
+        </div>
+        <button
+          type="button"
+          class="legend-toggle-btn"
+          (click)="toggleSettings(); $event.stopPropagation()"
+          [title]="settingsOpen ? 'Minimizar ajustes' : 'Desplegar ajustes'"
+        >
+          <span class="legend-toggle-caret" [class.is-collapsed]="!settingsOpen">▼</span>
+        </button>
+      </div>
+
+      <div class="hud-settings-body" *ngIf="settingsOpen">
+        <!-- DESPLEGABLE: Modo de juego (Online vs Historia) -->
+        <div class="hud-acc" [class.is-open]="accordion['modo']">
+          <button type="button" class="hud-acc-head hud-acc-head-btn" (click)="toggleSection('modo')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Modo de juego</span>
+          </button>
+          <div class="hud-acc-body" *ngIf="accordion['modo']">
+            <div class="hud-seg hud-seg-vertical">
+              <button
+                type="button"
+                class="hud-seg-btn seg-online"
+                [class.is-active]="selectedGameMode === 'online'"
+                (click)="setGameMode('online')"
+                title="GTA Online: Búnkeres, Vehículos, Servicios y Coleccionables"
+              >
+                GTA Online
+              </button>
+              <button
+                type="button"
+                class="hud-seg-btn seg-offline"
+                [class.is-active]="selectedGameMode === 'story'"
+                (click)="setGameMode('story')"
+                title="Modo Historia: Negocios comprables y mapas UV"
+              >
+                Modo Historia
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESPLEGABLE: Selector de mapa -->
+        <div class="hud-acc" [class.is-open]="accordion['mapa']">
+          <button type="button" class="hud-acc-head hud-acc-head-btn" (click)="toggleSection('mapa')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Selector de mapa</span>
+          </button>
+          <div class="hud-acc-body" *ngIf="accordion['mapa']">
+            <div class="hud-field">
+              <label class="hud-field-label" for="mapTypeSelect">Base del mapa</label>
+              <select
+                id="mapTypeSelect"
+                class="hud-field-select"
+                (change)="switchMapType($any($event.target).value)"
+              >
+                <option
+                  *ngFor="let type of mapTypes"
+                  [value]="type.id"
+                  [selected]="currentMapType === type.id"
+                >
+                  {{ type.label }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESPLEGABLE: Estilo Iconos -->
+        <div class="hud-acc" [class.is-open]="accordion['zona']">
+          <button type="button" class="hud-acc-head hud-acc-head-btn" (click)="toggleSection('zona')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Estilo Iconos</span>
+          </button>
+          <div class="hud-acc-body" *ngIf="accordion['zona']">
+            <div class="hud-field">
+              <label class="hud-field-label" for="iconThemeSelect">Tema de marcadores</label>
+              <select
+                id="iconThemeSelect"
+                class="hud-field-select"
+                [(ngModel)]="iconTheme"
+                (change)="updateIconStyle()"
+              >
+                <option value="modern">Moderno (Neón & HUD)</option>
+                <option value="classic">Clásico (Sutil & Original)</option>
+              </select>
+            </div>
+            <div class="hud-field">
+              <label class="hud-field-label" for="iconSizeSelect">Tamaño de iconos</label>
+              <select
+                id="iconSizeSelect"
+                class="hud-field-select"
+                [(ngModel)]="iconSize"
+                (change)="updateIconStyle()"
+              >
+                <option value="compact">Compacto (80%)</option>
+                <option value="standard" selected>Estándar (100%)</option>
+                <option value="large">Grande (120%)</option>
+              </select>
+            </div>
+            <div class="hud-field">
+              <label class="hud-field-label" for="hud-zone">Saltar a región</label>
+              <select
+                id="hud-zone"
+                class="hud-field-select"
+                (change)="onZoneChange($any($event.target).value)"
+              >
+                <option value="all">Mapa Completo (Visión General)</option>
+                <option value="city">Los Santos Ciudad</option>
+                <option value="sandy">Sandy Shores & Gran Desierto</option>
+                <option value="paleto">Paleto Bay (Norte)</option>
+                <option value="blaine">Blaine County</option>
+                <option value="chumash">Chumash (Costa Oeste)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTONES DE PIE DE PANEL -->
+        <div class="hud-panel-foot">
+          <button type="button" class="hud-panel-btn" (click)="recenterMap()">Centrar Mapa</button>
+          <button type="button" class="hud-panel-btn hud-panel-btn-primary" (click)="onZoneChange('all')">Vista General</button>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- BOTÓN LATERAL EN ESQUINA SUP-DER: PERFIL Y PROGRESO (Alineado a la altura del panel de la izquierda) -->
+  <button
+    type="button"
+    class="hud-side-trigger"
+    (click)="toggleProfileDrawer()"
+    title="Abrir Mi Perfil y Progreso"
+  >
+    <div class="side-trigger-avatar">
+      <span class="side-avatar-placeholder">LS</span>
+    </div>
+    <div class="side-trigger-info">
+      <span class="side-tag">MI PROGRESO</span>
+      <span class="side-name">{{ userProfile.nickname || 'Jugador' }}</span>
+    </div>
+    <span class="side-count-badge" title="Propiedades compradas">
+      {{ userProfile.ownedPropertyIds.length }}
+    </span>
+  </button>
+
+  <!-- DRAWER LATERAL DERECHO: FICHA ELEGANTE DE JUGADOR Y PROGRESO -->
+  <div class="hud-drawer-backdrop" *ngIf="profileDrawerOpen" (click)="closeProfileDrawer()"></div>
+  <aside class="hud-profile-drawer" [class.is-open]="profileDrawerOpen">
+    <!-- Cabecera del Drawer -->
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <span class="drawer-badge">GTA V · PROGRESO</span>
+        <h3 class="drawer-title">Ficha de Jugador</h3>
+      </div>
+      <button type="button" class="drawer-close-btn" (click)="closeProfileDrawer()" title="Cerrar">✕</button>
+    </div>
+
+    <div class="drawer-body">
+      <!-- Tarjeta Elegante de Identidad del Jugador -->
+      <div class="player-card">
+        <div class="player-card-header">
+          <div class="player-avatar-box">
+            <span class="player-avatar-fallback">LS</span>
+          </div>
+          <div class="player-identity">
+            <input
+              type="text"
+              class="player-name-input"
+              [(ngModel)]="editNickname"
+              (blur)="saveLocalProfile()"
+              (keyup.enter)="saveLocalProfile()"
+              placeholder="Tu nombre / alias..."
+              title="Haz clic para cambiar tu nombre"
+            />
+            <div class="player-ids">
+              <span class="player-platform-badge uppercase">{{ userProfile.platform || 'PC' }}</span>
+              <span class="player-slot-badge">Personaje {{ userProfile.characterSlot + 1 }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Métricas Rápidas de Progreso -->
+        <div class="player-stats-grid">
+          <div class="stat-pill">
+            <span class="stat-val">{{ userProfile.ownedPropertyIds.length }}</span>
+            <span class="stat-lbl">Propiedades</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-val">{{ userProfile.collectedItemIds.length }}</span>
+            <span class="stat-lbl">Coleccionables</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feedback Toast / Mensaje -->
+      <div class="drawer-alert" *ngIf="syncFeedbackMsg">
+        {{ syncFeedbackMsg }}
+      </div>
+
+      <!-- Preferencias Rápidas en el Mapa -->
+      <div class="drawer-section">
+        <h5 class="drawer-section-title">Visualización en el Mapa</h5>
+        <div class="drawer-toggle-row">
+          <label class="drawer-toggle-label">
+            <input
+              type="checkbox"
+              class="drawer-toggle-check"
+              [checked]="userProfile.highlightOwnedProperties"
+              (change)="toggleHighlightOwned()"
+            />
+            <span class="toggle-text">Resaltar en verde mis propiedades</span>
+          </label>
+        </div>
+        <div class="drawer-toggle-row">
+          <label class="drawer-toggle-label">
+            <input
+              type="checkbox"
+              class="drawer-toggle-check"
+              [checked]="userProfile.hideCollectedItems"
+              (change)="toggleHideCollected()"
+            />
+            <span class="toggle-text">Ocultar coleccionables ya conseguidos</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Lista de Mis Propiedades Compradas -->
+      <div class="drawer-section">
+        <div class="drawer-section-header">
+          <h5 class="drawer-section-title">Mis Propiedades ({{ userProfile.ownedPropertyIds.length }})</h5>
+          <button
+            *ngIf="userProfile.ownedPropertyIds.length > 0"
+            type="button"
+            class="drawer-clear-btn"
+            (click)="clearOwnedProperties()"
+            title="Desmarcar todas"
+          >
+            Vaciar todas
+          </button>
+        </div>
+
+        <p class="drawer-hint" *ngIf="userProfile.ownedPropertyIds.length === 0">
+          Haz clic en cualquier propiedad en el mapa y pulsa <b>"Marcar como Comprada"</b> para añadirla a tu lista.
+        </p>
+
+        <div class="drawer-owned-list" *ngIf="userProfile.ownedPropertyIds.length > 0">
+          <div
+            *ngFor="let prop of getOwnedPropertyList()"
+            class="drawer-owned-item"
+          >
+            <div class="owned-item-info">
+              <span class="owned-item-badge">{{ prop.categoryLabel }}</span>
+              <span class="owned-item-name">{{ prop.name }}</span>
+            </div>
+            <button
+              type="button"
+              class="owned-item-del"
+              (click)="togglePropertyOwned(prop.id)"
+              title="Quitar de mi lista"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Configuración Rápida de Plataforma -->
+      <div class="drawer-section">
+        <h5 class="drawer-section-title">Plataforma de Juego</h5>
+        <div class="drawer-field-row">
+          <div class="drawer-field">
+            <label class="drawer-field-label">Plataforma</label>
+            <select class="drawer-field-select" [(ngModel)]="editPlatform" (change)="saveLocalProfile()">
+              <option value="pc">PC</option>
+              <option value="ps5">PlayStation 5</option>
+              <option value="xboxsx">Xbox Series X|S</option>
+            </select>
+          </div>
+
+          <div class="drawer-field">
+            <label class="drawer-field-label">Personaje</label>
+            <select class="drawer-field-select" [(ngModel)]="editCharacterSlot" (change)="saveLocalProfile()">
+              <option [ngValue]="0">Personaje 1</option>
+              <option [ngValue]="1">Personaje 2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
 </div>

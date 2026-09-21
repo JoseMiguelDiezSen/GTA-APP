@@ -1,0 +1,18 @@
+{
+  "rockstarId": null,
+  "nickname": "Jugador de Los Santos",
+  "avatarUrl": null,
+  "platform": "ps5",
+  "characterSlot": 0,
+  "isSyncedWithSocialClub": false,
+  "lastSyncDate": null,
+  "rank": null,
+  "cash": null,
+  "bank": null,
+  "ownedPropertyIds": [
+    "warehouse-darnell-bros"
+  ],
+  "collectedItemIds": [],
+  "highlightOwnedProperties": true,
+  "hideCollectedItems": true
+}

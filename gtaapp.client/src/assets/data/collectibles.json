@@ -1,0 +1,4930 @@
+[
+  {
+    "id": "card-1",
+    "name": "Naipe #1: As de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 1,
+    "total": 54,
+    "zone": "Paleto Bay",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. En la estación inferior del teleférico de Mount Chiliad, sobre el alféizar de la ventana.",
+    "hint": "En la estación inferior del teleférico de Mount Chiliad, sobre el alféizar de la ventana.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -744.1,
+      "y": 5595.6,
+      "z": 41.6
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-2",
+    "name": "Naipe #2: Dos de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 2,
+    "total": 54,
+    "zone": "Paleto Bay",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Taller Beeker's Garage en Paleto Bay, en la mesa de trabajo trasera.",
+    "hint": "Taller Beeker's Garage en Paleto Bay, en la mesa de trabajo trasera.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -219.2,
+      "y": 6220.8,
+      "z": 31.5
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-3",
+    "name": "Naipe #3: Tres de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 3,
+    "total": 54,
+    "zone": "Procopio Beach",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Área de descanso de camiones Procopio Truck Stop, sobre el banco de madera exterior.",
+    "hint": "Área de descanso de camiones Procopio Truck Stop, sobre el banco de madera exterior.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 453.6,
+      "y": 6510.4,
+      "z": 27.9
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-4",
+    "name": "Naipe #4: Cuatro de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 4,
+    "total": 54,
+    "zone": "Mount Chiliad",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Plataforma de observación en la cima de Mount Chiliad, junto a los prismáticos panorámicos.",
+    "hint": "Plataforma de observación en la cima de Mount Chiliad, junto a los prismáticos panorámicos.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 450.8,
+      "y": 5566.2,
+      "z": 781.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-5",
+    "name": "Naipe #5: Cinco de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 5,
+    "total": 54,
+    "zone": "Grapeseed",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Granero principal de cultivo en Grapeseed, sobre una paca de heno junto al tractor.",
+    "hint": "Granero principal de cultivo en Grapeseed, sobre una paca de heno junto al tractor.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 2439.1,
+      "y": 4960.3,
+      "z": 46.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-6",
+    "name": "Naipe #6: Seis de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 6,
+    "total": 54,
+    "zone": "Grapeseed",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Pista de aterrizaje McKenzie Field, dentro del hangar sobre la caja de herramientas de Trevor.",
+    "hint": "Pista de aterrizaje McKenzie Field, dentro del hangar sobre la caja de herramientas de Trevor.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 2133.5,
+      "y": 4781.9,
+      "z": 41.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-7",
+    "name": "Naipe #7: Siete de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 7,
+    "total": 54,
+    "zone": "Cape Catfish",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Embarcadero de pescadores en Cape Catfish, sobre una mesa con redes de pesca.",
+    "hint": "Embarcadero de pescadores en Cape Catfish, sobre una mesa con redes de pesca.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 3432.6,
+      "y": 5174.5,
+      "z": 7.4
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-8",
+    "name": "Naipe #8: Ocho de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 8,
+    "total": 54,
+    "zone": "El Gordo Lighthouse",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Porche de la casa rústica frente al faro de El Gordo, sobre la mesa de la terraza.",
+    "hint": "Porche de la casa rústica frente al faro de El Gordo, sobre la mesa de la terraza.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 3330.1,
+      "y": 5160.8,
+      "z": 18.3
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-9",
+    "name": "Naipe #9: Nueve de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 9,
+    "total": 54,
+    "zone": "Alamo Sea",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Cabaña de pescadores en la orilla norte de Alamo Sea, en el porche de madera.",
+    "hint": "Cabaña de pescadores en la orilla norte de Alamo Sea, en el porche de madera.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1335.2,
+      "y": 4378.1,
+      "z": 44.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-10",
+    "name": "Naipe #10: Diez de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 10,
+    "total": 54,
+    "zone": "Sandy Shores",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Diner Park View en Sandy Shores, sobre una mesa de la terraza exterior.",
+    "hint": "Diner Park View en Sandy Shores, sobre una mesa de la terraza exterior.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1983.4,
+      "y": 3778.6,
+      "z": 32.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-11",
+    "name": "Naipe #11: Jota de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 11,
+    "total": 54,
+    "zone": "Sandy Shores",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Porche del remolque de Trevor Philips en Sandy Shores, sobre la mesita auxiliar.",
+    "hint": "Porche del remolque de Trevor Philips en Sandy Shores, sobre la mesita auxiliar.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1974.8,
+      "y": 3819.3,
+      "z": 33.4
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-12",
+    "name": "Naipe #12: Reina de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 12,
+    "total": 54,
+    "zone": "Grand Senora Desert",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Caseta de operaciones del Aeródromo de Grand Senora Desert, sobre el pupitre de radio.",
+    "hint": "Caseta de operaciones del Aeródromo de Grand Senora Desert, sobre el pupitre de radio.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1709.2,
+      "y": 3286.4,
+      "z": 41.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-13",
+    "name": "Naipe #13: Rey de Picas",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 13,
+    "total": 54,
+    "zone": "Grand Senora Desert",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Campo petrolífero de Grand Senora, sobre un bidón metálico al lado del pozo extractor.",
+    "hint": "Campo petrolífero de Grand Senora, sobre un bidón metálico al lado del pozo extractor.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1559.8,
+      "y": 2220.1,
+      "z": 78.4
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-14",
+    "name": "Naipe #14: As de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 14,
+    "total": 54,
+    "zone": "Route 68",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Tienda Discount Store de Route 68, en el probador de ropa del fondo.",
+    "hint": "Tienda Discount Store de Route 68, en el probador de ropa del fondo.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1198.5,
+      "y": 2710.2,
+      "z": 38.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-15",
+    "name": "Naipe #15: Dos de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 15,
+    "total": 54,
+    "zone": "Zancudo River",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Ammu-Nation de Route 68 junto al río Zancudo, sobre la mesa de la galería de tiro.",
+    "hint": "Ammu-Nation de Route 68 junto al río Zancudo, sobre la mesa de la galería de tiro.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1120.3,
+      "y": 2698.4,
+      "z": 18.6
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-16",
+    "name": "Naipe #16: Tres de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 16,
+    "total": 54,
+    "zone": "Chumash",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Supermercado 24/7 en Chumash norte, junto a la caja registradora.",
+    "hint": "Supermercado 24/7 en Chumash norte, junto a la caja registradora.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -3155.8,
+      "y": 1125.6,
+      "z": 20.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-17",
+    "name": "Naipe #17: Cuatro de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 17,
+    "total": 54,
+    "zone": "Chumash",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Muelle de madera detrás de Nelson General Store en Chumash, sobre un carrete de cuerda.",
+    "hint": "Muelle de madera detrás de Nelson General Store en Chumash, sobre un carrete de cuerda.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -3241.9,
+      "y": 1004.2,
+      "z": 12.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-18",
+    "name": "Naipe #18: Cinco de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 18,
+    "total": 54,
+    "zone": "Fort Zancudo",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Garita de control exterior norte de Fort Zancudo, sobre el mostrador de vigilancia.",
+    "hint": "Garita de control exterior norte de Fort Zancudo, sobre el mostrador de vigilancia.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -2342.1,
+      "y": 3267.4,
+      "z": 32.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-19",
+    "name": "Naipe #19: Seis de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 19,
+    "total": 54,
+    "zone": "Tongva Hills",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Bodega Marlowe Vineyards, sobre una barrica de vino en la terraza exterior.",
+    "hint": "Bodega Marlowe Vineyards, sobre una barrica de vino en la terraza exterior.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1887.6,
+      "y": 2056.2,
+      "z": 140.9
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-20",
+    "name": "Naipe #20: Siete de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 20,
+    "total": 54,
+    "zone": "Tongva Hills",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Pérgola de degustación en los viñedos de Tongva Hills, sobre la mesa redonda.",
+    "hint": "Pérgola de degustación en los viñedos de Tongva Hills, sobre la mesa redonda.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1805.3,
+      "y": 2214.8,
+      "z": 91.5
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-21",
+    "name": "Naipe #21: Ocho de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 21,
+    "total": 54,
+    "zone": "Banham Canyon",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Mansión privada con vistas al cañón en Banham Canyon, junto a la piscina infinita.",
+    "hint": "Mansión privada con vistas al cañón en Banham Canyon, junto a la piscina infinita.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -2570.2,
+      "y": 1330.6,
+      "z": 154.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-22",
+    "name": "Naipe #22: Nueve de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 22,
+    "total": 54,
+    "zone": "Pacific Bluffs",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Club de campo de Pacific Bluffs, sobre una tumbona junto a la gran piscina.",
+    "hint": "Club de campo de Pacific Bluffs, sobre una tumbona junto a la gran piscina.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -2980.1,
+      "y": 280.4,
+      "z": 15.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-23",
+    "name": "Naipe #23: Diez de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 23,
+    "total": 54,
+    "zone": "Richman",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Mansión Playboy / Richman Mansion, en la barra del bar de la gruta de la piscina.",
+    "hint": "Mansión Playboy / Richman Mansion, en la barra del bar de la gruta de la piscina.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1520.4,
+      "y": 840.1,
+      "z": 180.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-24",
+    "name": "Naipe #24: Jota de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 24,
+    "total": 54,
+    "zone": "Pacific Bluffs",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Centro cultural Kortz Center, en la terraza superior del edificio Lowenthal.",
+    "hint": "Centro cultural Kortz Center, en la terraza superior del edificio Lowenthal.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -2240.6,
+      "y": 260.8,
+      "z": 174.6
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-25",
+    "name": "Naipe #25: Reina de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 25,
+    "total": 54,
+    "zone": "Richman",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Campus universitario ULSA en Richman, sobre los escalones de la biblioteca.",
+    "hint": "Campus universitario ULSA en Richman, sobre los escalones de la biblioteca.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1680.2,
+      "y": 180.4,
+      "z": 62.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-26",
+    "name": "Naipe #26: Rey de Corazones",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 26,
+    "total": 54,
+    "zone": "Rockford Hills",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Club de Golf Los Santos en Rockford Hills, junto al putting green del hoyo 1.",
+    "hint": "Club de Golf Los Santos en Rockford Hills, junto al putting green del hoyo 1.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1360.5,
+      "y": 120.3,
+      "z": 56.4
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-27",
+    "name": "Naipe #27: As de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 27,
+    "total": 54,
+    "zone": "Burton",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Los Santos Customs de Burton, sobre el mostrador de recepción de repuestos.",
+    "hint": "Los Santos Customs de Burton, sobre el mostrador de recepción de repuestos.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -360.2,
+      "y": -130.6,
+      "z": 38.7
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-28",
+    "name": "Naipe #28: Dos de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 28,
+    "total": 54,
+    "zone": "West Vinewood",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Motel Pink Tropics en West Vinewood, junto a las máquinas de refrescos.",
+    "hint": "Motel Pink Tropics en West Vinewood, junto a las máquinas de refrescos.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -680.4,
+      "y": 310.2,
+      "z": 83.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-29",
+    "name": "Naipe #29: Tres de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 29,
+    "total": 54,
+    "zone": "Downtown Vinewood",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Banco Pacific Standard en Downtown Vinewood, en el pasillo lateral acristalado.",
+    "hint": "Banco Pacific Standard en Downtown Vinewood, en el pasillo lateral acristalado.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 235.1,
+      "y": 216.5,
+      "z": 106.3
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-30",
+    "name": "Naipe #30: Cuatro de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 30,
+    "total": 54,
+    "zone": "Vinewood",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Hipódromo de Vinewood Racetrack, sobre un banco de madera de la tribuna.",
+    "hint": "Hipódromo de Vinewood Racetrack, sobre un banco de madera de la tribuna.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1120.6,
+      "y": 120.4,
+      "z": 80.9
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-31",
+    "name": "Naipe #31: Cinco de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 31,
+    "total": 54,
+    "zone": "East Vinewood",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. The Diamond Casino & Resort, junto a la cabina de aparcacoches exterior.",
+    "hint": "The Diamond Casino & Resort, junto a la cabina de aparcacoches exterior.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 920.4,
+      "y": 48.2,
+      "z": 81.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-32",
+    "name": "Naipe #32: Seis de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 32,
+    "total": 54,
+    "zone": "Tataviam Mountains",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Supermercado 24/7 de la autopista Palomino Freeway, sobre el mostrador de snacks.",
+    "hint": "Supermercado 24/7 de la autopista Palomino Freeway, sobre el mostrador de snacks.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 2555.2,
+      "y": 380.6,
+      "z": 108.6
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-33",
+    "name": "Naipe #33: Siete de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 33,
+    "total": 54,
+    "zone": "Tataviam Mountains",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Presa Land Act Dam, sobre la repisa de hormigón del edificio de transformadores.",
+    "hint": "Presa Land Act Dam, sobre la repisa de hormigón del edificio de transformadores.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1660.4,
+      "y": -20.2,
+      "z": 166.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-34",
+    "name": "Naipe #34: Ocho de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 34,
+    "total": 54,
+    "zone": "Palmer-Taylor",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Central eléctrica Palmer-Taylor Power Station, junto a la subestación de control.",
+    "hint": "Central eléctrica Palmer-Taylor Power Station, junto a la subestación de control.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 2730.1,
+      "y": -1400.2,
+      "z": 24.5
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-35",
+    "name": "Naipe #35: Nueve de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 35,
+    "total": 54,
+    "zone": "Mirror Park",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Pabellón público del parque en Mirror Park, sobre la mesa de picnic.",
+    "hint": "Pabellón público del parque en Mirror Park, sobre la mesa de picnic.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1040.2,
+      "y": -720.5,
+      "z": 57.3
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-36",
+    "name": "Naipe #36: Diez de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 36,
+    "total": 54,
+    "zone": "East Los Santos",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Ammu-Nation de East Los Santos, sobre la mesa de exhibición de pistolas.",
+    "hint": "Ammu-Nation de East Los Santos, sobre la mesa de exhibición de pistolas.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 820.6,
+      "y": -2150.3,
+      "z": 29.6
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-37",
+    "name": "Naipe #37: Jota de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 37,
+    "total": 54,
+    "zone": "Cypress Flats",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Almacén de trenes de Cypress Flats, sobre una plataforma de carga industrial.",
+    "hint": "Almacén de trenes de Cypress Flats, sobre una plataforma de carga industrial.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 940.1,
+      "y": -1700.4,
+      "z": 31.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-38",
+    "name": "Naipe #38: Reina de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 38,
+    "total": 54,
+    "zone": "El Burro Heights",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Oficina de los pozos petrolíferos de El Burro Heights, sobre un archivador metálico.",
+    "hint": "Oficina de los pozos petrolíferos de El Burro Heights, sobre un archivador metálico.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 1420.5,
+      "y": -2100.2,
+      "z": 62.4
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-39",
+    "name": "Naipe #39: Rey de Diamantes",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 39,
+    "total": 54,
+    "zone": "Terminal",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Zona de contenedores de Terminal, encima de una caja de madera de transporte.",
+    "hint": "Zona de contenedores de Terminal, encima de una caja de madera de transporte.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 960.2,
+      "y": -2980.5,
+      "z": 5.9
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-40",
+    "name": "Naipe #40: As de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 40,
+    "total": 54,
+    "zone": "Elysian Island",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Remolcador atracado en Elysian Island, sobre la mesa de la timonera del barco.",
+    "hint": "Remolcador atracado en Elysian Island, sobre la mesa de la timonera del barco.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 380.4,
+      "y": -2680.1,
+      "z": 6.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-41",
+    "name": "Naipe #41: Dos de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 41,
+    "total": 54,
+    "zone": "Banning",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Muelle de carga de Banning, en el banco de descanso de los estibadores.",
+    "hint": "Muelle de carga de Banning, en el banco de descanso de los estibadores.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -120.5,
+      "y": -2160.4,
+      "z": 8.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-42",
+    "name": "Naipe #42: Tres de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 42,
+    "total": 54,
+    "zone": "LSIA",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Terminal 4 del Aeropuerto Internacional LSIA, sobre el banco exterior de llegadas.",
+    "hint": "Terminal 4 del Aeropuerto Internacional LSIA, sobre el banco exterior de llegadas.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1040.3,
+      "y": -2780.2,
+      "z": 13.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-43",
+    "name": "Naipe #43: Cuatro de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 43,
+    "total": 54,
+    "zone": "LSIA",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Hangar de Devin Weston en el extremo sur de LSIA, sobre el escritorio de oficina.",
+    "hint": "Hangar de Devin Weston en el extremo sur de LSIA, sobre el escritorio de oficina.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1380.1,
+      "y": -3020.6,
+      "z": 13.9
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-44",
+    "name": "Naipe #44: Cinco de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 44,
+    "total": 54,
+    "zone": "La Puerta",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Maze Bank Arena en La Puerta, en el mostrador de tickets de la entrada principal.",
+    "hint": "Maze Bank Arena en La Puerta, en el mostrador de tickets de la entrada principal.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -260.4,
+      "y": -1880.2,
+      "z": 27.5
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-45",
+    "name": "Naipe #45: Seis de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 45,
+    "total": 54,
+    "zone": "Strawberry",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Club de striptease Vanilla Unicorn en Strawberry, en el sofá del reservado VIP.",
+    "hint": "Club de striptease Vanilla Unicorn en Strawberry, en el sofá del reservado VIP.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 128.8,
+      "y": -1298.5,
+      "z": 29.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-46",
+    "name": "Naipe #46: Siete de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 46,
+    "total": 54,
+    "zone": "Davis",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Taller Auto Exotic de Davis, sobre la mesa de repuestos mecánicos.",
+    "hint": "Taller Auto Exotic de Davis, sobre la mesa de repuestos mecánicos.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 110.2,
+      "y": -1500.4,
+      "z": 29.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-47",
+    "name": "Naipe #47: Ocho de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 47,
+    "total": 54,
+    "zone": "Pillbox Hill",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Ammu-Nation de Pillbox Hill, sobre una mesa en la galería de tiro subterránea.",
+    "hint": "Ammu-Nation de Pillbox Hill, sobre una mesa en la galería de tiro subterránea.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 18.5,
+      "y": -1106.8,
+      "z": 29.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-48",
+    "name": "Naipe #48: Nueve de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 48,
+    "total": 54,
+    "zone": "Legion Square",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Plaza Legion Square en el centro de Los Santos, sobre la mesa de ajedrez de piedra.",
+    "hint": "Plaza Legion Square en el centro de Los Santos, sobre la mesa de ajedrez de piedra.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": 150.2,
+      "y": -940.6,
+      "z": 30.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-49",
+    "name": "Naipe #49: Diez de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 49,
+    "total": 54,
+    "zone": "Little Seoul",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Supermercado 24/7 en Little Seoul, sobre el mostrador de cajeros.",
+    "hint": "Supermercado 24/7 en Little Seoul, sobre el mostrador de cajeros.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -710.4,
+      "y": -915.2,
+      "z": 19.2
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-50",
+    "name": "Naipe #50: Jota de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 50,
+    "total": 54,
+    "zone": "Vespucci Canals",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Barbería de Vespucci Canals, sobre la mesita auxiliar de revistas.",
+    "hint": "Barbería de Vespucci Canals, sobre la mesita auxiliar de revistas.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1210.6,
+      "y": -1140.2,
+      "z": 7.8
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-51",
+    "name": "Naipe #51: Reina de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 51,
+    "total": 54,
+    "zone": "Vespucci Beach",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Gimnasio al aire libre Muscle Sands en Vespucci Beach, sobre un banco de pesas.",
+    "hint": "Gimnasio al aire libre Muscle Sands en Vespucci Beach, sobre un banco de pesas.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1200.2,
+      "y": -1565.4,
+      "z": 4.4
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-52",
+    "name": "Naipe #52: Rey de Tréboles",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 52,
+    "total": 54,
+    "zone": "Del Perro",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Muelle Del Perro Pier, sobre una mesa de terraza de madera del paseo marítimo.",
+    "hint": "Muelle Del Perro Pier, sobre una mesa de terraza de madera del paseo marítimo.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1680.5,
+      "y": -1070.2,
+      "z": 13.1
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-53",
+    "name": "Naipe #53: Comodín Rojo",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 53,
+    "total": 54,
+    "zone": "Richards Majestic",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Estudios de cine Richards Majestic, en el camerino del plató de rodaje A.",
+    "hint": "Estudios de cine Richards Majestic, en el camerino del plató de rodaje A.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1010.4,
+      "y": -480.2,
+      "z": 36.9
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "card-54",
+    "name": "Naipe #54: Comodín Negro",
+    "category": "playing_card",
+    "categoryLabel": "Naipes de Baraja",
+    "number": 54,
+    "total": 54,
+    "zone": "Morningwood",
+    "description": "Naipe coleccionable oficial de la baraja Diamond Casino & Resort. Cine Tivoli Cinema en Morningwood, sobre la repisa de la taquilla de billetes.",
+    "hint": "Cine Tivoli Cinema en Morningwood, sobre la repisa de la taquilla de billetes.",
+    "reward": "Fichas de Casino + RP + Colección privada Penthouse + Conjunto Gran Apostador",
+    "position": {
+      "x": -1420.2,
+      "y": -240.5,
+      "z": 46.5
+    },
+    "badge": {
+      "icon": "playing_card",
+      "color": "#e74c3c",
+      "symbol": "🃏"
+    }
+  },
+  {
+    "id": "figure-1",
+    "name": "Figura #1: Impotent Rage",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 1,
+    "total": 100,
+    "zone": "LSIA",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Llegadas Terminal 2 de LSIA, detrás de un panel de información publicitaria.",
+    "hint": "Llegadas Terminal 2 de LSIA, detrás de un panel de información publicitaria.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1010.5,
+      "y": -2980.2,
+      "z": 13.9
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-2",
+    "name": "Figura #2: Space Ranger",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 2,
+    "total": 100,
+    "zone": "LSIA",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Pasarela peatonal superior de conexión de hangares en LSIA.",
+    "hint": "Pasarela peatonal superior de conexión de hangares en LSIA.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1340.2,
+      "y": -2640.8,
+      "z": 13.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-3",
+    "name": "Figura #3: Princess Robot Bubblegum",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 3,
+    "total": 100,
+    "zone": "Elysian Island",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Almacén de piezas navales en Elysian Island, en una estantería metálica.",
+    "hint": "Almacén de piezas navales en Elysian Island, en una estantería metálica.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 140.2,
+      "y": -2990.4,
+      "z": 5.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-4",
+    "name": "Figura #4: Commander",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 4,
+    "total": 100,
+    "zone": "Terminal",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Grúa pórtico del puerto de mercancías Terminal, en la cabina de acceso.",
+    "hint": "Grúa pórtico del puerto de mercancías Terminal, en la cabina de acceso.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1040.5,
+      "y": -2910.2,
+      "z": 5.9
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-5",
+    "name": "Figura #5: Monkey Puss",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 5,
+    "total": 100,
+    "zone": "Banning",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Taller de reparación de locomotoras de Banning, sobre un motor averiado.",
+    "hint": "Taller de reparación de locomotoras de Banning, sobre un motor averiado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -80.4,
+      "y": -2410.6,
+      "z": 6.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-6",
+    "name": "Figura #6: Hardcore Comic Hero",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 6,
+    "total": 100,
+    "zone": "Cypress Flats",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Depósito de chatarra industrial en Cypress Flats, dentro de un autobús destartalado.",
+    "hint": "Depósito de chatarra industrial en Cypress Flats, dentro de un autobús destartalado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 810.2,
+      "y": -1980.4,
+      "z": 29.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-7",
+    "name": "Figura #7: Space Ranger Blue",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 7,
+    "total": 100,
+    "zone": "El Burro Heights",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Garaje de coches abandonado en El Burro Heights, sobre un neumático apilado.",
+    "hint": "Garaje de coches abandonado en El Burro Heights, sobre un neumático apilado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1380.6,
+      "y": -2060.2,
+      "z": 52.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-8",
+    "name": "Figura #8: Impotent Rage Red",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 8,
+    "total": 100,
+    "zone": "Murrieta Heights",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Muro del viaducto de Murrieta Heights, entre la barandilla y la maleza.",
+    "hint": "Muro del viaducto de Murrieta Heights, entre la barandilla y la maleza.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1220.4,
+      "y": -1680.5,
+      "z": 42.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-9",
+    "name": "Figura #9: Bubblegum Special",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 9,
+    "total": 100,
+    "zone": "East Los Santos",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Parque infantil de East Los Santos, dentro del tobogán cubierto de plástico.",
+    "hint": "Parque infantil de East Los Santos, dentro del tobogán cubierto de plástico.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1020.8,
+      "y": -1450.2,
+      "z": 31.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-10",
+    "name": "Figura #10: Alien Invader",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 10,
+    "total": 100,
+    "zone": "La Mesa",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Canal de hormigón del río de Los Santos en La Mesa, en el saliente de un desagüe.",
+    "hint": "Canal de hormigón del río de Los Santos en La Mesa, en el saliente de un desagüe.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 740.2,
+      "y": -1320.6,
+      "z": 26.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-11",
+    "name": "Figura #11: Impotent Rage Golden",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 11,
+    "total": 100,
+    "zone": "Strawberry",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Autopista Olympic Fwy bajo el puente de Strawberry, en el campamento de vagabundos.",
+    "hint": "Autopista Olympic Fwy bajo el puente de Strawberry, en el campamento de vagabundos.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 280.4,
+      "y": -1440.2,
+      "z": 29.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-12",
+    "name": "Figura #12: Space Ranger Guard",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 12,
+    "total": 100,
+    "zone": "Davis",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Estación de bomberos de Davis, detrás del camión de bomberos en la taquilla.",
+    "hint": "Estación de bomberos de Davis, detrás del camión de bomberos en la taquilla.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 120.6,
+      "y": -1720.4,
+      "z": 29.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-13",
+    "name": "Figura #13: Bubblegum Maid",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 13,
+    "total": 100,
+    "zone": "Rancho",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Torres de Rancho Watts Towers, en la base de la escultura de mosaicos más alta.",
+    "hint": "Torres de Rancho Watts Towers, en la base de la escultura de mosaicos más alta.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 420.2,
+      "y": -1880.8,
+      "z": 27.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-14",
+    "name": "Figura #14: Monkey Puss Black",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 14,
+    "total": 100,
+    "zone": "Chamberlain Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Edificio comunitario de Chamberlain Hills, en el cuarto de contadores del sótano.",
+    "hint": "Edificio comunitario de Chamberlain Hills, en el cuarto de contadores del sótano.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -180.4,
+      "y": -1600.2,
+      "z": 32.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-15",
+    "name": "Figura #15: Alien Warrior",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 15,
+    "total": 100,
+    "zone": "Strawberry",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Hospital Central de Los Santos en Davis/Strawberry, en la rampa de ambulancias.",
+    "hint": "Hospital Central de Los Santos en Davis/Strawberry, en la rampa de ambulancias.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -40.2,
+      "y": -1280.4,
+      "z": 28.9
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-16",
+    "name": "Figura #16: Super Hero Classic",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 16,
+    "total": 100,
+    "zone": "Pillbox Hill",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Construcción del rascacielos Mile High Club en Pillbox Hill, en una viga metálica del piso 1.",
+    "hint": "Construcción del rascacielos Mile High Club en Pillbox Hill, en una viga metálica del piso 1.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 140.8,
+      "y": -1080.2,
+      "z": 29.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-17",
+    "name": "Figura #17: Space Ranger Sergeant",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 17,
+    "total": 100,
+    "zone": "Pillbox Hill",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Estación de metro subterránea de Pillbox Hill, en el banco del andén 2.",
+    "hint": "Estación de metro subterránea de Pillbox Hill, en el banco del andén 2.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -140.2,
+      "y": -940.6,
+      "z": 29.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-18",
+    "name": "Figura #18: Princess Robot Idol",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 18,
+    "total": 100,
+    "zone": "Mission Row",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Comisaría de policía de Mission Row, en el callejón de detención lateral.",
+    "hint": "Comisaría de policía de Mission Row, en el callejón de detención lateral.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 430.5,
+      "y": -980.2,
+      "z": 30.7
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-19",
+    "name": "Figura #19: Impotent Rage Fist",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 19,
+    "total": 100,
+    "zone": "Textile City",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Mercadillo de telas de Textile City, entre dos rollos de tela estampada en un puesto.",
+    "hint": "Mercadillo de telas de Textile City, entre dos rollos de tela estampada en un puesto.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 380.2,
+      "y": -740.8,
+      "z": 29.3
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-20",
+    "name": "Figura #20: Commander Cyber",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 20,
+    "total": 100,
+    "zone": "Downtown",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Plaza del Ayuntamiento de Los Santos City Hall, en el zócalo de la estatua memorial.",
+    "hint": "Plaza del Ayuntamiento de Los Santos City Hall, en el zócalo de la estatua memorial.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 120.4,
+      "y": -640.2,
+      "z": 42.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-21",
+    "name": "Figura #21: Space Ranger Star",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 21,
+    "total": 100,
+    "zone": "Alta",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Edificio de apartamentos en Alta, junto a la puerta del ascensor del garaje.",
+    "hint": "Edificio de apartamentos en Alta, junto a la puerta del ascensor del garaje.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -240.6,
+      "y": -480.2,
+      "z": 39.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-22",
+    "name": "Figura #22: Bubblegum Sakura",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 22,
+    "total": 100,
+    "zone": "Hawick",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Tienda de moda de Hawick, en la vitrina de complementos del escaparate.",
+    "hint": "Tienda de moda de Hawick, en la vitrina de complementos del escaparate.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -320.2,
+      "y": -310.4,
+      "z": 39.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-23",
+    "name": "Figura #23: Monkey Puss Jungle",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 23,
+    "total": 100,
+    "zone": "Downtown Vinewood",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Teatro Oriental de Downtown Vinewood, en la taquilla de venta de entradas clásicas.",
+    "hint": "Teatro Oriental de Downtown Vinewood, en la taquilla de venta de entradas clásicas.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 310.5,
+      "y": 140.2,
+      "z": 104.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-24",
+    "name": "Figura #24: Alien Brain",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 24,
+    "total": 100,
+    "zone": "Downtown Vinewood",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Paseo de la Fama de Vinewood Blvd, junto a la papelera metálica frente al cine.",
+    "hint": "Paseo de la Fama de Vinewood Blvd, junto a la papelera metálica frente al cine.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 110.4,
+      "y": 310.8,
+      "z": 108.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-25",
+    "name": "Figura #25: Super Hero Red",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 25,
+    "total": 100,
+    "zone": "West Vinewood",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Hotel The Gentry Manor en West Vinewood, en la repisa de la chimenea del vestíbulo.",
+    "hint": "Hotel The Gentry Manor en West Vinewood, en la repisa de la chimenea del vestíbulo.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -480.2,
+      "y": 280.4,
+      "z": 83.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-26",
+    "name": "Figura #26: Space Ranger Pilot",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 26,
+    "total": 100,
+    "zone": "Vinewood Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cartel gigante de VINEWOOD, en el travesaño trasero de la letra 'W'.",
+    "hint": "Cartel gigante de VINEWOOD, en el travesaño trasero de la letra 'W'.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -180.8,
+      "y": 840.2,
+      "z": 182.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-27",
+    "name": "Figura #27: Princess Robot Gothic",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 27,
+    "total": 100,
+    "zone": "Vinewood Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Anfiteatro Vinewood Bowl, debajo del escenario en el área de backstage.",
+    "hint": "Anfiteatro Vinewood Bowl, debajo del escenario en el área de backstage.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 120.2,
+      "y": 1120.6,
+      "z": 220.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-28",
+    "name": "Figura #28: Commander Titanium",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 28,
+    "total": 100,
+    "zone": "Galileo Observatory",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Observatorio Galileo, en la cúpula del telescopio este sobre la barandilla.",
+    "hint": "Observatorio Galileo, en la cúpula del telescopio este sobre la barandilla.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -440.5,
+      "y": 1080.4,
+      "z": 326.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-29",
+    "name": "Figura #29: Impotent Rage Fury",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 29,
+    "total": 100,
+    "zone": "Lake Vinewood",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Presa de Lake Vinewood Estates, en la torre de toma de agua sobre la rejilla.",
+    "hint": "Presa de Lake Vinewood Estates, en la torre de toma de agua sobre la rejilla.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 620.4,
+      "y": 780.2,
+      "z": 154.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-30",
+    "name": "Figura #30: Alien Scout",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 30,
+    "total": 100,
+    "zone": "Mirror Park",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Estanque central de Mirror Park, en el embarcadero de hidropedales.",
+    "hint": "Estanque central de Mirror Park, en el embarcadero de hidropedales.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1180.2,
+      "y": -440.6,
+      "z": 66.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-31",
+    "name": "Figura #31: Space Ranger Elite",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 31,
+    "total": 100,
+    "zone": "Rockford Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Mansión del Dr. Friedlander en Rockford Hills, en la terraza frente al mar.",
+    "hint": "Mansión del Dr. Friedlander en Rockford Hills, en la terraza frente al mar.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -780.4,
+      "y": -160.2,
+      "z": 37.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-32",
+    "name": "Figura #32: Bubblegum Rainbow",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 32,
+    "total": 100,
+    "zone": "Rockford Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Centro comercial Portola Drive, sobre la cornisa de la fuente decorativa.",
+    "hint": "Centro comercial Portola Drive, sobre la cornisa de la fuente decorativa.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -940.6,
+      "y": -40.8,
+      "z": 41.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-33",
+    "name": "Figura #33: Monkey Puss Silver",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 33,
+    "total": 100,
+    "zone": "Burton",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Clínica médica Mount Zonah en Burton, en la rampa del helipuerto de urgencias.",
+    "hint": "Clínica médica Mount Zonah en Burton, en la rampa del helipuerto de urgencias.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -560.2,
+      "y": -80.4,
+      "z": 42.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-34",
+    "name": "Figura #34: Commander Stealth",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 34,
+    "total": 100,
+    "zone": "Little Seoul",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Templo Budista de Little Seoul, en el altar de ofrendas de piedra exterior.",
+    "hint": "Templo Budista de Little Seoul, en el altar de ofrendas de piedra exterior.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -840.8,
+      "y": -580.2,
+      "z": 28.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-35",
+    "name": "Figura #35: Super Hero Blue",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 35,
+    "total": 100,
+    "zone": "Little Seoul",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Gasolinera de Little Seoul, en la parte superior de la máquina de lavado a presión.",
+    "hint": "Gasolinera de Little Seoul, en la parte superior de la máquina de lavado a presión.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -680.4,
+      "y": -780.6,
+      "z": 24.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-36",
+    "name": "Figura #36: Alien Destroyer",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 36,
+    "total": 100,
+    "zone": "Koreatown",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Restaurante coreano con neón en Little Seoul, sobre el aparato de aire acondicionado.",
+    "hint": "Restaurante coreano con neón en Little Seoul, sobre el aparato de aire acondicionado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -510.2,
+      "y": -620.4,
+      "z": 31.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-37",
+    "name": "Figura #37: Space Ranger Alpha",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 37,
+    "total": 100,
+    "zone": "La Puerta",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Muelle deportivo de La Puerta Marina, en el pontón de amarre número 4.",
+    "hint": "Muelle deportivo de La Puerta Marina, en el pontón de amarre número 4.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -820.5,
+      "y": -1280.2,
+      "z": 6.9
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-38",
+    "name": "Figura #38: Princess Robot Mecha",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 38,
+    "total": 100,
+    "zone": "Vespucci Canals",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Puente peatonal curvo de los canales de Vespucci, bajo la barandilla de ladrillo.",
+    "hint": "Puente peatonal curvo de los canales de Vespucci, bajo la barandilla de ladrillo.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1080.2,
+      "y": -1020.4,
+      "z": 5.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-39",
+    "name": "Figura #39: Impotent Rage Storm",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 39,
+    "total": 100,
+    "zone": "Vespucci Beach",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Pistas de tenis de Vespucci Beach, en el asiento elevado del árbitro.",
+    "hint": "Pistas de tenis de Vespucci Beach, en el asiento elevado del árbitro.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1340.6,
+      "y": -1240.2,
+      "z": 4.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-40",
+    "name": "Figura #40: Commander Fire",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 40,
+    "total": 100,
+    "zone": "Del Perro",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Ayuntamiento de Del Perro / City Hall, detrás de las columnas dóricas de la fachada.",
+    "hint": "Ayuntamiento de Del Perro / City Hall, detrás de las columnas dóricas de la fachada.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1520.4,
+      "y": -880.8,
+      "z": 10.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-41",
+    "name": "Figura #41: Space Ranger Laser",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 41,
+    "total": 100,
+    "zone": "Del Perro Pier",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Noria Pleasure Pier en Del Perro Pier, en la taquilla de control de la atracción.",
+    "hint": "Noria Pleasure Pier en Del Perro Pier, en la taquilla de control de la atracción.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1680.2,
+      "y": -1120.4,
+      "z": 13.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-42",
+    "name": "Figura #42: Bubblegum Cyber",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 42,
+    "total": 100,
+    "zone": "Pacific Bluffs",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cementerio Pacific Bluffs Cemetery, en el mausoleo central sobre la lápida.",
+    "hint": "Cementerio Pacific Bluffs Cemetery, en el mausoleo central sobre la lápida.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2120.8,
+      "y": -420.2,
+      "z": 13.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-43",
+    "name": "Figura #43: Monkey Puss Golden",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 43,
+    "total": 100,
+    "zone": "Pacific Bluffs",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Mansión sobre el acantilado en Pacific Bluffs, junto al jacuzzi exterior.",
+    "hint": "Mansión sobre el acantilado en Pacific Bluffs, junto al jacuzzi exterior.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2480.4,
+      "y": -220.6,
+      "z": 24.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-44",
+    "name": "Figura #44: Alien Hybrid",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 44,
+    "total": 100,
+    "zone": "Kortz Center",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Laberinto de setos del Kortz Center, en el centro exacto sobre la estatua.",
+    "hint": "Laberinto de setos del Kortz Center, en el centro exacto sobre la estatua.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2280.2,
+      "y": 320.4,
+      "z": 174.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-45",
+    "name": "Figura #45: Super Hero Yellow",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 45,
+    "total": 100,
+    "zone": "Richman Glen",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Mansión moderna en Richman Glen, dentro de la pérgola de barbacoa de diseño.",
+    "hint": "Mansión moderna en Richman Glen, dentro de la pérgola de barbacoa de diseño.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1780.6,
+      "y": 640.2,
+      "z": 142.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-46",
+    "name": "Figura #46: Commander Omega",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 46,
+    "total": 100,
+    "zone": "Banham Canyon",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Puente colgante de madera en Banham Canyon, bajo los tablones de entrada.",
+    "hint": "Puente colgante de madera en Banham Canyon, bajo los tablones de entrada.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2220.4,
+      "y": 880.6,
+      "z": 148.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-47",
+    "name": "Figura #47: Impotent Rage Thunder",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 47,
+    "total": 100,
+    "zone": "Tongva Valley",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cascada Two Hoots Falls en Tongva Valley, en una roca húmeda junto a la poza.",
+    "hint": "Cascada Two Hoots Falls en Tongva Valley, en una roca húmeda junto a la poza.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1480.2,
+      "y": 1520.4,
+      "z": 114.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-48",
+    "name": "Figura #48: Space Ranger Delta",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 48,
+    "total": 100,
+    "zone": "Tongva Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cueva oculta tras los matorrales de Tongva Hills, sobre una piedra plana.",
+    "hint": "Cueva oculta tras los matorrales de Tongva Hills, sobre una piedra plana.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2160.8,
+      "y": 1740.2,
+      "z": 180.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-49",
+    "name": "Figura #49: Princess Robot Spark",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 49,
+    "total": 100,
+    "zone": "Chumash",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Gasolinera Ron en la autopista de Chumash, en el tejadillo de los surtidores.",
+    "hint": "Gasolinera Ron en la autopista de Chumash, en el tejadillo de los surtidores.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -3080.2,
+      "y": 480.6,
+      "z": 6.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-50",
+    "name": "Figura #50: Alien Sovereign",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 50,
+    "total": 100,
+    "zone": "North Chumash",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Restaurante de pescado Hookies en North Chumash, en el cobertizo de aperos trasero.",
+    "hint": "Restaurante de pescado Hookies en North Chumash, en el cobertizo de aperos trasero.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -3340.6,
+      "y": 1380.2,
+      "z": 14.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-51",
+    "name": "Figura #51: Space Ranger Phantom",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 51,
+    "total": 100,
+    "zone": "Lago Zancudo",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Puente de la marisma de Lago Zancudo, anclado bajo la viga del soporte sur.",
+    "hint": "Puente de la marisma de Lago Zancudo, anclado bajo la viga del soporte sur.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2640.2,
+      "y": 2580.4,
+      "z": 16.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-52",
+    "name": "Figura #52: Bubblegum Queen",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 52,
+    "total": 100,
+    "zone": "Fort Zancudo",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Torre de control aéreo de Fort Zancudo, en la planta intermedia de transmisiones.",
+    "hint": "Torre de control aéreo de Fort Zancudo, en la planta intermedia de transmisiones.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -2020.6,
+      "y": 3140.2,
+      "z": 32.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-53",
+    "name": "Figura #53: Monkey Puss Wild",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 53,
+    "total": 100,
+    "zone": "Tataviam Mountains",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Acantilados de Tataviam Mountains frente al mar, en la cornisa sobre la cueva marina.",
+    "hint": "Acantilados de Tataviam Mountains frente al mar, en la cornisa sobre la cueva marina.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2340.2,
+      "y": -480.4,
+      "z": 88.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-54",
+    "name": "Figura #54: Commander Shadow",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 54,
+    "total": 100,
+    "zone": "Land Act Reservoir",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Túnel de desagüe del embalse Land Act Reservoir, dentro de la tubería seca.",
+    "hint": "Túnel de desagüe del embalse Land Act Reservoir, dentro de la tubería seca.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1980.6,
+      "y": 180.2,
+      "z": 168.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-55",
+    "name": "Figura #55: Super Hero Dark",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 55,
+    "total": 100,
+    "zone": "Palmer-Taylor",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Depósito químico de Palmer-Taylor Power Station, sobre una pasarela metálica.",
+    "hint": "Depósito químico de Palmer-Taylor Power Station, sobre una pasarela metálica.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2880.4,
+      "y": -1120.6,
+      "z": 8.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-56",
+    "name": "Figura #56: Alien Emperor",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 56,
+    "total": 100,
+    "zone": "San Chianski",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cordillera de San Chianski, en una cabaña de cazadores abandonada.",
+    "hint": "Cordillera de San Chianski, en una cabaña de cazadores abandonada.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 3120.2,
+      "y": -340.4,
+      "z": 14.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-57",
+    "name": "Figura #57: Space Ranger Mech",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 57,
+    "total": 100,
+    "zone": "Grand Senora Desert",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Planta de cemento Redwood Lights Track, en lo alto del silo de grava.",
+    "hint": "Planta de cemento Redwood Lights Track, en lo alto del silo de grava.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2480.6,
+      "y": 1580.2,
+      "z": 40.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-58",
+    "name": "Figura #58: Bubblegum Kitty",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 58,
+    "total": 100,
+    "zone": "Grand Senora Desert",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Pista de motocross de Grand Senora Desert, en el neumático del podio de meta.",
+    "hint": "Pista de motocross de Grand Senora Desert, en el neumático del podio de meta.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1980.2,
+      "y": 2420.6,
+      "z": 54.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-59",
+    "name": "Figura #59: Impotent Rage Blast",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 59,
+    "total": 100,
+    "zone": "Bolingbroke Penitentiary",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Torre de vigilancia 3 de la prisión de Bolingbroke, en el exterior de la barandilla.",
+    "hint": "Torre de vigilancia 3 de la prisión de Bolingbroke, en el exterior de la barandilla.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1780.4,
+      "y": 2620.2,
+      "z": 45.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-60",
+    "name": "Figura #60: Commander Nova",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 60,
+    "total": 100,
+    "zone": "Route 68",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Tienda de armas Ammu-Nation de Route 68, en el tejado junto al conducto de ventilación.",
+    "hint": "Tienda de armas Ammu-Nation de Route 68, en el tejado junto al conducto de ventilación.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1440.6,
+      "y": 2840.4,
+      "z": 41.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-61",
+    "name": "Figura #61: Space Ranger Cosmos",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 61,
+    "total": 100,
+    "zone": "Harmony",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Taller Los Santos Customs de Harmony, sobre la caja de fusibles lateral.",
+    "hint": "Taller Los Santos Customs de Harmony, sobre la caja de fusibles lateral.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 880.2,
+      "y": 2710.6,
+      "z": 40.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-62",
+    "name": "Figura #62: Bubblegum Magic",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 62,
+    "total": 100,
+    "zone": "Route 68",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Motel abandonado en Route 68, en la habitación número 4 sobre el colchón destrozado.",
+    "hint": "Motel abandonado en Route 68, en la habitación número 4 sobre el colchón destrozado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 540.6,
+      "y": 2860.2,
+      "z": 42.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-63",
+    "name": "Figura #63: Monkey Puss Mech",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 63,
+    "total": 100,
+    "zone": "Sandy Shores",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Aeródromo de Grand Senora Desert, en el armazón oxidado del avión de hélice abandonado.",
+    "hint": "Aeródromo de Grand Senora Desert, en el armazón oxidado del avión de hélice abandonado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1680.4,
+      "y": 3240.2,
+      "z": 41
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-64",
+    "name": "Figura #64: Alien Warlord",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 64,
+    "total": 100,
+    "zone": "Sandy Shores",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Centro médico abandonado de Sandy Shores, en la mesa metálica de curas.",
+    "hint": "Centro médico abandonado de Sandy Shores, en la mesa metálica de curas.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1840.2,
+      "y": 3680.4,
+      "z": 34.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-65",
+    "name": "Figura #65: Super Hero Bronze",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 65,
+    "total": 100,
+    "zone": "Sandy Shores",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Parque de caravanas de Sandy Shores, dentro del microondas de una caravana quemada.",
+    "hint": "Parque de caravanas de Sandy Shores, dentro del microondas de una caravana quemada.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1940.6,
+      "y": 3940.2,
+      "z": 32.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-66",
+    "name": "Figura #66: Commander Cybernetic",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 66,
+    "total": 100,
+    "zone": "Alamo Sea",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Muelle decrépito de Alamo Sea, en una pira de madera flotante a orillas del agua.",
+    "hint": "Muelle decrépito de Alamo Sea, en una pira de madera flotante a orillas del agua.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1420.4,
+      "y": 4120.6,
+      "z": 30.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-67",
+    "name": "Figura #67: Impotent Rage Flame",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 67,
+    "total": 100,
+    "zone": "Mount Haan",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Estación repetidora de radio en Mount Haan, en la escalera de caracol de la torre.",
+    "hint": "Estación repetidora de radio en Mount Haan, en la escalera de caracol de la torre.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1220.2,
+      "y": 4480.4,
+      "z": 124.6
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-68",
+    "name": "Figura #68: Space Ranger Solar",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 68,
+    "total": 100,
+    "zone": "Grapeseed",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Supermercado LTD Gasoline en Grapeseed, sobre el estante superior de golosinas.",
+    "hint": "Supermercado LTD Gasoline en Grapeseed, sobre el estante superior de golosinas.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2180.6,
+      "y": 4680.2,
+      "z": 41.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-69",
+    "name": "Figura #69: Bubblegum Angel",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 69,
+    "total": 100,
+    "zone": "Grapeseed",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cooperativa de agricultores de Grapeseed, en la cinta transportadora de granos.",
+    "hint": "Cooperativa de agricultores de Grapeseed, en la cinta transportadora de granos.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2540.2,
+      "y": 4880.6,
+      "z": 38.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-70",
+    "name": "Figura #70: Monkey Puss Neon",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 70,
+    "total": 100,
+    "zone": "Mount Chiliad",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Ruta de senderismo este de Mount Chiliad, en un hito de piedras señalizador.",
+    "hint": "Ruta de senderismo este de Mount Chiliad, en un hito de piedras señalizador.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1860.4,
+      "y": 5120.2,
+      "z": 280.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-71",
+    "name": "Figura #71: Alien Prime",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 71,
+    "total": 100,
+    "zone": "Paleto Forest",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Aserradero Lumber Mill en Paleto Forest, en la pila de troncos recién cortados.",
+    "hint": "Aserradero Lumber Mill en Paleto Forest, en la pila de troncos recién cortados.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -620.2,
+      "y": 5380.6,
+      "z": 70.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-72",
+    "name": "Figura #72: Commander Hyper",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 72,
+    "total": 100,
+    "zone": "Paleto Forest",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Túnel de tren de Paleto Forest, en la repisa de mantenimiento del refugio interior.",
+    "hint": "Túnel de tren de Paleto Forest, en la repisa de mantenimiento del refugio interior.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -440.6,
+      "y": 5640.2,
+      "z": 98.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-73",
+    "name": "Figura #73: Super Hero Iron",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 73,
+    "total": 100,
+    "zone": "Paleto Bay",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Banco de Paleto Bay (Blaine County Savings Bank), en la repisa de la ventana lateral.",
+    "hint": "Banco de Paleto Bay (Blaine County Savings Bank), en la repisa de la ventana lateral.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -140.2,
+      "y": 6180.4,
+      "z": 32.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-74",
+    "name": "Figura #74: Space Ranger Void",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 74,
+    "total": 100,
+    "zone": "Paleto Bay",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Restaurante Cluckin' Bell en Paleto Bay, en el tejado de la fábrica de procesado.",
+    "hint": "Restaurante Cluckin' Bell en Paleto Bay, en el tejado de la fábrica de procesado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 80.6,
+      "y": 6420.2,
+      "z": 31.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-75",
+    "name": "Figura #75: Bubblegum Cyberpunk",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 75,
+    "total": 100,
+    "zone": "Paleto Bay",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Embarcadero de Paleto Bay Pier, sobre una boya salvavidas colgada del poste.",
+    "hint": "Embarcadero de Paleto Bay Pier, sobre una boya salvavidas colgada del poste.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -280.4,
+      "y": 6520.6,
+      "z": 29.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-76",
+    "name": "Figura #76: Impotent Rage Titan",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 76,
+    "total": 100,
+    "zone": "Procopio Beach",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cueva marina bajo la autopista de Procopio Beach, sobre una roca en marea baja.",
+    "hint": "Cueva marina bajo la autopista de Procopio Beach, sobre una roca en marea baja.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 380.2,
+      "y": 6680.4,
+      "z": 12.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-77",
+    "name": "Figura #77: Monkey Puss Jungle 2",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 77,
+    "total": 100,
+    "zone": "Mount Chiliad",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cumbre de Mount Chiliad, detrás de la rampa de salto en ala delta sobre la nieve.",
+    "hint": "Cumbre de Mount Chiliad, detrás de la rampa de salto en ala delta sobre la nieve.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 420.6,
+      "y": 5780.2,
+      "z": 720.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-78",
+    "name": "Figura #78: Alien Overlord",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 78,
+    "total": 100,
+    "zone": "San Chianski",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Laboratorios Humane Labs and Research, en la barandilla del muelle de descarga submarino.",
+    "hint": "Laboratorios Humane Labs and Research, en la barandilla del muelle de descarga submarino.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2980.4,
+      "y": 4420.6,
+      "z": 48.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-79",
+    "name": "Figura #79: Commander Storm",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 79,
+    "total": 100,
+    "zone": "San Chianski",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Puesto de guardia de Humane Labs, en la caseta de control de acceso principal.",
+    "hint": "Puesto de guardia de Humane Labs, en la caseta de control de acceso principal.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 3520.2,
+      "y": 3740.4,
+      "z": 28.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-80",
+    "name": "Figura #80: Space Ranger Nebula",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 80,
+    "total": 100,
+    "zone": "Alamo Sea",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Campamento hippie Beam Me Up en Sandy Shores, sobre el platillo volante multicolor pintado.",
+    "hint": "Campamento hippie Beam Me Up en Sandy Shores, sobre el platillo volante multicolor pintado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2320.6,
+      "y": 3980.2,
+      "z": 32.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-81",
+    "name": "Figura #81: Bubblegum Idol 2",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 81,
+    "total": 100,
+    "zone": "Grand Senora Desert",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Parque de antenas parabólicas gigantes en Route 68, en la base de la parabólica norte.",
+    "hint": "Parque de antenas parabólicas gigantes en Route 68, en la base de la parabólica norte.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1360.2,
+      "y": 3520.4,
+      "z": 37.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-82",
+    "name": "Figura #82: Super Hero Diamond",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 82,
+    "total": 100,
+    "zone": "Vinewood Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Mansión moderna con helipuerto en Vinewood Hills, sobre la mesa de la terraza chill-out.",
+    "hint": "Mansión moderna con helipuerto en Vinewood Hills, sobre la mesa de la terraza chill-out.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 820.6,
+      "y": 1240.2,
+      "z": 210.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-83",
+    "name": "Figura #83: Alien Archon",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 83,
+    "total": 100,
+    "zone": "Vinewood Hills",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Punto panorámico de Vinewood Hills con prismáticos, sobre la mesa de picnic.",
+    "hint": "Punto panorámico de Vinewood Hills con prismáticos, sobre la mesa de picnic.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -40.2,
+      "y": 1380.6,
+      "z": 260.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-84",
+    "name": "Figura #84: Monkey Puss Robo",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 84,
+    "total": 100,
+    "zone": "Raton Canyon",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Puente ferroviario de Raton Canyon, en el pilar central del puente sobre el desfiladero.",
+    "hint": "Puente ferroviario de Raton Canyon, en el pilar central del puente sobre el desfiladero.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -840.6,
+      "y": 4120.2,
+      "z": 180.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-85",
+    "name": "Figura #85: Commander Zenith",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 85,
+    "total": 100,
+    "zone": "Raton Canyon",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cabaña de guardabosques de Raton Canyon, bajo el porche de madera.",
+    "hint": "Cabaña de guardabosques de Raton Canyon, bajo el porche de madera.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1420.2,
+      "y": 4380.4,
+      "z": 62.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-86",
+    "name": "Figura #86: Impotent Rage Mega",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 86,
+    "total": 100,
+    "zone": "Paleto Cove",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Instalación de Sonar Collections en Paleto Cove, sobre el muelle del minisubmarino.",
+    "hint": "Instalación de Sonar Collections en Paleto Cove, sobre el muelle del minisubmarino.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1620.4,
+      "y": 4720.6,
+      "z": 12.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-87",
+    "name": "Figura #87: Space Ranger Vortex",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 87,
+    "total": 100,
+    "zone": "Mount Gordo",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Cima de Mount Gordo, cerca de la antena meteorológica junto al sendero de rocas.",
+    "hint": "Cima de Mount Gordo, cerca de la antena meteorológica junto al sendero de rocas.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2620.2,
+      "y": 5540.4,
+      "z": 420.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-88",
+    "name": "Figura #88: Bubblegum Princess Dark",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 88,
+    "total": 100,
+    "zone": "El Gordo Lighthouse",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Plataforma rocosa bajo el faro de El Gordo, en una cesta de pesca antigua.",
+    "hint": "Plataforma rocosa bajo el faro de El Gordo, en una cesta de pesca antigua.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 3410.6,
+      "y": 5120.2,
+      "z": 14.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-89",
+    "name": "Figura #89: Alien Conqueror",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 89,
+    "total": 100,
+    "zone": "Catfish View",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Poblado de casas móviles en Catfish View, en el porche de la autocaravana azul.",
+    "hint": "Poblado de casas móviles en Catfish View, en el porche de la autocaravana azul.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2940.2,
+      "y": 4860.4,
+      "z": 18.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-90",
+    "name": "Figura #90: Commander Pulse",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 90,
+    "total": 100,
+    "zone": "Grapeseed",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Pista de aterrizaje McKenzie Field en Grapeseed, en la torre de viento manga de aire.",
+    "hint": "Pista de aterrizaje McKenzie Field en Grapeseed, en la torre de viento manga de aire.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1720.4,
+      "y": 4620.6,
+      "z": 42.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-91",
+    "name": "Figura #91: Space Ranger Chrono",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 91,
+    "total": 100,
+    "zone": "Mirror Park",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Callejón comercial de Mirror Park, en el escaparate de la tienda de antigüedades.",
+    "hint": "Callejón comercial de Mirror Park, en el escaparate de la tienda de antigüedades.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 1340.2,
+      "y": -680.4,
+      "z": 52.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-92",
+    "name": "Figura #92: Bubblegum Royal",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 92,
+    "total": 100,
+    "zone": "Downtown",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Torre Maze Bank Tower en el centro de Los Santos, en la fuente circular de la base.",
+    "hint": "Torre Maze Bank Tower en el centro de Los Santos, en la fuente circular de la base.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -180.6,
+      "y": -720.2,
+      "z": 40.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-93",
+    "name": "Figura #93: Monkey Puss Galaxy",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 93,
+    "total": 100,
+    "zone": "Pillbox Hill",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Edificio de la FIB / IAA en Pillbox Hill, en el parterre ajardinado de la plaza.",
+    "hint": "Edificio de la FIB / IAA en Pillbox Hill, en el parterre ajardinado de la plaza.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -40.4,
+      "y": -880.6,
+      "z": 32.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-94",
+    "name": "Figura #94: Alien Sovereign Supreme",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 94,
+    "total": 100,
+    "zone": "Del Perro",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Parque de patinaje Del Perro Skate Park, en el fondo del bowl de hormigón.",
+    "hint": "Parque de patinaje Del Perro Skate Park, en el fondo del bowl de hormigón.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1420.2,
+      "y": -640.4,
+      "z": 28.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-95",
+    "name": "Figura #95: Commander Eclipse",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 95,
+    "total": 100,
+    "zone": "Morningwood",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Piscina del hotel de lujo en Morningwood, sobre el borde de mármol del bar acuático.",
+    "hint": "Piscina del hotel de lujo en Morningwood, sobre el borde de mármol del bar acuático.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1280.6,
+      "y": -380.2,
+      "z": 36.8
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-96",
+    "name": "Figura #96: Super Hero Platinum",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 96,
+    "total": 100,
+    "zone": "Richman",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Pista de tenis de la mansión en Richman, enganchada en la red central de tenis.",
+    "hint": "Pista de tenis de la mansión en Richman, enganchada en la red central de tenis.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": -1640.4,
+      "y": 420.6,
+      "z": 88.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-97",
+    "name": "Figura #97: Impotent Rage Ultimate",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 97,
+    "total": 100,
+    "zone": "Vinewood",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Hotel The Diamond Casino & Resort, en la zona de relax del tejado con piscina.",
+    "hint": "Hotel The Diamond Casino & Resort, en la zona de relax del tejado con piscina.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 680.2,
+      "y": 220.4,
+      "z": 92.4
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-98",
+    "name": "Figura #98: Alien Mastermind",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 98,
+    "total": 100,
+    "zone": "Tataviam Mountains",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Mirador de la presa Tataviam, en el murete de piedra con vistas a la bahía.",
+    "hint": "Mirador de la presa Tataviam, en el murete de piedra con vistas a la bahía.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2680.6,
+      "y": 80.2,
+      "z": 140.5
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-99",
+    "name": "Figura #99: Sasquatch (Bigfoot)",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 99,
+    "total": 100,
+    "zone": "Thomson Scrapyard",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Desguace Thomson Scrapyard en Grand Senora Desert, dentro de un fuselaje de avión oxidado.",
+    "hint": "Desguace Thomson Scrapyard en Grand Senora Desert, dentro de un fuselaje de avión oxidado.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2398.2,
+      "y": 3108.4,
+      "z": 48.1
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "figure-100",
+    "name": "Figura #100: The Beast (La Bestia)",
+    "category": "action_figure",
+    "categoryLabel": "Figuras de Acción",
+    "number": 100,
+    "total": 100,
+    "zone": "Thomson Scrapyard",
+    "description": "Figura de acción coleccionable de Hardcore Comic Store. Desguace Thomson Scrapyard en Grand Senora Desert, en la caseta de chatarra junto a Sasquatch.",
+    "hint": "Desguace Thomson Scrapyard en Grand Senora Desert, en la caseta de chatarra junto a Sasquatch.",
+    "reward": "$150,000 + 100,000 RP + Traje y peinado de Impotent Rage",
+    "position": {
+      "x": 2412.5,
+      "y": 3094.2,
+      "z": 48.2
+    },
+    "badge": {
+      "icon": "action_figure",
+      "color": "#f1c40f",
+      "symbol": "🧸"
+    }
+  },
+  {
+    "id": "jammer-1",
+    "name": "Inhibidor #1: Control Tower LSIA",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 1,
+    "total": 50,
+    "zone": "LSIA",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de control principal del Aeropuerto LSIA, en la cornisa superior exterior.",
+    "hint": "Torre de control principal del Aeropuerto LSIA, en la cornisa superior exterior.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1080.2,
+      "y": -2940.6,
+      "z": 42.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-2",
+    "name": "Inhibidor #2: Cargo Terminal LSIA",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 2,
+    "total": 50,
+    "zone": "LSIA",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Hangar de carga sur de LSIA, sobre el cartel exterior de la fachada.",
+    "hint": "Hangar de carga sur de LSIA, sobre el cartel exterior de la fachada.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1420.4,
+      "y": -2680.2,
+      "z": 22.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-3",
+    "name": "Inhibidor #3: Dock Crane Terminal",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 3,
+    "total": 50,
+    "zone": "Terminal",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Grúa de contenedores más alta de Terminal Port, en el marco metálico.",
+    "hint": "Grúa de contenedores más alta de Terminal Port, en el marco metálico.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 880.6,
+      "y": -2980.4,
+      "z": 38.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-4",
+    "name": "Inhibidor #4: Chemical Tank Elysian",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 4,
+    "total": 50,
+    "zone": "Elysian Island",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Tanque esférico de gas en Elysian Island, en la barandilla superior.",
+    "hint": "Tanque esférico de gas en Elysian Island, en la barandilla superior.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 220.4,
+      "y": -2640.2,
+      "z": 28.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-5",
+    "name": "Inhibidor #5: Naval Shipyard Banning",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 5,
+    "total": 50,
+    "zone": "Banning",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Nave de astilleros de Banning, en el frontal sobre la puerta de entrada.",
+    "hint": "Nave de astilleros de Banning, en el frontal sobre la puerta de entrada.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -180.2,
+      "y": -2120.6,
+      "z": 24.1
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-6",
+    "name": "Inhibidor #6: Maze Bank Arena Roof",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 6,
+    "total": 50,
+    "zone": "La Puerta",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Cúpula del estadio Maze Bank Arena, sobre el cartel de letras luminosas.",
+    "hint": "Cúpula del estadio Maze Bank Arena, sobre el cartel de letras luminosas.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -280.6,
+      "y": -1920.4,
+      "z": 46.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-7",
+    "name": "Inhibidor #7: Auto Exotic Sign Davis",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 7,
+    "total": 50,
+    "zone": "Davis",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Taller Auto Exotic en Davis, en lo alto del letrero publicitario del tejado.",
+    "hint": "Taller Auto Exotic en Davis, en lo alto del letrero publicitario del tejado.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 80.2,
+      "y": -1640.8,
+      "z": 28.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-8",
+    "name": "Inhibidor #8: Rancho Water Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 8,
+    "total": 50,
+    "zone": "Rancho",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Depósito elevado de agua en Rancho, en las patas de acero de soporte.",
+    "hint": "Depósito elevado de agua en Rancho, en las patas de acero de soporte.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 480.6,
+      "y": -1680.2,
+      "z": 36.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-9",
+    "name": "Inhibidor #9: Slaughterhouse Cypress",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 9,
+    "total": 50,
+    "zone": "Cypress Flats",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Matadero industrial de Cypress Flats, sobre la chimenea de extracción de humos.",
+    "hint": "Matadero industrial de Cypress Flats, sobre la chimenea de extracción de humos.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 980.4,
+      "y": -2140.6,
+      "z": 32.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-10",
+    "name": "Inhibidor #10: Oil Refinery El Burro",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 10,
+    "total": 50,
+    "zone": "El Burro Heights",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de craqueo de la refinería en El Burro Heights, en la pasarela metálica.",
+    "hint": "Torre de craqueo de la refinería en El Burro Heights, en la pasarela metálica.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1480.2,
+      "y": -1980.4,
+      "z": 54.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-11",
+    "name": "Inhibidor #11: Murrieta Billboard",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 11,
+    "total": 50,
+    "zone": "Murrieta Heights",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Valla publicitaria de la autopista Del Perro Fwy en Murrieta Heights.",
+    "hint": "Valla publicitaria de la autopista Del Perro Fwy en Murrieta Heights.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1180.6,
+      "y": -1420.2,
+      "z": 42.1
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-12",
+    "name": "Inhibidor #12: Textile Hospital Helipad",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 12,
+    "total": 50,
+    "zone": "Mission Row",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Helipuerto del Centro Médico de Pillbox Hill / Mission Row, en el poste de luz.",
+    "hint": "Helipuerto del Centro Médico de Pillbox Hill / Mission Row, en el poste de luz.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 340.2,
+      "y": -1120.6,
+      "z": 52.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-13",
+    "name": "Inhibidor #13: San Andreas Hookah Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 13,
+    "total": 50,
+    "zone": "Pillbox Hill",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Letrero de neón en la esquina comercial de Pillbox Hill, sobre el marco del tejado.",
+    "hint": "Letrero de neón en la esquina comercial de Pillbox Hill, sobre el marco del tejado.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 60.4,
+      "y": -980.2,
+      "z": 38.6
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-14",
+    "name": "Inhibidor #14: Union Depository Roof",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 14,
+    "total": 50,
+    "zone": "Downtown",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Edificio anejo al Union Depository en Downtown, en la caja del ascensor de la azotea.",
+    "hint": "Edificio anejo al Union Depository en Downtown, en la caja del ascensor de la azotea.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -20.6,
+      "y": -680.4,
+      "z": 64.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-15",
+    "name": "Inhibidor #15: Arcadius Center Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 15,
+    "total": 50,
+    "zone": "Downtown",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Centro de negocios Arcadius en Pillbox Hill, sobre el logotipo sobre la entrada norte.",
+    "hint": "Centro de negocios Arcadius en Pillbox Hill, sobre el logotipo sobre la entrada norte.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -140.2,
+      "y": -820.6,
+      "z": 88.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-16",
+    "name": "Inhibidor #16: Little Seoul Church Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 16,
+    "total": 50,
+    "zone": "Little Seoul",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Campanario de la iglesia de Little Seoul, en el arco de la campana superior.",
+    "hint": "Campanario de la iglesia de Little Seoul, en el arco de la campana superior.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -620.4,
+      "y": -940.2,
+      "z": 34.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-17",
+    "name": "Inhibidor #17: Vespucci Police Station",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 17,
+    "total": 50,
+    "zone": "Vespucci Canals",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Comisaría de policía de Vespucci Canals, sobre la antena de comunicaciones del tejado.",
+    "hint": "Comisaría de policía de Vespucci Canals, sobre la antena de comunicaciones del tejado.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1120.6,
+      "y": -860.4,
+      "z": 26.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-18",
+    "name": "Inhibidor #18: Del Perro Clock Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 18,
+    "total": 50,
+    "zone": "Del Perro Pier",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre del reloj del muelle Del Perro Pier, sobre la esfera del reloj sur.",
+    "hint": "Torre del reloj del muelle Del Perro Pier, sobre la esfera del reloj sur.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1620.2,
+      "y": -1040.6,
+      "z": 24.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-19",
+    "name": "Inhibidor #19: Bahama Mamas Roof",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 19,
+    "total": 50,
+    "zone": "Del Perro",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Discoteca Bahama Mamas en Del Perro, sobre el cartel de neón del tejado.",
+    "hint": "Discoteca Bahama Mamas en Del Perro, sobre el cartel de neón del tejado.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1380.4,
+      "y": -580.2,
+      "z": 36.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-20",
+    "name": "Inhibidor #20: Richards Majestic Stage 4",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 20,
+    "total": 50,
+    "zone": "Richards Majestic",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Plató 4 de los estudios Richards Majestic, sobre la cornisa exterior del hangar de rodaje.",
+    "hint": "Plató 4 de los estudios Richards Majestic, sobre la cornisa exterior del hangar de rodaje.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1040.6,
+      "y": -520.4,
+      "z": 44.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-21",
+    "name": "Inhibidor #21: Rockford Plaza Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 21,
+    "total": 50,
+    "zone": "Burton",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Túnel bajo el centro comercial Rockford Plaza, sobre el letrero publicitario del arco.",
+    "hint": "Túnel bajo el centro comercial Rockford Plaza, sobre el letrero publicitario del arco.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -440.2,
+      "y": -240.6,
+      "z": 54.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-22",
+    "name": "Inhibidor #22: Pacific Standard Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 22,
+    "total": 50,
+    "zone": "Downtown Vinewood",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Banco Pacific Standard en Vinewood Blvd, sobre la fachada principal superior.",
+    "hint": "Banco Pacific Standard en Vinewood Blvd, sobre la fachada principal superior.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 260.4,
+      "y": 180.2,
+      "z": 112.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-23",
+    "name": "Inhibidor #23: Vinewood Bowl Stage Arch",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 23,
+    "total": 50,
+    "zone": "Vinewood Hills",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Arco escénico del anfiteatro Vinewood Bowl, en la estructura de focos de iluminación.",
+    "hint": "Arco escénico del anfiteatro Vinewood Bowl, en la estructura de focos de iluminación.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 140.6,
+      "y": 1220.4,
+      "z": 230.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-24",
+    "name": "Inhibidor #24: Galileo Radio Mast",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 24,
+    "total": 50,
+    "zone": "Vinewood Hills",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Mástil de telecomunicaciones detrás del Observatorio Galileo, en la segunda cruceta.",
+    "hint": "Mástil de telecomunicaciones detrás del Observatorio Galileo, en la segunda cruceta.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -380.2,
+      "y": 1140.6,
+      "z": 340.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-25",
+    "name": "Inhibidor #25: Kortz Center Dome",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 25,
+    "total": 50,
+    "zone": "Pacific Bluffs",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Cúpula acristalada del Kortz Center, sobre el anillo de ventilación superior.",
+    "hint": "Cúpula acristalada del Kortz Center, sobre el anillo de ventilación superior.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -2240.4,
+      "y": 280.2,
+      "z": 184.6
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-26",
+    "name": "Inhibidor #26: Marlowe Vineyards Silo",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 26,
+    "total": 50,
+    "zone": "Tongva Hills",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Depósito de fermentación de los viñedos de Marlowe, en lo alto de la escalera de gato.",
+    "hint": "Depósito de fermentación de los viñedos de Marlowe, en lo alto de la escalera de gato.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1840.6,
+      "y": 2140.4,
+      "z": 146.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-27",
+    "name": "Inhibidor #27: Banham Canyon Bridge Pier",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 27,
+    "total": 50,
+    "zone": "Banham Canyon",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Pilar de hormigón del viaducto de Banham Canyon, anclado en la junta de dilatación.",
+    "hint": "Pilar de hormigón del viaducto de Banham Canyon, anclado en la junta de dilatación.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -2440.2,
+      "y": 1240.6,
+      "z": 162.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-28",
+    "name": "Inhibidor #28: Chumash Historic Pier Arch",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 28,
+    "total": 50,
+    "zone": "Chumash",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Arco de madera del muelle de Chumash, en el centro superior del frontispicio.",
+    "hint": "Arco de madera del muelle de Chumash, en el centro superior del frontispicio.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -3180.4,
+      "y": 1040.2,
+      "z": 24.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-29",
+    "name": "Inhibidor #29: Hookies Diner Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 29,
+    "total": 50,
+    "zone": "North Chumash",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Cartel del restaurante Hookies en North Chumash, sobre la aleta del pez decorativo.",
+    "hint": "Cartel del restaurante Hookies en North Chumash, sobre la aleta del pez decorativo.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -3420.6,
+      "y": 1420.4,
+      "z": 18.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-30",
+    "name": "Inhibidor #30: Fort Zancudo Radar Dome",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 30,
+    "total": 50,
+    "zone": "Fort Zancudo",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Cúpula del radar meteorológico de Fort Zancudo, en la pasarela circular perimetral.",
+    "hint": "Cúpula del radar meteorológico de Fort Zancudo, en la pasarela circular perimetral.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -2180.2,
+      "y": 3180.6,
+      "z": 46.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-31",
+    "name": "Inhibidor #31: Route 68 Ammu-Nation Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 31,
+    "total": 50,
+    "zone": "Route 68",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Cartel de Diana de Ammu-Nation en Route 68, en el centro del logo de puntería.",
+    "hint": "Cartel de Diana de Ammu-Nation en Route 68, en el centro del logo de puntería.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -1100.4,
+      "y": 2720.2,
+      "z": 28.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-32",
+    "name": "Inhibidor #32: Route 68 Motel Water Tank",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 32,
+    "total": 50,
+    "zone": "Route 68",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Depósito de agua esférico del motel abandonado en Route 68, en la cúspide.",
+    "hint": "Depósito de agua esférico del motel abandonado en Route 68, en la cúspide.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 620.6,
+      "y": 2820.4,
+      "z": 54.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-33",
+    "name": "Inhibidor #33: Bolingbroke Guard Tower 1",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 33,
+    "total": 50,
+    "zone": "Bolingbroke Penitentiary",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de vigilancia 1 de la penitenciaría de Bolingbroke, sobre la barandilla blindada.",
+    "hint": "Torre de vigilancia 1 de la penitenciaría de Bolingbroke, sobre la barandilla blindada.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1640.2,
+      "y": 2580.6,
+      "z": 56.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-34",
+    "name": "Inhibidor #34: Cement Works Crane",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 34,
+    "total": 50,
+    "zone": "Grand Senora Desert",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Grúa de descarga de la gravera de Grand Senora, en el contrapeso de hormigón.",
+    "hint": "Grúa de descarga de la gravera de Grand Senora, en el contrapeso de hormigón.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 2520.4,
+      "y": 1640.2,
+      "z": 52.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-35",
+    "name": "Inhibidor #35: Palmer-Taylor Chimney",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 35,
+    "total": 50,
+    "zone": "Palmer-Taylor",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Chimenea principal de la central Palmer-Taylor, en el anillo de balizamiento aéreo.",
+    "hint": "Chimenea principal de la central Palmer-Taylor, en el anillo de balizamiento aéreo.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 2840.6,
+      "y": -1360.4,
+      "z": 62.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-36",
+    "name": "Inhibidor #36: Tataviam Dam Spillway",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 36,
+    "total": 50,
+    "zone": "Tataviam Mountains",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Compuerta de aliviadero de la presa Land Act Dam, sobre la pasarela de control.",
+    "hint": "Compuerta de aliviadero de la presa Land Act Dam, sobre la pasarela de control.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1720.2,
+      "y": -40.6,
+      "z": 172.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-37",
+    "name": "Inhibidor #37: Casino Rooftop Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 37,
+    "total": 50,
+    "zone": "East Vinewood",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. The Diamond Casino & Resort, en el soporte trasero de las letras luminosas de DIAMOND.",
+    "hint": "The Diamond Casino & Resort, en el soporte trasero de las letras luminosas de DIAMOND.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 980.4,
+      "y": 80.2,
+      "z": 98.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-38",
+    "name": "Inhibidor #38: Sandy Shores Radio Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 38,
+    "total": 50,
+    "zone": "Sandy Shores",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de transmisiones de la clínica médica de Sandy Shores, en la cruceta metálica.",
+    "hint": "Torre de transmisiones de la clínica médica de Sandy Shores, en la cruceta metálica.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1620.6,
+      "y": 3580.4,
+      "z": 48.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-39",
+    "name": "Inhibidor #39: Sandy Shores Airfield Shack",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 39,
+    "total": 50,
+    "zone": "Sandy Shores",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Caseta de balizamiento del aeródromo de Grand Senora, sobre el mástil de radio.",
+    "hint": "Caseta de balizamiento del aeródromo de Grand Senora, sobre el mástil de radio.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1760.2,
+      "y": 3260.6,
+      "z": 46.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-40",
+    "name": "Inhibidor #40: Alamo Sea Boat Shed",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 40,
+    "total": 50,
+    "zone": "Alamo Sea",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Hangar de botes de Alamo Sea, en el vértice del tejado de uralita.",
+    "hint": "Hangar de botes de Alamo Sea, en el vértice del tejado de uralita.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 1280.4,
+      "y": 4320.2,
+      "z": 46.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-41",
+    "name": "Inhibidor #41: Grapeseed Grain Elevator",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 41,
+    "total": 50,
+    "zone": "Grapeseed",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Elevador de grano más alto de Grapeseed, en la barandilla de mantenimiento.",
+    "hint": "Elevador de grano más alto de Grapeseed, en la barandilla de mantenimiento.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 2360.6,
+      "y": 4920.4,
+      "z": 58.2
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-42",
+    "name": "Inhibidor #42: McKenzie Field Hangar Roof",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 42,
+    "total": 50,
+    "zone": "Grapeseed",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Hangar de avionetas de McKenzie Field en Grapeseed, en el extremo del tejado curvo.",
+    "hint": "Hangar de avionetas de McKenzie Field en Grapeseed, en el extremo del tejado curvo.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 2110.2,
+      "y": 4820.6,
+      "z": 48.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-43",
+    "name": "Inhibidor #43: Humane Labs Cooling Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 43,
+    "total": 50,
+    "zone": "San Chianski",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de refrigeración de Humane Labs, en la pasarela metálica perimetral.",
+    "hint": "Torre de refrigeración de Humane Labs, en la pasarela metálica perimetral.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 3620.4,
+      "y": 3680.2,
+      "z": 38.6
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-44",
+    "name": "Inhibidor #44: El Gordo Lighthouse Balcony",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 44,
+    "total": 50,
+    "zone": "El Gordo Lighthouse",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Balcón de la linterna del faro de El Gordo, sobre la barandilla que mira al océano.",
+    "hint": "Balcón de la linterna del faro de El Gordo, sobre la barandilla que mira al océano.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 3380.6,
+      "y": 5180.4,
+      "z": 32.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-45",
+    "name": "Inhibidor #45: Mount Chiliad Cable Car Summit",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 45,
+    "total": 50,
+    "zone": "Mount Chiliad",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Mástil del cable del teleférico en la cumbre de Mount Chiliad, en la plataforma de mantenimiento.",
+    "hint": "Mástil del cable del teleférico en la cumbre de Mount Chiliad, en la plataforma de mantenimiento.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 440.2,
+      "y": 5580.6,
+      "z": 792.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-46",
+    "name": "Inhibidor #46: Paleto Forest Sawmill Chimney",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 46,
+    "total": 50,
+    "zone": "Paleto Forest",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Chimenea del incinerador de virutas del aserradero en Paleto Forest.",
+    "hint": "Chimenea del incinerador de virutas del aserradero en Paleto Forest.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -580.4,
+      "y": 5320.2,
+      "z": 84.5
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-47",
+    "name": "Inhibidor #47: Paleto Bay Cable Car Base",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 47,
+    "total": 50,
+    "zone": "Paleto Bay",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de tensión de la estación base del teleférico de Paleto Bay.",
+    "hint": "Torre de tensión de la estación base del teleférico de Paleto Bay.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -760.6,
+      "y": 5560.4,
+      "z": 52.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-48",
+    "name": "Inhibidor #48: Paleto Bay Fire Station Drill Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 48,
+    "total": 50,
+    "zone": "Paleto Bay",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre de entrenamiento de bomberos de Paleto Bay, en la barandilla del último piso.",
+    "hint": "Torre de entrenamiento de bomberos de Paleto Bay, en la barandilla del último piso.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": -360.2,
+      "y": 6120.6,
+      "z": 42.1
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-49",
+    "name": "Inhibidor #49: Cluckin Bell Factory Sign",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 49,
+    "total": 50,
+    "zone": "Paleto Bay",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Cartel gigante de Cluckin' Bell en Paleto Bay, sobre la cresta del pollo luminoso.",
+    "hint": "Cartel gigante de Cluckin' Bell en Paleto Bay, sobre la cresta del pollo luminoso.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 120.4,
+      "y": 6480.2,
+      "z": 38.4
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "jammer-50",
+    "name": "Inhibidor #50: Procopio Truck Stop Tower",
+    "category": "signal_jammer",
+    "categoryLabel": "Inhibidores de Señal",
+    "number": 50,
+    "total": 50,
+    "zone": "Procopio Beach",
+    "description": "Inhibidor de frecuencias de señal de SecuroServ para el Golpe al Casino Diamond. Torre publicitaria del restaurante de camiones Procopio Truck Stop.",
+    "hint": "Torre publicitaria del restaurante de camiones Procopio Truck Stop.",
+    "reward": "$150,000 + 50,000 RP + Desbloqueo del hacker Avi Schwartzman (10% de botín)",
+    "position": {
+      "x": 420.6,
+      "y": 6540.4,
+      "z": 36.8
+    },
+    "badge": {
+      "icon": "signal_jammer",
+      "color": "#3498db",
+      "symbol": "📡"
+    }
+  },
+  {
+    "id": "movie-prop-1",
+    "name": "Atrezzo #1: Bobina de Película Meltdown",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 1,
+    "total": 10,
+    "zone": "Richards Majestic",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. Fuera de la oficina de Solomon Richards, junto a una papelera de la puerta principal.",
+    "hint": "Fuera de la oficina de Solomon Richards, junto a una papelera de la puerta principal.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": -1004.2,
+      "y": -478.6,
+      "z": 37
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-2",
+    "name": "Atrezzo #2: Premio WIW Award",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 2,
+    "total": 10,
+    "zone": "Strawberry",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. Dentro del club de striptease Vanilla Unicorn, sobre el escritorio del despacho de la jefa.",
+    "hint": "Dentro del club de striptease Vanilla Unicorn, sobre el escritorio del despacho de la jefa.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": 122.5,
+      "y": -1296.8,
+      "z": 29.4
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-3",
+    "name": "Atrezzo #3: Tocado Indio de Plumas",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 3,
+    "total": 10,
+    "zone": "East Vinewood",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. En The Diamond Casino & Resort, en el baño de hombres junto a los lavabos.",
+    "hint": "En The Diamond Casino & Resort, en el baño de hombres junto a los lavabos.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": 924.8,
+      "y": 46.2,
+      "z": 81.2
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-4",
+    "name": "Atrezzo #4: Cabeza de Alienígena",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 4,
+    "total": 10,
+    "zone": "Sandy Shores",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. En el mural alienígena de Beam Me Up en Sandy Shores, sobre el soporte decorativo de flores.",
+    "hint": "En el mural alienígena de Beam Me Up en Sandy Shores, sobre el soporte decorativo de flores.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": 2342.6,
+      "y": 3968.4,
+      "z": 33.5
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-5",
+    "name": "Atrezzo #5: Cabeza de Momia",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 5,
+    "total": 10,
+    "zone": "Route 68",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. En el porche de una casa rústica abandonada junto a la autovía Route 68.",
+    "hint": "En el porche de una casa rústica abandonada junto a la autovía Route 68.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": 1386.4,
+      "y": 3624.8,
+      "z": 34.6
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-6",
+    "name": "Atrezzo #6: Alfombra de Tigre",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 6,
+    "total": 10,
+    "zone": "North Chumash",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. En la pérgola exterior del restaurante de carretera Hookies en North Chumash.",
+    "hint": "En la pérgola exterior del restaurante de carretera Hookies en North Chumash.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": -3384.2,
+      "y": 1408.6,
+      "z": 15.2
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-7",
+    "name": "Atrezzo #7: Claqueta de Rodaje",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 7,
+    "total": 10,
+    "zone": "Fort Zancudo",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. En la planta baja de la torre de control de Fort Zancudo, sobre la mesa de la sala de espera.",
+    "hint": "En la planta baja de la torre de control de Fort Zancudo, sobre la mesa de la sala de espera.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": -2036.8,
+      "y": 3162.4,
+      "z": 32.8
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-8",
+    "name": "Atrezzo #8: Globo Terráqueo de Atrezzo (Furgoneta Pony)",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 8,
+    "total": 10,
+    "zone": "Kortz Center",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. Dentro de la furgoneta Pony aparcada en el aparcamiento inferior del Kortz Center.",
+    "hint": "Dentro de la furgoneta Pony aparcada en el aparcamiento inferior del Kortz Center.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": -2278.4,
+      "y": 264.2,
+      "z": 174.5
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-9",
+    "name": "Atrezzo #9: Sarcófago de Faraón (Furgoneta Rebel)",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 9,
+    "total": 10,
+    "zone": "Paleto Bay",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. En la caja de la camioneta Rebel aparcada detrás del taller Willie's Supermarket de Paleto Bay.",
+    "hint": "En la caja de la camioneta Rebel aparcada detrás del taller Willie's Supermarket de Paleto Bay.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": -242.6,
+      "y": 6246.8,
+      "z": 31.4
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "movie-prop-10",
+    "name": "Atrezzo #10: Momia Egipcia (Furgoneta Rumpo)",
+    "category": "movie_prop",
+    "categoryLabel": "Atrezzo de Cine de Solomon",
+    "number": 10,
+    "total": 10,
+    "zone": "Textile City",
+    "description": "Pieza de atrezzo cinematográfica robada al productor Solomon Richards. Dentro de la furgoneta Rumpo aparcada en el callejón de la fábrica de confección de Lester.",
+    "hint": "Dentro de la furgoneta Rumpo aparcada en el callejón de la fábrica de confección de Lester.",
+    "reward": "$150,000 + Traje de Alienígena Space Interloper + Trofeo en la oficina",
+    "position": {
+      "x": 382.4,
+      "y": -744.6,
+      "z": 29.3
+    },
+    "badge": {
+      "icon": "movie_prop",
+      "color": "#9b59b6",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "antenna-1",
+    "name": "Antena #1: Antena de Paleto Bay",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 1,
+    "total": 10,
+    "zone": "Paleto Bay",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En el tejado de la estación inferior del teleférico de Mount Chiliad en Paleto Bay.",
+    "hint": "En el tejado de la estación inferior del teleférico de Mount Chiliad en Paleto Bay.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": -748.2,
+      "y": 5588.6,
+      "z": 42.4
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-2",
+    "name": "Antena #2: Antena de Mount Chiliad",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 2,
+    "total": 10,
+    "zone": "Mount Chiliad",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En la torreta de repetidores de radio de la cumbre de Mount Chiliad.",
+    "hint": "En la torreta de repetidores de radio de la cumbre de Mount Chiliad.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": 442.8,
+      "y": 5572.4,
+      "z": 786.2
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-3",
+    "name": "Antena #3: Antena de Grapeseed",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 3,
+    "total": 10,
+    "zone": "Grapeseed",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En el lateral de la tolva del silo agrícola central de Grapeseed.",
+    "hint": "En el lateral de la tolva del silo agrícola central de Grapeseed.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": 2364.2,
+      "y": 4918.6,
+      "z": 46.8
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-4",
+    "name": "Antena #4: Antena de Sandy Shores",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 4,
+    "total": 10,
+    "zone": "Sandy Shores",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En el poste eléctrico situado detrás del parque de caravanas de Sandy Shores.",
+    "hint": "En el poste eléctrico situado detrás del parque de caravanas de Sandy Shores.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": 1968.4,
+      "y": 3824.2,
+      "z": 34.5
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-5",
+    "name": "Antena #5: Antena de Grand Senora Desert",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 5,
+    "total": 10,
+    "zone": "Grand Senora Desert",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En el tejado del edificio de la emisora Rebel Radio en Grand Senora Desert.",
+    "hint": "En el tejado del edificio de la emisora Rebel Radio en Grand Senora Desert.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": 742.6,
+      "y": 2548.8,
+      "z": 76.4
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-6",
+    "name": "Antena #6: Antena de Pacific Bluffs",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 6,
+    "total": 10,
+    "zone": "Pacific Bluffs",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En la azotea del museo Lowenthal dentro del complejo cultural Kortz Center.",
+    "hint": "En la azotea del museo Lowenthal dentro del complejo cultural Kortz Center.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": -2248.6,
+      "y": 262.4,
+      "z": 176.2
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-7",
+    "name": "Antena #7: Antena de Vinewood Hills",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 7,
+    "total": 10,
+    "zone": "Vinewood Hills",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En la torreta de comunicaciones principal junto al Observatorio Galileo.",
+    "hint": "En la torreta de comunicaciones principal junto al Observatorio Galileo.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": -378.4,
+      "y": 1146.8,
+      "z": 338.5
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-8",
+    "name": "Antena #8: Antena de Downtown Los Santos",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 8,
+    "total": 10,
+    "zone": "Downtown",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En la azotea del hospital central de Pillbox Hill / Mile High Club.",
+    "hint": "En la azotea del hospital central de Pillbox Hill / Mile High Club.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": -142.6,
+      "y": -948.2,
+      "z": 32.4
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-9",
+    "name": "Antena #9: Antena de Cypress Flats",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 9,
+    "total": 10,
+    "zone": "Cypress Flats",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En la estación de transformación eléctrica industrial de Cypress Flats.",
+    "hint": "En la estación de transformación eléctrica industrial de Cypress Flats.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": 924.8,
+      "y": -1712.4,
+      "z": 34.2
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  },
+  {
+    "id": "antenna-10",
+    "name": "Antena #10: Antena de Country Club",
+    "category": "radio_antenna",
+    "categoryLabel": "Antenas de Still Slipping Radio",
+    "number": 10,
+    "total": 10,
+    "zone": "Pacific Bluffs",
+    "description": "Antena repetidora de señal para expandir la emisión de la emisora pirata Still Slipping Los Santos conducida por Joy Orbison. En la caseta de mantenimiento del club de campo de Pacific Bluffs.",
+    "hint": "En la caseta de mantenimiento del club de campo de Pacific Bluffs.",
+    "reward": "$250,000 + 50,000 RP + Emisora Still Slipping Los Santos desbloqueada en todo el estado",
+    "position": {
+      "x": -2982.4,
+      "y": 284.6,
+      "z": 17.8
+    },
+    "badge": {
+      "icon": "radio_antenna",
+      "color": "#1abc9c",
+      "symbol": "📻"
+    }
+  }
+]

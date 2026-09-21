@@ -1,0 +1,5078 @@
+[
+  {
+    "id": "biz-smoke-on-the-water",
+    "name": "Smoke on the Water",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Franklin Clinton",
+    "price": 93000,
+    "priceFormatted": "$93,000",
+    "zone": "Vespucci Beach",
+    "description": "Dispensario de marihuana medicinal en primera línea de playa. Requiere misiones de defensa y reparto ocasionales en furgoneta.",
+    "features": [
+      "Exclusivo para Franklin",
+      "Misiones de reparto periódicas",
+      "Retorno de inversión en 10 semanas de juego"
+    ],
+    "income": "$9,300 semanales fijos",
+    "position": {
+      "x": -1172,
+      "y": -1571.9,
+      "z": 4.6
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#2ecc71",
+      "symbol": "$"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fa/Smoke-on-the-Water-Logo.png/revision/latest"
+  },
+  {
+    "id": "biz-tequi-la-la",
+    "name": "Tequi-la-la",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Cualquier protagonista",
+    "price": 2000000,
+    "priceFormatted": "$2,000,000",
+    "zone": "West Vinewood",
+    "description": "Legendario club nocturno y bar de rock en Eclipse Boulevard. Sede de conciertos históricos y peleas de bandas.",
+    "features": [
+      "Disponible para Michael, Franklin o Trevor",
+      "Eventos aleatorios de peleas en el bar",
+      "Entrada gratuita VIP tras compra"
+    ],
+    "income": "$16,500 semanales fijos",
+    "position": {
+      "x": -568.5,
+      "y": 291.1,
+      "z": 79.2
+    },
+    "badge": {
+      "icon": "cocktail",
+      "color": "#9b59b6",
+      "symbol": "🍸"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/8a/Tequilala-GTAV-Logo.png/revision/latest"
+  },
+  {
+    "id": "biz-pitchers",
+    "name": "Pitchers",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Cualquier protagonista",
+    "price": 750000,
+    "priceFormatted": "$750,000",
+    "zone": "Downtown Vinewood",
+    "description": "Popular bar de copas con terraza en pleno centro de Vinewood. Alta afluencia de clientela nocturna.",
+    "features": [
+      "Disponible para los tres personajes",
+      "Misiones de entrega de alcohol y suministros",
+      "Retorno de inversión en 107 semanas"
+    ],
+    "income": "$7,000 semanales fijos",
+    "position": {
+      "x": 236.4,
+      "y": 344.2,
+      "z": 105.5
+    },
+    "badge": {
+      "icon": "beer",
+      "color": "#e67e22",
+      "symbol": "🍺"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/44/Pitchers-GTAV.png/revision/latest"
+  },
+  {
+    "id": "biz-the-hen-house",
+    "name": "The Hen House",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Cualquier protagonista",
+    "price": 80000,
+    "priceFormatted": "$80,000",
+    "zone": "Paleto Bay",
+    "description": "Pintoresco pub rural ubicado en el extremo norte del mapa en Paleto Bay. El negocio más barato para adquirir en el modo historia.",
+    "features": [
+      "La propiedad más económica de adquirir",
+      "Defensa ocasional contra ladrones locales",
+      "Ideal para comenzar cartera inmobiliaria"
+    ],
+    "income": "$920 semanales fijos",
+    "position": {
+      "x": -305.2,
+      "y": 6265.8,
+      "z": 31.5
+    },
+    "badge": {
+      "icon": "home",
+      "color": "#d35400",
+      "symbol": "🏠"
+    }
+  },
+  {
+    "id": "biz-cinema-doppler",
+    "name": "Cinema Doppler",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Michael De Santa",
+    "price": 10000000,
+    "priceFormatted": "$10,000,000",
+    "zone": "Vinewood Boulevard",
+    "description": "Cine histórico estilo Art Déco situado en el Paseo de la Fama de Vinewood. Gran generador de ingresos pasivos.",
+    "features": [
+      "Exclusivo para Michael",
+      "Misiones de reparto de rollos de película y protección",
+      "Amortización en 76 semanas"
+    ],
+    "income": "$132,200 semanales fijos",
+    "position": {
+      "x": 305.8,
+      "y": 147.2,
+      "z": 103.8
+    },
+    "badge": {
+      "icon": "film",
+      "color": "#f1c40f",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "biz-ten-cent-theater",
+    "name": "Ten Cent Theater",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Michael De Santa",
+    "price": 20000000,
+    "priceFormatted": "$20,000,000",
+    "zone": "Textile City",
+    "description": "Emblemático cine y teatro clásico en el corazón comercial de Textile City. Genera una de las rentas semanales más elevadas.",
+    "features": [
+      "Exclusivo para Michael",
+      "Renta semanal de más de un cuarto de millón",
+      "Retorno de inversión en 76 semanas"
+    ],
+    "income": "$264,000 semanales fijos",
+    "position": {
+      "x": 393.2,
+      "y": -710.8,
+      "z": 29.3
+    },
+    "badge": {
+      "icon": "film",
+      "color": "#f1c40f",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "biz-tivoli-cinema",
+    "name": "Tivoli Cinema",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Michael De Santa",
+    "price": 30000000,
+    "priceFormatted": "$30,000,000",
+    "zone": "Morningwood",
+    "description": "Palacio cinematográfico de lujo en Morningwood. La sala de proyección con mayor prestigio de la ciudad.",
+    "features": [
+      "Exclusivo para Michael",
+      "El cine más caro de comprar en San Andreas",
+      "Ingresos masivos semanales"
+    ],
+    "income": "$142,300 semanales fijos",
+    "position": {
+      "x": -1424.5,
+      "y": -221.8,
+      "z": 46.5
+    },
+    "badge": {
+      "icon": "film",
+      "color": "#f1c40f",
+      "symbol": "🎬"
+    }
+  },
+  {
+    "id": "biz-ls-customs-desert",
+    "name": "Los Santos Customs (Desierto)",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Franklin Clinton",
+    "price": 349000,
+    "priceFormatted": "$349,000",
+    "zone": "Grand Senora Desert",
+    "description": "Taller mecánico oficial en plena Ruta 68. Adquirirlo desbloquea tuneos, blindajes y reparaciones 100% GRATIS para Franklin.",
+    "features": [
+      "Exclusivo para Franklin",
+      "¡Modificaciones y tuneos de vehículos GRATUITOS para Franklin de por vida!",
+      "Ingreso semanal pasivo añadido"
+    ],
+    "income": "Modificaciones GRATIS + $1,600 semanales",
+    "position": {
+      "x": 1177,
+      "y": 2640,
+      "z": 37.8
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#3498db",
+      "symbol": "🔧"
+    }
+  },
+  {
+    "id": "biz-car-scrapyard",
+    "name": "Desguace de Coches",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Cualquier protagonista",
+    "price": 275000,
+    "priceFormatted": "$275,000",
+    "zone": "El Burro Heights",
+    "description": "Centro de reciclaje automotriz. Genera dinero directo por cada vehículo que explotes o destruyas en cualquier parte de San Andreas.",
+    "features": [
+      "Paga $150 en efectivo por cada coche destruido en el mapa",
+      "Límite máximo de $5,000 semanales por chatarra",
+      "Disponible para los tres personajes"
+    ],
+    "income": "$150 por vehículo destruido (hasta $5,000/sem)",
+    "position": {
+      "x": 1289.2,
+      "y": -2072.5,
+      "z": 51.5
+    },
+    "badge": {
+      "icon": "trash",
+      "color": "#7f8c8d",
+      "symbol": "🚗"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/42/CarScrapyard-GTAV-Warehouse.jpg/revision/latest"
+  },
+  {
+    "id": "biz-hookies",
+    "name": "Hookies",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Michael o Franklin",
+    "price": 600000,
+    "priceFormatted": "$600,000",
+    "zone": "North Chumash",
+    "description": "Restaurante y marisquería de carretera en la autopista Great Ocean, frecuentado por la banda de moteros The Lost MC.",
+    "features": [
+      "Comprable por Michael o Franklin",
+      "Misiones de defensa contra ataques de The Lost MC",
+      "Ubicación privilegiada en la costa oeste"
+    ],
+    "income": "$4,700 semanales fijos",
+    "position": {
+      "x": -2195.4,
+      "y": 4272.5,
+      "z": 48.6
+    },
+    "badge": {
+      "icon": "restaurant",
+      "color": "#e67e22",
+      "symbol": "🦞"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/51/Hookies-GTAVee.jpg/revision/latest"
+  },
+  {
+    "id": "biz-sonar-collections",
+    "name": "Muelle de Búsqueda Sonar",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Cualquier protagonista",
+    "price": 250000,
+    "priceFormatted": "$250,000",
+    "zone": "Paleto Cove",
+    "description": "Instalación portuaria secreta con minisubmarino atracado. Desbloquea la búsqueda de 30 barriles de residuos nucleares en el fondo oceánico.",
+    "features": [
+      "Desbloquea el minisubmarino para exploración submarina",
+      "Coleccionable de 30 barriles nucleares a $23,000 c/u",
+      "Bonus final de $250,000 al recolectar todos los residuos"
+    ],
+    "income": "$23,000 por barril nuclear recuperado ($940,000 total)",
+    "position": {
+      "x": -1612.4,
+      "y": 5262.8,
+      "z": 3.9
+    },
+    "badge": {
+      "icon": "anchor",
+      "color": "#1abc9c",
+      "symbol": "⚓"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f0/SonarCollectionsDock-GTAV.png/revision/latest"
+  },
+  {
+    "id": "biz-mckenzie-hangar",
+    "name": "Aeródromo McKenzie Field",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Trevor Philips",
+    "price": 150000,
+    "priceFormatted": "$150,000",
+    "zone": "Grapeseed",
+    "description": "Pista de aterrizaje clandestina y hangar para avioneta Cuban 800 y buggy Dune. Base de operaciones para tráfico de armas de Trevor.",
+    "features": [
+      "Exclusivo para Trevor",
+      "Misiones de contrabando aéreo y bombardeo con avioneta",
+      "Misiones terrestres de entrega en todoterreno con armas"
+    ],
+    "income": "$5,000 por entrega terrestre / $7,000 por entrega aérea",
+    "position": {
+      "x": 2137.2,
+      "y": 4785.4,
+      "z": 41.1
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#e74c3c",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/cc/McKenzieFieldHangar-GTAV.png/revision/latest"
+  },
+  {
+    "id": "biz-golf-club",
+    "name": "Club de Golf de Los Santos",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Cualquier protagonista",
+    "price": 150000000,
+    "priceFormatted": "$150,000,000",
+    "zone": "Richman",
+    "description": "La propiedad más exclusiva, cara y prestigiosa de todo el juego. Símbolo supremo de riqueza en San Andreas.",
+    "features": [
+      "La propiedad más cara de la historia de GTA ($150 Millones)",
+      "Partidas de golf gratis para el propietario",
+      "Acceso irrestricto al campo con cualquier vestimenta"
+    ],
+    "income": "$264,500 semanales fijos",
+    "position": {
+      "x": -1338.2,
+      "y": 56.4,
+      "z": 54.2
+    },
+    "badge": {
+      "icon": "trophy",
+      "color": "#27ae60",
+      "symbol": "⛳"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/74/LosSantosGolfClub-GTAO-Logo.png/revision/latest"
+  },
+  {
+    "id": "biz-towing-impound",
+    "name": "Depósito de Grúas",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Franklin Clinton",
+    "price": 150000,
+    "priceFormatted": "$150,000",
+    "zone": "Rancho",
+    "description": "Depósito municipal de vehículos remolcados. Desbloqueable tras completar las misiones de Tonya en Los Santos sur.",
+    "features": [
+      "Exclusivo para Franklin",
+      "Misiones de remolque de coches mal aparcados o averiados",
+      "Pago instantáneo por vehículo retirado"
+    ],
+    "income": "$500 por cada coche remolcado",
+    "position": {
+      "x": 408.2,
+      "y": -1638.5,
+      "z": 29.3
+    },
+    "badge": {
+      "icon": "truck",
+      "color": "#e67e22",
+      "symbol": "🚚"
+    }
+  },
+  {
+    "id": "biz-downtown-cab",
+    "name": "Downtown Cab Co.",
+    "category": "purchasable_business",
+    "categoryLabel": "Negocios a Comprar",
+    "gameMode": "story",
+    "owner": "Franklin Clinton",
+    "price": 200000,
+    "priceFormatted": "$200,000",
+    "zone": "East Vinewood",
+    "description": "Empresa metropolitana de taxis de Los Santos. Incluye viajes en taxi 100% gratuitos y carreras privadas VIP.",
+    "features": [
+      "Exclusivo para Franklin",
+      "¡Todos los viajes en taxi y saltos de destino GRATIS para Franklin!",
+      "Llamadas especiales para transportar a clientes VIP por propinas millonarias"
+    ],
+    "income": "Taxis GRATIS + $2,000 semanales",
+    "position": {
+      "x": 894.5,
+      "y": -179.2,
+      "z": 73.8
+    },
+    "badge": {
+      "icon": "taxi",
+      "color": "#f39c12",
+      "symbol": "🚕"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e6/DowntownCabCo-GTAV-Logo.png/revision/latest"
+  },
+  {
+    "id": "bunker-chumash",
+    "name": "Búnker de Chumash",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 1650000,
+    "priceFormatted": "$1,650,000",
+    "zone": "Chumash / Costa Oeste",
+    "description": "El búnker más valorado por los jugadores veteranos. Su salida directa a la autopista Great Ocean permite realizar ventas en Los Santos en tiempo récord.",
+    "features": [
+      "Acceso directo e inmediato a la autopista",
+      "Menor tiempo de trayecto en misiones de venta a Los Santos",
+      "Espacio para Centro de Operaciones Móvil (MOC)",
+      "Investigación de munición especial explosiva MK II"
+    ],
+    "income": "Hasta $1,050,000 por venta de arsenal completa",
+    "position": {
+      "x": -3156,
+      "y": 1376,
+      "z": 16.8
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/43/Bunker-GTAO-Chumash.png/revision/latest"
+  },
+  {
+    "id": "bunker-farmhouse",
+    "name": "Búnker de Farmhouse",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 2375000,
+    "priceFormatted": "$2,375,000",
+    "zone": "Grand Senora / Granja",
+    "description": "El búnker más cercano al núcleo urbano de Los Santos. Ubicado al este de la autopista Senora Freeway, ideal para helicópteros y ventas en Phantom Wedge.",
+    "features": [
+      "La posición geográfica más céntrica del mapa",
+      "Cercanía máxima a los puntos de entrega de la ciudad",
+      "Salida cómoda para vehículos pesados"
+    ],
+    "income": "Hasta $1,050,000 por venta de arsenal completa",
+    "position": {
+      "x": 1570.4,
+      "y": 2254.5,
+      "z": 78.9
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/Bunker-GTAO-Farmhouse.png/revision/latest"
+  },
+  {
+    "id": "bunker-route-68",
+    "name": "Búnker de Ruta 68",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 1450000,
+    "priceFormatted": "$1,450,000",
+    "zone": "Ruta 68 Grand Senora",
+    "description": "Excelente relación calidad-precio. Ubicado junto a la pista de aterrizaje de Sandy Shores y cerca de los negocios de motero.",
+    "features": [
+      "Precio muy competitivo",
+      "Próximo al aeródromo de Sandy Shores",
+      "Gran sinergia con sedes de moteros del desierto"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": 24.4,
+      "y": 2959.7,
+      "z": 58.4
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-desert",
+    "name": "Búnker de Grand Senora Desert",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 2120000,
+    "priceFormatted": "$2,120,000",
+    "zone": "Gran Desierto Senora",
+    "description": "Instalación subterránea en medio de las dunas del desierto, justo al oeste de la pista de aterrizaje de Sandy Shores.",
+    "features": [
+      "Despegue despejado para aeronaves",
+      "Acceso directo a pistas aéreas",
+      "Entorno plano sin obstáculos montañosos"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": 848.6,
+      "y": 2996.6,
+      "z": 45.8
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-paleto",
+    "name": "Búnker de Paleto Forest",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 1165000,
+    "priceFormatted": "$1,165,000",
+    "zone": "Paleto Forest",
+    "description": "El búnker más barato del juego, incluido en el Criminal Enterprise Starter Pack. Muy alejado de la ciudad para ventas en solitario.",
+    "features": [
+      "El búnker con menor coste de compra",
+      "Zona tranquila para reabastecimiento",
+      "Rutas de entrega largas hacia Los Santos"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": -783.1,
+      "y": 5934.7,
+      "z": 24.3
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-zancudo",
+    "name": "Búnker de Lago Zancudo",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 1550000,
+    "priceFormatted": "$1,550,000",
+    "zone": "Lago Zancudo",
+    "description": "Situado en las colinas que bordean la base militar de Fort Zancudo. Ideal si posees un hangar en la base militar.",
+    "features": [
+      "Sinergia directa con base militar Fort Zancudo",
+      "Salida hacia la costa norte y autovía",
+      "Defensa aérea natural de la base"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": -3058.7,
+      "y": 3329.2,
+      "z": 12.6
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-raton",
+    "name": "Búnker de Raton Canyon",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 1450000,
+    "priceFormatted": "$1,450,000",
+    "zone": "Raton Canyon",
+    "description": "Oculto entre los desfiladeros de Raton Canyon, ofrece excelente discreción y camuflaje natural.",
+    "features": [
+      "Ubicación aislada y protegida",
+      "Rutas aéreas espectaculares por el cañón",
+      "Coste económico"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": -389,
+      "y": 4340,
+      "z": 56
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-thomson",
+    "name": "Búnker de Thomson Scrapyard",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 2290000,
+    "priceFormatted": "$2,290,000",
+    "zone": "Desierto Este",
+    "description": "Situado junto al desguace de Thomson en la parte oriental del desierto. Acceso rápido a la autopista Senora Freeway.",
+    "features": [
+      "Acceso despejado a la autopista este",
+      "Próximo a turbinas eólicas y costa oriental",
+      "Amplio espacio para vehículos pesados"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": 2490,
+      "y": 3140,
+      "z": 48
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-smoke-tree",
+    "name": "Búnker de Smoke Tree Vale",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 2205000,
+    "priceFormatted": "$2,205,000",
+    "zone": "San Chianski / Desierto",
+    "description": "Búnker al pie de las colinas de San Chianski, en una zona abierta y despejada.",
+    "features": [
+      "Terreno llano para helicópteros y cazas",
+      "Ruta directa hacia el sur por autopista",
+      "Zona tranquila para reabastecer"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": 1770,
+      "y": 3620,
+      "z": 43
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    }
+  },
+  {
+    "id": "bunker-grapeseed",
+    "name": "Búnker de Grapeseed",
+    "category": "bunker",
+    "categoryLabel": "Búnkeres",
+    "gameMode": "online",
+    "price": 1750000,
+    "priceFormatted": "$1,750,000",
+    "zone": "Grapeseed",
+    "description": "Búnker en la comarca agrícola de Grapeseed, a espaldas del monte Chiliad y al lado del aeródromo McKenzie.",
+    "features": [
+      "Conexión con pista de aterrizaje McKenzie Field",
+      "Cercanía a Alamo Sea y granjas",
+      "Precio intermedio muy equilibrado"
+    ],
+    "income": "Hasta $1,050,000 por venta completa",
+    "position": {
+      "x": 2110,
+      "y": 4770,
+      "z": 41
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#d35400",
+      "symbol": "🛡️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/Bunker-GTAO-Grapeseed.png/revision/latest"
+  },
+  {
+    "id": "facility-desert",
+    "name": "Instalación Grand Senora Desert",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 2525000,
+    "priceFormatted": "$2,525,000",
+    "zone": "Grand Senora Desert",
+    "description": "Base militar subterránea de alta tecnología. Sede obligatoria para iniciar las misiones del Juicio del Fin del Mundo (Doomsday Heist).",
+    "features": [
+      "Cañón Orbital por satélite con disparo guiado",
+      "Garaje para el tanque blindado TM-02 Khanjali",
+      "Plataforma para el avión despegue vertical Mammoth Thruster",
+      "Sede de los 3 actos del Golpe del Fin del Mundo"
+    ],
+    "income": "Desbloquea atracos Doomsday con pagos de hasta $2,250,000",
+    "position": {
+      "x": 345,
+      "y": 2620,
+      "z": 44
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-route-68",
+    "name": "Instalación Ruta 68",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 2312500,
+    "priceFormatted": "$2,312,500",
+    "zone": "Ruta 68",
+    "description": "Instalación céntrica junto a la carretera principal de Ruta 68. Muy accesible para vehículos terrestres pesados.",
+    "features": [
+      "Acceso directo a Ruta 68 asfaltada",
+      "Despliegue rápido del tanque Khanjali",
+      "Ubicación muy céntrica en el mapa"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": -360,
+      "y": 3030,
+      "z": 32
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-sandy-shores",
+    "name": "Instalación Sandy Shores",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 2740000,
+    "priceFormatted": "$2,740,000",
+    "zone": "Sandy Shores",
+    "description": "Una de las mejores instalaciones del juego por su inmediata proximidad al aeródromo de Sandy Shores y helicópteros.",
+    "features": [
+      "Despegue inmediato de cazas y helicópteros en aeródromo adyacente",
+      "Sinergia con búnkeres y fábricas del desierto",
+      "Acceso inmejorable para misiones de preparación"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": 1860,
+      "y": 3840,
+      "z": 33
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-fort-zancudo",
+    "name": "Instalación Fort Zancudo",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 2750000,
+    "priceFormatted": "$2,750,000",
+    "zone": "Fort Zancudo",
+    "description": "Instalación situada en el perímetro exterior de Fort Zancudo, con máxima protección táctica militar.",
+    "features": [
+      "Ubicación estratégica militarizada",
+      "Conexión con autovía costera",
+      "Excelente cobertura aérea"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": -2230,
+      "y": 3240,
+      "z": 32
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-lago-zancudo",
+    "name": "Instalación Lago Zancudo",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 2599000,
+    "priceFormatted": "$2,599,000",
+    "zone": "Lago Zancudo",
+    "description": "Base subterránea escondida en los pantanos de Lago Zancudo. Acceso costero y fluvial protegido.",
+    "features": [
+      "Acceso directo a lanchas y anfibios en el pantano",
+      "Cercanía a la base militar",
+      "Poco tránsito de jugadores hostiles"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": -2840,
+      "y": 3000,
+      "z": 9
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-paleto",
+    "name": "Instalación Paleto Bay",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 1255000,
+    "priceFormatted": "$1,255,000",
+    "zone": "Paleto Bay",
+    "description": "La instalación más asequible del juego. Ideal para jugadores que buscan desbloquear el Cañón Orbital con el menor coste inicial.",
+    "features": [
+      "La instalación más económica de adquirir",
+      "Fácil acceso por carretera costera norte",
+      "Mismas funciones de alta tecnología que las más caras"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": -370,
+      "y": 6050,
+      "z": 31
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-mount-gordo",
+    "name": "Instalación Mount Gordo",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 1465000,
+    "priceFormatted": "$1,465,000",
+    "zone": "Mount Gordo",
+    "description": "Instalación en las laderas nororientales de Mount Gordo con vistas al mar. Gran tranquilidad y bajo precio.",
+    "features": [
+      "Precio económico",
+      "Salida despejada sobre el océano",
+      "Excelente aislamiento"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": 2740,
+      "y": 4420,
+      "z": 48
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-ron-alternates",
+    "name": "Instalación Ron Alternates Wind Farm",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 1775000,
+    "priceFormatted": "$1,775,000",
+    "zone": "Parque Eólico Ron Alternates",
+    "description": "Enclavada en el parque eólico entre gigantescas turbinas de viento. Conexión directa con la autopista Senora hacia la ciudad.",
+    "features": [
+      "Muy cercana a la zona norte de Los Santos",
+      "Camino pavimentado hasta la entrada",
+      "Cobertura visual entre molinos de viento"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": 2070,
+      "y": 1750,
+      "z": 103
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "facility-land-act",
+    "name": "Instalación Land Act Reservoir",
+    "category": "facility",
+    "categoryLabel": "Instalaciones",
+    "gameMode": "online",
+    "price": 2950000,
+    "priceFormatted": "$2,950,000",
+    "zone": "Embalse Land Act",
+    "description": "Instalación secreta del Juicio Final ubicada en el embalse Land Act (Tataviam Mountains), al noreste de la presa. Acceso por pista de montaña.",
+    "features": [
+      "La distancia más corta a la ciudad de Los Santos",
+      "Máximo secreto en un valle cerrado",
+      "Vistas privilegiadas al embalse y presa"
+    ],
+    "income": "Atracos Doomsday y cañón orbital",
+    "position": {
+      "x": 1860,
+      "y": 280,
+      "z": 165
+    },
+    "badge": {
+      "icon": "satellite",
+      "color": "#8e44ad",
+      "symbol": "🛰️"
+    }
+  },
+  {
+    "id": "autoshop-burton",
+    "name": "Taller de Burton (Auto Shop)",
+    "category": "auto_shop",
+    "categoryLabel": "Talleres de Coches",
+    "gameMode": "online",
+    "price": 1830000,
+    "priceFormatted": "$1,830,000",
+    "zone": "Burton / Los Santos Centro",
+    "description": "Taller mecánico del DLC Los Santos Tuners. Incluye elevadores para reparar y entregar coches de clientes, taller de mods personal y contratos de atracos de KDJ y Sessanta.",
+    "features": [
+      "Modificaciones de tuneo con 5% de descuento y pintura clásica gratis",
+      "Elevadores hidráulicos para encargos de clientes con beneficios de hasta $60,000",
+      "Sede para contratos de mini-atracos (El contrato de la Unión Depository paga $300,000)",
+      "Pizarra de exportaciones exóticas de vehículos robados"
+    ],
+    "income": "Contratos de atraco ($300k) + Clientes de tuneo ($40k-$60k c/u)",
+    "position": {
+      "x": -280,
+      "y": -320,
+      "z": 44
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#e67e22",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/23/AutoShops-GTAO-Burton.png/revision/latest"
+  },
+  {
+    "id": "autoshop-strawberry",
+    "name": "Taller de Strawberry (Auto Shop)",
+    "category": "auto_shop",
+    "categoryLabel": "Talleres de Coches",
+    "gameMode": "online",
+    "price": 1705000,
+    "priceFormatted": "$1,705,000",
+    "zone": "Strawberry",
+    "description": "Excelente taller en la zona sur de la ciudad, muy próximo al Car Meet de Los Santos (LS Car Meet en Cypress Flats).",
+    "features": [
+      "Cercanía al LS Car Meet y circuito de pruebas",
+      "Servicio de entrega de coches de clientes",
+      "Mini-atracos de alta intensidad"
+    ],
+    "income": "Contratos de atraco y tuneo de coches",
+    "position": {
+      "x": -310,
+      "y": -1370,
+      "z": 31
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#e67e22",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b3/AutoShops-GTAO-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "autoshop-rancho",
+    "name": "Taller de Rancho (Auto Shop)",
+    "category": "auto_shop",
+    "categoryLabel": "Talleres de Coches",
+    "gameMode": "online",
+    "price": 1750000,
+    "priceFormatted": "$1,750,000",
+    "zone": "Rancho",
+    "description": "Taller ubicado en el barrio de Rancho con excelente acceso por Olympic Freeway.",
+    "features": [
+      "Elevadores de preparación de coches",
+      "Taller personal con todas las pinturas desbloqueadas",
+      "Contratos de robo y Unión Depository"
+    ],
+    "income": "Contratos de atraco y tuneo de coches",
+    "position": {
+      "x": 440,
+      "y": -1880,
+      "z": 26
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#e67e22",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6c/AutoShops-GTAO-Rancho.png/revision/latest"
+  },
+  {
+    "id": "autoshop-la-mesa",
+    "name": "Taller de La Mesa (Auto Shop)",
+    "category": "auto_shop",
+    "categoryLabel": "Talleres de Coches",
+    "gameMode": "online",
+    "price": 1920000,
+    "priceFormatted": "$1,920,000",
+    "zone": "La Mesa",
+    "description": "El taller más cotizado de Los Santos por su posición junto a la autopista y los canales del río.",
+    "features": [
+      "La salida más limpia hacia las autopistas este y norte",
+      "Gran espacio exterior para aparcar camiones",
+      "Sinergia con salas recreativas de La Mesa"
+    ],
+    "income": "Contratos de atraco y tuneo de coches",
+    "position": {
+      "x": 720,
+      "y": -780,
+      "z": 24
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#e67e22",
+      "symbol": "🏎️"
+    }
+  },
+  {
+    "id": "autoshop-mission-row",
+    "name": "Taller de Mission Row (Auto Shop)",
+    "category": "auto_shop",
+    "categoryLabel": "Talleres de Coches",
+    "gameMode": "online",
+    "price": 1670000,
+    "priceFormatted": "$1,670,000",
+    "zone": "Mission Row",
+    "description": "El taller de Tuners más asequible de la ciudad, en pleno centro urbano cerca de Legion Square.",
+    "features": [
+      "El precio de adquisición más bajo",
+      "Ubicación céntrica en Mission Row",
+      "Todas las ventajas de tuneo y descuentos activas"
+    ],
+    "income": "Contratos de atraco y tuneo de coches",
+    "position": {
+      "x": 410,
+      "y": -1070,
+      "z": 29
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#e67e22",
+      "symbol": "🏎️"
+    }
+  },
+  {
+    "id": "warehouse-darnell-bros",
+    "name": "Almacén Grande Darnell Bros",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 3500000,
+    "priceFormatted": "$3,500,000",
+    "zone": "La Mesa",
+    "description": "El almacén de mercancía especial grande más famoso y cotizado de Los Santos (capacidad de 111 cajas). La antigua fábrica textil de Lester Crest.",
+    "features": [
+      "Capacidad máxima de 111 cajas de mercancía especial",
+      "Ubicación insuperable junto a la autopista en La Mesa",
+      "Técnico de almacén Lupe para conseguir cajas en automático"
+    ],
+    "income": "Hasta $2,220,000 por venta de 111 cajas llenas (más de $3.3M en eventos x1.5)",
+    "position": {
+      "x": 750,
+      "y": -1300,
+      "z": 26
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-bilgeco",
+    "name": "Almacén Grande Bilgeco",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 2825000,
+    "priceFormatted": "$2,825,000",
+    "zone": "Aeropuerto LSIA",
+    "description": "Almacén grande de 111 cajas ubicado en los accesos al Aeropuerto Internacional de Los Santos.",
+    "features": [
+      "Capacidad para 111 cajas",
+      "Pistas de despegue inmediatas para avionetas Titan y Cuban 800 de venta",
+      "Espacio despejado sin cables ni edificios altos"
+    ],
+    "income": "Hasta $2,220,000 por venta completa",
+    "position": {
+      "x": -1020,
+      "y": -2390,
+      "z": 14
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-walker-sons",
+    "name": "Almacén Grande Walker & Sons",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 3040000,
+    "priceFormatted": "$3,040,000",
+    "zone": "Little Seoul",
+    "description": "Almacén grande de 111 cajas en Little Seoul. Entrada directa desde Palomino Avenue.",
+    "features": [
+      "Capacidad de 111 cajas",
+      "Cercanía a las oficinas de CEO de Del Perro y Maze Bank",
+      "Zona céntrica para misiones de compra de cajas"
+    ],
+    "income": "Hasta $2,220,000 por venta completa",
+    "position": {
+      "x": -780,
+      "y": -770,
+      "z": 19
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-logistics-depot",
+    "name": "Almacén Grande Logistics Depot",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 2600000,
+    "priceFormatted": "$2,600,000",
+    "zone": "La Puerta",
+    "description": "Almacén grande de 111 cajas en el polígono logístico de La Puerta junto a la autopista.",
+    "features": [
+      "111 cajas de capacidad",
+      "Acceso directo a la autovía sin semáforos",
+      "Excelente relación capacidad/precio"
+    ],
+    "income": "Hasta $2,220,000 por venta completa",
+    "position": {
+      "x": -850,
+      "y": -1500,
+      "z": 10
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-xero-gas",
+    "name": "Almacén Grande Xero Gas Company",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 2365000,
+    "priceFormatted": "$2,365,000",
+    "zone": "Cypress Flats",
+    "description": "El almacén grande de 111 cajas más económico del sur de Los Santos en la refinería de Cypress Flats.",
+    "features": [
+      "El almacén grande con mejor precio por caja",
+      "Capacidad total de 111 cajas",
+      "Zona industrial tranquila"
+    ],
+    "income": "Hasta $2,220,000 por venta completa",
+    "position": {
+      "x": 1020,
+      "y": -2140,
+      "z": 31
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-west-vinewood",
+    "name": "Almacén Grande West Vinewood",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 2135000,
+    "priceFormatted": "$2,135,000",
+    "zone": "West Vinewood",
+    "description": "Almacén grande de 111 cajas en la zona norte de la ciudad en Vinewood.",
+    "features": [
+      "Capacidad de 111 cajas",
+      "Ubicado en el norte de la ciudad",
+      "Salida rápida hacia el desierto"
+    ],
+    "income": "Hasta $2,220,000 por venta completa",
+    "position": {
+      "x": -590,
+      "y": 150,
+      "z": 60
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-derriere-militare",
+    "name": "Almacén Mediano Derriere Militare",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 948000,
+    "priceFormatted": "$948,000",
+    "zone": "Strawberry",
+    "description": "Almacén mediano con capacidad para 42 cajas de mercancía especial. Muy céntrico y equilibrado.",
+    "features": [
+      "Capacidad para 42 cajas",
+      "Amortización rápida con ventas medianas",
+      "Acceso directo en Strawberry"
+    ],
+    "income": "Hasta $735,000 por venta de 42 cajas",
+    "position": {
+      "x": -140,
+      "y": -1450,
+      "z": 30
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-ls-marine",
+    "name": "Almacén Mediano LS Marine Building 3",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 880000,
+    "priceFormatted": "$880,000",
+    "zone": "Elysian Island",
+    "description": "Almacén mediano de 42 cajas en los muelles de Elysian Island.",
+    "features": [
+      "42 cajas de mercancía",
+      "Gran espacio para aterrizar helicópteros Sparrow o Buzzard",
+      "Bajo coste de compra"
+    ],
+    "income": "Hasta $735,000 por venta de 42 cajas",
+    "position": {
+      "x": 290,
+      "y": -2980,
+      "z": 6
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-white-widow",
+    "name": "Almacén Pequeño White Widow Garage",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 392000,
+    "priceFormatted": "$392,000",
+    "zone": "La Puerta",
+    "description": "Almacén pequeño con capacidad de 16 cajas. Ideal para empezar en el negocio de mercancía especial de CEO.",
+    "features": [
+      "16 cajas de capacidad",
+      "Perfecto para ventas rápidas en solitario",
+      "Inversión inicial muy baja"
+    ],
+    "income": "Hasta $240,000 por venta de 16 cajas",
+    "position": {
+      "x": -580,
+      "y": -1420,
+      "z": 10
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "warehouse-celltowa",
+    "name": "Almacén Pequeño Celltowa Unit",
+    "category": "warehouse",
+    "categoryLabel": "Almacenes de Cajas",
+    "gameMode": "online",
+    "price": 318000,
+    "priceFormatted": "$318,000",
+    "zone": "Strawberry",
+    "description": "El almacén de cajas más económico y accesible para nuevos ejecutivos de CEO.",
+    "features": [
+      "El almacén con menor coste de compra",
+      "Capacidad para 16 cajas",
+      "Llenado ultra rápido en solitario"
+    ],
+    "income": "Hasta $240,000 por venta de 16 cajas",
+    "position": {
+      "x": 200,
+      "y": -1250,
+      "z": 29
+    },
+    "badge": {
+      "icon": "box",
+      "color": "#16a085",
+      "symbol": "📦"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/Arcades-GTAO-WarehouseDavis.png/revision/latest"
+  },
+  {
+    "id": "ceo-mazebank-tower",
+    "name": "Torre Maze Bank (Oficina CEO)",
+    "category": "ceo_office",
+    "categoryLabel": "Oficinas de Ejecutivo",
+    "gameMode": "online",
+    "price": 4000000,
+    "priceFormatted": "$4,000,000",
+    "zone": "Pillbox Hill",
+    "description": "El rascacielos más alto de Los Santos y el pináculo del éxito corporativo. Helipuerto en la azotea más alta de la ciudad.",
+    "features": [
+      "El edificio más alto e imponente de San Andreas",
+      "Helipuerto en la cúspide con despegue instantáneo",
+      "Garaje de hasta 60 plazas para superdeportivos",
+      "Taller de tuneo personal de vehículos incluido en garaje"
+    ],
+    "income": "Misiones de importación/exportación de vehículos y mercancía especial",
+    "position": {
+      "x": -75.2,
+      "y": -824.8,
+      "z": 321.3
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#2980b9",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/07/Dynasty8Executive-GTAO-MazeBankTower.png/revision/latest"
+  },
+  {
+    "id": "ceo-arcadius",
+    "name": "Arcadius Business Center",
+    "category": "ceo_office",
+    "categoryLabel": "Oficinas de Ejecutivo",
+    "gameMode": "online",
+    "price": 2250000,
+    "priceFormatted": "$2,250,000",
+    "zone": "Pillbox Hill",
+    "description": "Impresionante complejo corporativo en el centro financiero. Entrada subterránea protegida y helipuerto a media altura.",
+    "features": [
+      "Arquitectura moderna con acceso protegido a garaje",
+      "Helipuerto a altura óptima para aproximaciones rápidas",
+      "Ubicación céntrica perfecta"
+    ],
+    "income": "Red de contrabando de coches y almacenes",
+    "position": {
+      "x": -141.4,
+      "y": -621,
+      "z": 36.3
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#2980b9",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/91/Dynasty8Executive-GTAO-ArcadiusBusinessCenter.png/revision/latest"
+  },
+  {
+    "id": "ceo-lombank",
+    "name": "Lombank West",
+    "category": "ceo_office",
+    "categoryLabel": "Oficinas de Ejecutivo",
+    "gameMode": "online",
+    "price": 3100000,
+    "priceFormatted": "$3,100,000",
+    "zone": "Del Perro",
+    "description": "Oficinas de lujo con vistas panorámicas al océano Pacífico y la playa de Del Perro. El helipuerto con mejores vistas de la costa.",
+    "features": [
+      "Vistas completas al mar y la puesta de sol",
+      "Helipuerto despejado con acceso al muelle de Del Perro",
+      "A minutos de los clubes nocturnos del oeste"
+    ],
+    "income": "Operaciones comerciales y almacenes de carga",
+    "position": {
+      "x": -1579.3,
+      "y": -564.7,
+      "z": 35
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#2980b9",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/8c/Dynasty8Executive-GTAO-LombankWest.png/revision/latest"
+  },
+  {
+    "id": "ceo-mazebank-west",
+    "name": "Maze Bank West",
+    "category": "ceo_office",
+    "categoryLabel": "Oficinas de Ejecutivo",
+    "gameMode": "online",
+    "price": 1000000,
+    "priceFormatted": "$1,000,000",
+    "zone": "Del Perro",
+    "description": "La sede de CEO más popular y económica para iniciar tu imperio criminal. Cercana a la playa y autopista Del Perro Freeway.",
+    "features": [
+      "La oficina más asequible de comprar",
+      "Incluida en el Criminal Enterprise Starter Pack",
+      "Mismas funciones ejecutivas que las oficinas de $4M"
+    ],
+    "income": "Punto de partida para importación/exportación",
+    "position": {
+      "x": -1392.6,
+      "y": -480.1,
+      "z": 33.2
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#2980b9",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f8/Dynasty8Executive-GTAO-MazeBankWest.png/revision/latest"
+  },
+  {
+    "id": "nightclub-west-vinewood",
+    "name": "Club Nocturno West Vinewood",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1700000,
+    "priceFormatted": "$1,700,000",
+    "zone": "West Vinewood",
+    "description": "El club con la ubicación de mayor prestigio de la ciudad, en pleno barrio de lujo de Vinewood. Centro del ocio nocturno.",
+    "features": [
+      "Caja fuerte con hasta $250,000 en ingresos pasivos de popularidad",
+      "Almacén subterráneo que acumula bienes de todos tus negocios automáticamente",
+      "Garaje para el Terrorbyte con escáner de misiles y taller Oppressor MK II"
+    ],
+    "income": "Hasta $50,000 cada 48 min pasivos en caja fuerte",
+    "position": {
+      "x": -590,
+      "y": 280,
+      "z": 82
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    }
+  },
+  {
+    "id": "nightclub-downtown-vinewood",
+    "name": "Club Nocturno Downtown Vinewood",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1670000,
+    "priceFormatted": "$1,670,000",
+    "zone": "Downtown Vinewood",
+    "description": "En pleno paseo de Vinewood junto al cine Doppler. Zona amplia para aterrizar helicópteros en la calle adyacente.",
+    "features": [
+      "Entrada espaciosa en calle ancha",
+      "Fácil acceso por las avenidas principales",
+      "Gestión integral de DJs residentes (Solomun, Tale of Us, Dixon, Black Madonna)"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": 350,
+      "y": 270,
+      "z": 103
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    }
+  },
+  {
+    "id": "nightclub-del-perro",
+    "name": "Club Nocturno Del Perro",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1645000,
+    "priceFormatted": "$1,645,000",
+    "zone": "Del Perro",
+    "description": "Excelente acceso costero muy próximo al muelle de Del Perro y la torre Lombank West.",
+    "features": [
+      "Salida rápida a la autopista Great Ocean y Del Perro Freeway",
+      "A pasos de la playa y helipuerto de la costa",
+      "Almacén de 5 plantas para mercancías ilegales"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": -1280,
+      "y": -650,
+      "z": 26
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    }
+  },
+  {
+    "id": "nightclub-vespucci",
+    "name": "Club Nocturno Vespucci Canals",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1320000,
+    "priceFormatted": "$1,320,000",
+    "zone": "Vespucci Canals",
+    "description": "Ubicado junto a los canales de Vespucci. Precio económico y salida rápida a la costa.",
+    "features": [
+      "Coste intermedio competitivo",
+      "Almacén de mercancías de 5 niveles",
+      "Cercano a Smoke on the Water y la playa"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": -1170,
+      "y": -1150,
+      "z": 5
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c5/Nightclubs-GTAO-Vespucci_Canals.png/revision/latest"
+  },
+  {
+    "id": "nightclub-strawberry",
+    "name": "Club Nocturno Strawberry",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1525000,
+    "priceFormatted": "$1,525,000",
+    "zone": "Strawberry",
+    "description": "Ubicación céntrica justo debajo de la autopista Olympic Freeway. Muy práctico para rutas de venta cortas en furgón blindado.",
+    "features": [
+      "Ubicado bajo el paso elevado con cobertura aérea",
+      "Acceso directo a la red de autopistas de la ciudad",
+      "Zona de aparcamiento trasero para entregas"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": -120,
+      "y": -1260,
+      "z": 29
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/96/Nightclubs-GTAO-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "nightclub-mission-row",
+    "name": "Club Nocturno Mission Row",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1440000,
+    "priceFormatted": "$1,440,000",
+    "zone": "Mission Row",
+    "description": "Club nocturno en el centro de Los Santos, a metros de la comisaría de Mission Row.",
+    "features": [
+      "Excelente posición céntrica urbana",
+      "Acceso rápido a las avenidas este y oeste",
+      "Beneficios pasivos de caja fuerte"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": 350,
+      "y": -980,
+      "z": 29
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    }
+  },
+  {
+    "id": "nightclub-la-mesa",
+    "name": "Club Nocturno La Mesa",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1500000,
+    "priceFormatted": "$1,500,000",
+    "zone": "La Mesa",
+    "description": "Club ubicado en el polígono industrial de La Mesa junto a los talleres de coches y almacenes.",
+    "features": [
+      "Sinergia con talleres de Tuners y recreativos de La Mesa",
+      "Fácil acceso por el río de Los Santos",
+      "Zona despejada de cables"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": 750,
+      "y": -780,
+      "z": 26
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    }
+  },
+  {
+    "id": "nightclub-cypress",
+    "name": "Club Nocturno Cypress Flats",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1370000,
+    "priceFormatted": "$1,370,000",
+    "zone": "Cypress Flats",
+    "description": "Club en pleno distrito fabril de Cypress Flats, a pocos pasos del LS Car Meet.",
+    "features": [
+      "A 30 segundos del Car Meet de Los Santos",
+      "Precio económico",
+      "Grandes avenidas para camiones de venta"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": 870,
+      "y": -2100,
+      "z": 30
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e9/Nightclubs-GTAO-Cypress_Flats.png/revision/latest"
+  },
+  {
+    "id": "nightclub-lsia",
+    "name": "Club Nocturno LSIA",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1135000,
+    "priceFormatted": "$1,135,000",
+    "zone": "Aeropuerto LSIA",
+    "description": "Uno de los clubes nocturnos más baratos del juego, situado a la entrada del aeropuerto.",
+    "features": [
+      "Muy asequible para principiantes",
+      "Pistas de despegue al lado",
+      "Mismas ganancias pasivas de $50k"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": -680,
+      "y": -2200,
+      "z": 6
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c1/Nightclubs-GTAO-LSIA.png/revision/latest"
+  },
+  {
+    "id": "nightclub-elysian",
+    "name": "Club Nocturno Elysian Island",
+    "category": "nightclub",
+    "categoryLabel": "Clubes Nocturnos",
+    "gameMode": "online",
+    "price": 1080000,
+    "priceFormatted": "$1,080,000",
+    "zone": "Elysian Island",
+    "description": "El club nocturno con el precio de compra más bajo de todo San Andreas en la isla portuaria.",
+    "features": [
+      "El club nocturno más barato del juego",
+      "Entorno portuario",
+      "Mismas funciones completas de almacén"
+    ],
+    "income": "Hasta $50,000 pasivos por día de juego",
+    "position": {
+      "x": 190,
+      "y": -3170,
+      "z": 5
+    },
+    "badge": {
+      "icon": "music",
+      "color": "#e91e63",
+      "symbol": "🎵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "arcade-eight-bit",
+    "name": "Eight-Bit Arcade (Vinewood)",
+    "category": "arcade",
+    "categoryLabel": "Salas de Recreativos",
+    "gameMode": "online",
+    "price": 2530000,
+    "priceFormatted": "$2,530,000",
+    "zone": "Vinewood",
+    "description": "La sala de recreativos mejor situada de la ciudad. Sala de máquinas retro en la superficie y centro de mando subterráneo para el Golpe al Casino Diamond.",
+    "features": [
+      "Centro de Operaciones Maestro (Master Control Terminal): ¡controla TODOS tus negocios desde un único ordenador!",
+      "Sede de planificación para el atraco a la cámara del Casino Diamond",
+      "Caja fuerte con $5,000 por día de juego con máquinas arcade llenas",
+      "Simulador de drones y garaje para 10 vehículos"
+    ],
+    "income": "Atraco al Casino Diamond (hasta $3,600,000 en oro/diamantes)",
+    "position": {
+      "x": 420,
+      "y": 260,
+      "z": 103
+    },
+    "badge": {
+      "icon": "gamepad",
+      "color": "#9b59b6",
+      "symbol": "🕹️"
+    }
+  },
+  {
+    "id": "arcade-insert-coin",
+    "name": "Insert Coin Arcade (Rockford Hills)",
+    "category": "arcade",
+    "categoryLabel": "Salas de Recreativos",
+    "gameMode": "online",
+    "price": 2345000,
+    "priceFormatted": "$2,345,000",
+    "zone": "Rockford Hills",
+    "description": "Sala de recreativos en el lujoso barrio de Rockford Hills. Zona distinguida y excelentes accesos.",
+    "features": [
+      "Acceso directo al Casino por las avenidas norte",
+      "Terminal de Control Maestro instalable",
+      "Garaje para vehículos del atraco"
+    ],
+    "income": "Golpe al Casino Diamond",
+    "position": {
+      "x": -820,
+      "y": -120,
+      "z": 37
+    },
+    "badge": {
+      "icon": "gamepad",
+      "color": "#9b59b6",
+      "symbol": "🕹️"
+    }
+  },
+  {
+    "id": "arcade-videogeddon",
+    "name": "Videogeddon Arcade (La Mesa)",
+    "category": "arcade",
+    "categoryLabel": "Salas de Recreativos",
+    "gameMode": "online",
+    "price": 1875000,
+    "priceFormatted": "$1,875,000",
+    "zone": "La Mesa",
+    "description": "La opción preferida de los 'speedrunners' del atraco al Casino por su proximidad directa a los canales y al propio Casino Diamond.",
+    "features": [
+      "La distancia más corta en coche al Casino Diamond",
+      "Acceso directo a las alcantarillas de escape",
+      "Espacio para la Terminal de Control Maestro"
+    ],
+    "income": "Golpe al Casino Diamond",
+    "position": {
+      "x": 740,
+      "y": -820,
+      "z": 24
+    },
+    "badge": {
+      "icon": "gamepad",
+      "color": "#9b59b6",
+      "symbol": "🕹️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a9/Arcades-GTAO-VideogeddonLaMesa.png/revision/latest"
+  },
+  {
+    "id": "arcade-warehouse",
+    "name": "Warehouse Arcade (Davis)",
+    "category": "arcade",
+    "categoryLabel": "Salas de Recreativos",
+    "gameMode": "online",
+    "price": 2135000,
+    "priceFormatted": "$2,135,000",
+    "zone": "Davis",
+    "description": "Sala de recreativos en Davis. Excelente espacio de aparcamiento trasero.",
+    "features": [
+      "Garaje espacioso",
+      "Sede de atraco al casino",
+      "Terminal de control de negocios"
+    ],
+    "income": "Golpe al Casino Diamond",
+    "position": {
+      "x": 110,
+      "y": -1560,
+      "z": 29
+    },
+    "badge": {
+      "icon": "gamepad",
+      "color": "#9b59b6",
+      "symbol": "🕹️"
+    }
+  },
+  {
+    "id": "arcade-wonderama",
+    "name": "Wonderama Arcade (Grapeseed)",
+    "category": "arcade",
+    "categoryLabel": "Salas de Recreativos",
+    "gameMode": "online",
+    "price": 1565000,
+    "priceFormatted": "$1,565,000",
+    "zone": "Grapeseed",
+    "description": "Sala de recreativos en el norte en la comarca de Grapeseed.",
+    "features": [
+      "Precio económico",
+      "Base en el norte de Alamo Sea",
+      "Terminal de control"
+    ],
+    "income": "Golpe al Casino Diamond",
+    "position": {
+      "x": 1690,
+      "y": 4780,
+      "z": 42
+    },
+    "badge": {
+      "icon": "gamepad",
+      "color": "#9b59b6",
+      "symbol": "🕹️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f6/Arcades-GTAO-WonderamaGrapeseed.png/revision/latest"
+  },
+  {
+    "id": "arcade-pixel-petes",
+    "name": "Pixel Pete's Arcade (Paleto Bay)",
+    "category": "arcade",
+    "categoryLabel": "Salas de Recreativos",
+    "gameMode": "online",
+    "price": 1235000,
+    "priceFormatted": "$1,235,000",
+    "zone": "Paleto Bay",
+    "description": "El salón de recreativos más barato del juego, ubicado en Paleto Bay.",
+    "features": [
+      "El precio más bajo de todos los recreativos",
+      "Incluido en promociones especiales de Twitch Prime",
+      "Mismas funciones completas de atraco y terminal"
+    ],
+    "income": "Golpe al Casino Diamond",
+    "position": {
+      "x": -110,
+      "y": 6460,
+      "z": 31
+    },
+    "badge": {
+      "icon": "gamepad",
+      "color": "#9b59b6",
+      "symbol": "🕹️"
+    }
+  },
+  {
+    "id": "hangar-zancudo-3499",
+    "name": "Hangar Fort Zancudo 3499",
+    "category": "hangar",
+    "categoryLabel": "Hangares",
+    "gameMode": "online",
+    "price": 2650000,
+    "priceFormatted": "$2,650,000",
+    "zone": "Base Militar Fort Zancudo",
+    "description": "Comprar este hangar concede autorización de bajo nivel en Fort Zancudo: ¡puedes entrar en la base militar sin que te persiga la policía ni el ejército!",
+    "features": [
+      "Permiso oficial de paso libre por Fort Zancudo sin estrellas de búsqueda",
+      "Robo legal de cazas militares P-996 Lazer sin alerta inmediata",
+      "Taller aeronáutico personalizado para cazas y bombarderos",
+      "Negocio de contrabando aéreo Smuggler's Run"
+    ],
+    "income": "Hasta $2,550,000 por venta completa con bonus",
+    "position": {
+      "x": -2130,
+      "y": 3260,
+      "z": 32
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#6c5ce7",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/72/Hangars-GTAO-Zancudo3499.jpg/revision/latest"
+  },
+  {
+    "id": "hangar-lsia-a17",
+    "name": "Hangar LSIA A17",
+    "category": "hangar",
+    "categoryLabel": "Hangares",
+    "gameMode": "online",
+    "price": 1200000,
+    "priceFormatted": "$1,200,000",
+    "zone": "Aeropuerto Internacional LSIA",
+    "description": "Hangar en la zona civil del aeropuerto internacional. Entrada rápida y despegue despejado sobre el mar.",
+    "features": [
+      "El hangar más económico del juego",
+      "Pistas infinitas para despegue de aviones gigantes",
+      "Cercanía a los muelles y sur de Los Santos"
+    ],
+    "income": "Misiones de contrabando aéreo",
+    "position": {
+      "x": -980,
+      "y": -2990,
+      "z": 13
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#6c5ce7",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bc/Hangars-GTAO-LSIAA17.jpg/revision/latest"
+  },
+  {
+    "id": "agency-hawick",
+    "name": "Agencia F. Clinton & Partner (Hawick)",
+    "category": "agency",
+    "categoryLabel": "Agencias (The Contract)",
+    "gameMode": "online",
+    "price": 2830000,
+    "priceFormatted": "$2,830,000",
+    "zone": "Hawick",
+    "description": "Socio al 50% con Franklin Clinton para resolver problemas de las celebridades de Vinewood. Desbloquea el contrato VIP de Dr. Dre.",
+    "features": [
+      "Historia 'The Contract' con Dr. Dre (Premio final de $1,000,000 repetible)",
+      "Armería privada con descuento exclusivo en munición y armas pesadas",
+      "Taller automotriz con tecnología de bloqueo de misiles de Imani (antimisiles guiados)",
+      "Caja fuerte con ingresos pasivos crecientes hasta $20,000 por día"
+    ],
+    "income": "$1,000,000 por contrato Dr. Dre + Contratos de seguridad periódicos",
+    "position": {
+      "x": 380,
+      "y": 320,
+      "z": 103
+    },
+    "badge": {
+      "icon": "briefcase",
+      "color": "#f39c12",
+      "symbol": "💼"
+    }
+  },
+  {
+    "id": "salvage-strawberry",
+    "name": "Desguace de Strawberry (Salvage Yard)",
+    "category": "salvage_yard",
+    "categoryLabel": "Desguaces",
+    "gameMode": "online",
+    "price": 2570000,
+    "priceFormatted": "$2,570,000",
+    "zone": "Strawberry",
+    "description": "Desguace en sociedad con Yusuf Amir para robar y despiezar superdeportivos exóticos de coleccionistas de élite.",
+    "features": [
+      "Robos semanales de vehículos de alto valor de Yusuf Amir",
+      "Grúa remolcadora para desguazar vehículos y ganar ingresos pasivos",
+      "Caja fuerte con ingresos continuos en efectivo"
+    ],
+    "income": "Hasta $400,000 por coche robado + $24,000 por vehículo remolcado",
+    "position": {
+      "x": -160,
+      "y": -1690,
+      "z": 33
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#c0392b",
+      "symbol": "🚘"
+    }
+  },
+  {
+    "id": "lsc-burton",
+    "name": "Los Santos Customs (Burton)",
+    "category": "ls_customs",
+    "categoryLabel": "Los Santos Customs",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Taller de Modificaciones",
+    "zone": "Burton / Los Santos Centro",
+    "description": "El taller mecánico y de tuneo más concurrido de Los Santos. Blindaje, motores, turbos, neumáticos antibalas y pintura.",
+    "features": [
+      "Reparación instantánea",
+      "Modificaciones de rendimiento",
+      "Venta de vehículos robados"
+    ],
+    "position": {
+      "x": -365.1,
+      "y": -122.9,
+      "z": 38.7
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#f39c12",
+      "symbol": "🔧"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f2/GTAV-LSCustoms-Logo.png/revision/latest"
+  },
+  {
+    "id": "lsc-lsia",
+    "name": "Los Santos Customs (LSIA)",
+    "category": "ls_customs",
+    "categoryLabel": "Los Santos Customs",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Taller de Modificaciones",
+    "zone": "Aeropuerto LSIA",
+    "description": "Taller oficial ubicado en la vía de acceso al Aeropuerto Internacional.",
+    "features": [
+      "Reparación instantánea",
+      "Tuneo completo",
+      "Venta de coches"
+    ],
+    "position": {
+      "x": -1155.5,
+      "y": -2007.2,
+      "z": 13.2
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#f39c12",
+      "symbol": "🔧"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f2/GTAV-LSCustoms-Logo.png/revision/latest"
+  },
+  {
+    "id": "lsc-lamesa",
+    "name": "Los Santos Customs (La Mesa)",
+    "category": "ls_customs",
+    "categoryLabel": "Los Santos Customs",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Taller de Modificaciones",
+    "zone": "La Mesa / Canal Este",
+    "description": "Taller situado en la zona industrial del este de Los Santos, junto al cauce del río.",
+    "features": [
+      "Tuneo completo",
+      "Reparación",
+      "Venta de vehículos"
+    ],
+    "position": {
+      "x": 731.8,
+      "y": -1088.8,
+      "z": 22.2
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#f39c12",
+      "symbol": "🔧"
+    }
+  },
+  {
+    "id": "lsc-paleto",
+    "name": "Beeker's Garage (Paleto Bay)",
+    "category": "ls_customs",
+    "categoryLabel": "Los Santos Customs",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Taller de Modificaciones",
+    "zone": "Paleto Bay",
+    "description": "Taller independiente afiliado con todas las opciones de personalización completas de Los Santos Customs en el norte.",
+    "features": [
+      "Todas las mejoras de LS Customs",
+      "Pintura y blindaje",
+      "Único taller del extremo norte"
+    ],
+    "position": {
+      "x": -211.5,
+      "y": 6241,
+      "z": 31.5
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#f39c12",
+      "symbol": "🔧"
+    }
+  },
+  {
+    "id": "bennys-strawberry",
+    "name": "Benny's Original Motor Works",
+    "category": "bennys",
+    "categoryLabel": "Benny's Original Motor Works",
+    "gameMode": "online",
+    "price": 0,
+    "priceFormatted": "Customizaciones Lowrider",
+    "zone": "Strawberry",
+    "description": "Taller legendario de cultura Lowrider y tuning clásico en Strawberry. Especializado en hidráulica, sonido y carrocerías retro.",
+    "features": [
+      "Conversiones oficiales Lowrider",
+      "Suspensiones hidráulicas ajustables",
+      "Exclusivo de GTA Online"
+    ],
+    "position": {
+      "x": -205.4,
+      "y": -1310.6,
+      "z": 31.3
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e67e22",
+      "symbol": "🛠️"
+    }
+  },
+  {
+    "id": "hao-garage",
+    "name": "Garaje de Hao (HSW)",
+    "category": "hao_garage",
+    "categoryLabel": "Garaje de Hao (HSW)",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Mejoras HSW / Carreras",
+    "zone": "Pillbox Hill / Textile City",
+    "description": "Taller y base de operaciones de Hao. En Modo Historia organiza las carreras callejeras de Franklin; en Online ofrece modificaciones extremas HSW.",
+    "features": [
+      "Carreras callejeras nocturnas en Historia",
+      "Mejoras de rendimiento HSW de alta velocidad",
+      "Disponible en Modo Historia y Online"
+    ],
+    "position": {
+      "x": -283.5,
+      "y": -336.2,
+      "z": 10.1
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "⚡"
+    }
+  },
+  {
+    "id": "ls-car-meet",
+    "name": "LS Car Meet (Cypress Flats)",
+    "category": "ls_car_meet",
+    "categoryLabel": "LS Car Meet (Cypress Flats)",
+    "gameMode": "online",
+    "price": 50000,
+    "priceFormatted": "$50,000 membresía",
+    "zone": "Cypress Flats / Muelles",
+    "description": "Enorme almacén subterráneo en Cypress Flats cerca de los muelles. Espacio social sin armas con pista de pruebas interior, carreras sprint y vehículos de exhibición.",
+    "features": [
+      "Pista de pruebas cubierta privada",
+      "Carreras sprint y scramble",
+      "Desafíos de vehículo de premio semanal",
+      "Exclusivo de GTA Online"
+    ],
+    "position": {
+      "x": 778,
+      "y": -1865,
+      "z": 29.3
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#f1c40f",
+      "symbol": "🏁"
+    }
+  },
+  {
+    "id": "ammu-vinewood",
+    "name": "Ammu-Nation (Vinewood)",
+    "category": "service",
+    "categoryLabel": "Talleres y Servicios",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Tienda de Armas",
+    "zone": "Vinewood",
+    "description": "Armería con licencia oficial. Venta de fusiles de asalto, chalecos antibalas, explosivos y polígono de tiro subterráneo.",
+    "features": [
+      "Galería de tiro para mejorar puntería",
+      "Armas pesadas y explosivos",
+      "Chalecos blindados"
+    ],
+    "position": {
+      "x": 252.3,
+      "y": -48.2,
+      "z": 69.9
+    },
+    "badge": {
+      "icon": "crosshair",
+      "color": "#e74c3c",
+      "symbol": "🎯"
+    }
+  },
+  {
+    "id": "ammu-pillbox",
+    "name": "Ammu-Nation (Pillbox Hill)",
+    "category": "service",
+    "categoryLabel": "Talleres y Servicios",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Tienda de Armas",
+    "zone": "Pillbox Hill",
+    "description": "Armería del distrito financiero de Los Santos. Amplio arsenal y recarga de munición.",
+    "features": [
+      "Galería de tiro",
+      "Acceso céntrico",
+      "Munición al máximo"
+    ],
+    "position": {
+      "x": 20.9,
+      "y": -1106.5,
+      "z": 29.8
+    },
+    "badge": {
+      "icon": "crosshair",
+      "color": "#e74c3c",
+      "symbol": "🎯"
+    }
+  },
+  {
+    "id": "ammu-chumash",
+    "name": "Ammu-Nation (Chumash)",
+    "category": "service",
+    "categoryLabel": "Talleres y Servicios",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Tienda de Armas",
+    "zone": "Chumash",
+    "description": "Armería costera junto a la autopista Great Ocean, ideal para reponer blindaje y munición camino al norte.",
+    "features": [
+      "Parada estratégica de camino a Fort Zancudo",
+      "Chalecos y granadas",
+      "Sin galería de tiro"
+    ],
+    "position": {
+      "x": -3171.5,
+      "y": 1087.9,
+      "z": 20.8
+    },
+    "badge": {
+      "icon": "crosshair",
+      "color": "#e74c3c",
+      "symbol": "🎯"
+    }
+  },
+  {
+    "id": "ammu-sandyshores",
+    "name": "Ammu-Nation (Sandy Shores)",
+    "category": "service",
+    "categoryLabel": "Talleres y Servicios",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Tienda de Armas",
+    "zone": "Sandy Shores",
+    "description": "La armería más frecuentada del desierto, a minutos del remolque de Trevor y el aeródromo.",
+    "features": [
+      "Punto de reabastecimiento en el desierto",
+      "Granadas, fusiles y blindaje",
+      "Parada clásica en Sandy Shores"
+    ],
+    "position": {
+      "x": 1693.4,
+      "y": 3759.5,
+      "z": 34.7
+    },
+    "badge": {
+      "icon": "crosshair",
+      "color": "#e74c3c",
+      "symbol": "🎯"
+    }
+  },
+  {
+    "id": "ammu-paleto",
+    "name": "Ammu-Nation (Paleto Bay)",
+    "category": "service",
+    "categoryLabel": "Talleres y Servicios",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Tienda de Armas",
+    "zone": "Paleto Bay",
+    "description": "Tienda de armas en Paleto Bay equipada con galería de tiro para prácticas.",
+    "features": [
+      "Galería de tiro incluida",
+      "Armería del norte",
+      "Venta de chalecos y parafernalia militar"
+    ],
+    "position": {
+      "x": -330.2,
+      "y": 6083.9,
+      "z": 31.5
+    },
+    "badge": {
+      "icon": "crosshair",
+      "color": "#e74c3c",
+      "symbol": "🎯"
+    }
+  },
+  {
+    "id": "hangar-zancudo-3497",
+    "name": "Hangar Fort Zancudo 3497",
+    "category": "hangar",
+    "categoryLabel": "Hangares",
+    "gameMode": "online",
+    "price": 3195000,
+    "priceFormatted": "$3,195,000",
+    "zone": "Base Militar Fort Zancudo",
+    "description": "Hangar central en la base militar de Fort Zancudo. Concede pase libre a la base militar y taller aeronáutico para cazas.",
+    "features": [
+      "Acceso directo e inmediato a la pista principal de Fort Zancudo",
+      "Entrada libre sin nivel de búsqueda militar",
+      "Almacén y taller de personalización de aeronaves"
+    ],
+    "income": "Misiones de contrabando Smuggler's Run",
+    "position": {
+      "x": -2010,
+      "y": 3170,
+      "z": 32.8
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#6c5ce7",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c1/Hangars-GTAO-Zancudo3497.jpg/revision/latest"
+  },
+  {
+    "id": "hangar-zancudo-a2",
+    "name": "Hangar Fort Zancudo A2",
+    "category": "hangar",
+    "categoryLabel": "Hangares",
+    "gameMode": "online",
+    "price": 3250000,
+    "priceFormatted": "$3,250,000",
+    "zone": "Base Militar Fort Zancudo",
+    "description": "El hangar más cotizado y caro de Fort Zancudo, situado en el extremo occidental de la pista con el despegue más limpio hacia el océano.",
+    "features": [
+      "La mejor orientación de pista y espacio exterior despejado",
+      "Inmunidad militar y robo de aviones Lazer sin alarma",
+      "Capacidad para 20 aeronaves en almacenamiento"
+    ],
+    "income": "Misiones de contrabando Smuggler's Run",
+    "position": {
+      "x": -2640,
+      "y": 3280,
+      "z": 33
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#6c5ce7",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/Hangars-GTAO-ZancudoA2.jpg/revision/latest"
+  },
+  {
+    "id": "hangar-lsia-1",
+    "name": "Hangar LSIA 1",
+    "category": "hangar",
+    "categoryLabel": "Hangares",
+    "gameMode": "online",
+    "price": 1525000,
+    "priceFormatted": "$1,525,000",
+    "zone": "Aeropuerto Internacional LSIA",
+    "description": "Hangar espacioso en la terminal sur de LSIA, perfecto para operaciones aéreas civiles y de contrabando en la ciudad.",
+    "features": [
+      "Acceso rápido por autovía sur de Los Santos",
+      "Despegue frontal a pistas comerciales principales",
+      "Excelente precio de entrada"
+    ],
+    "income": "Misiones de contrabando Smuggler's Run",
+    "position": {
+      "x": -1150,
+      "y": -2480,
+      "z": 14
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#6c5ce7",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/08/Hangars-GTAO-LSIA1.jpg/revision/latest"
+  },
+  {
+    "id": "hangar-grand-senora-airfield",
+    "name": "Aeródromo de Grand Senora Desert",
+    "category": "hangar",
+    "categoryLabel": "Hangares y Aeródromos",
+    "gameMode": "both",
+    "owner": "Trevor Philips (Historia) / Pegasus & Ron (Online)",
+    "price": 0,
+    "priceFormatted": "Activo / Base aérea",
+    "zone": "Grand Senora Desert",
+    "description": "Principal aeródromo del condado de Blaine con pistas de aterrizaje cruzadas, hangares de almacenamiento y helipuerto. Base de Trevor Philips y punto neurálgico de entrega de aeronaves Pegasus.",
+    "features": [
+      "Doble pista de aterrizaje para aeronaves de gran porte",
+      "Hangares principales y zona de repostaje",
+      "Punto neurálgico de entrega Pegasus en Sandy Shores"
+    ],
+    "income": "Acceso libre / Centro de operaciones",
+    "position": {
+      "x": 1730,
+      "y": 3280,
+      "z": 41
+    },
+    "badge": {
+      "icon": "plane",
+      "color": "#6c5ce7",
+      "symbol": "✈️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/72/SumgglersRun-GTAO-OfficialScreen-Hangar.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-la-mesa",
+    "name": "Almacén de Vehículos La Mesa",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 1500000,
+    "priceFormatted": "$1,500,000",
+    "zone": "La Mesa",
+    "description": "El almacén de exportación de vehículos robados más popular y rentable por su precio y cercanía a la autopista de Los Santos.",
+    "features": [
+      "Capacidad para 40 coches de gama alta/media/estándar",
+      "Taller subterráneo propio para tunear antes de la exportación",
+      "Sótano para vehículos especiales blindados (Phantom Wedge, Ruiner 2000)"
+    ],
+    "income": "Hasta $100,000 de beneficio neto por venta de coche de gama alta",
+    "position": {
+      "x": 935,
+      "y": -1030,
+      "z": 30
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-murrieta",
+    "name": "Almacén de Vehículos Murrieta Heights",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 2850000,
+    "priceFormatted": "$2,850,000",
+    "zone": "Murrieta Heights",
+    "description": "El almacén de exportación más exclusivo y caro, situado en la colina este con salida directa y sin obstáculos a la autopista.",
+    "features": [
+      "Salida inmediata a la interestatal este sin semáforos",
+      "Excelente defensa contra jugadores atacantes",
+      "Capacidad para 40 vehículos exóticos"
+    ],
+    "income": "Beneficios de $80,000 a $100,000 por vehículo exportado",
+    "position": {
+      "x": 1210,
+      "y": -1280,
+      "z": 35
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-davis",
+    "name": "Almacén de Vehículos Davis",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 2495000,
+    "priceFormatted": "$2,495,000",
+    "zone": "Davis",
+    "description": "Almacén en pleno barrio de Davis, muy cercano a Legion Square y al centro neurálgico de Los Santos.",
+    "features": [
+      "Ubicación urbana muy céntrica",
+      "Fácil acceso para entregas desde el norte y centro",
+      "Almacenamiento subterráneo de vehículos armados"
+    ],
+    "income": "Hasta $100,000 por venta de coche alta gama",
+    "position": {
+      "x": 110,
+      "y": -1640,
+      "z": 30
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-la-puerta",
+    "name": "Almacén de Vehículos La Puerta",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 2735000,
+    "priceFormatted": "$2,735,000",
+    "zone": "La Puerta",
+    "description": "Situado junto a los canales de La Puerta y el estadio Maze Bank Arena. Muy cómodo y con amplia explanada frontal.",
+    "features": [
+      "Salida amplia para camiones y superdeportivos",
+      "Cercanía al helipuerto de Vespucci",
+      "Capacidad para 40 vehículos"
+    ],
+    "income": "Hasta $100,000 por vehículo de gama alta",
+    "position": {
+      "x": -890,
+      "y": -1520,
+      "z": 5
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-cypress",
+    "name": "Almacén de Vehículos Cypress Flats",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 2675000,
+    "priceFormatted": "$2,675,000",
+    "zone": "Cypress Flats",
+    "description": "En el distrito industrial de Cypress Flats, muy próximo al LS Car Meet y a la red ferroviaria.",
+    "features": [
+      "Entorno industrial discreto para exportación",
+      "Conexión directa con Olympic Freeway",
+      "Espacio para vehículos especiales de SecuroServ"
+    ],
+    "income": "Hasta $100,000 por coche",
+    "position": {
+      "x": 905,
+      "y": -2120,
+      "z": 30
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-el-burro",
+    "name": "Almacén de Vehículos El Burro Heights",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 1635000,
+    "priceFormatted": "$1,635,000",
+    "zone": "El Burro Heights",
+    "description": "Ubicado en las colinas industriales de El Burro Heights, cerca de los campos petrolíferos.",
+    "features": [
+      "Uno de los almacenes más económicos de la ciudad",
+      "Acceso asfaltado por Sustancia Road",
+      "Capacidad de 40 deportivos"
+    ],
+    "income": "Hasta $100,000 por coche",
+    "position": {
+      "x": 1420,
+      "y": -1980,
+      "z": 65
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-lsia-east",
+    "name": "Almacén de Vehículos LSIA Este",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 2300000,
+    "priceFormatted": "$2,300,000",
+    "zone": "Aeropuerto LSIA",
+    "description": "Almacén en la entrada este del aeropuerto por Exceptionalists Way.",
+    "features": [
+      "Carreteras amplias de múltiples carriles",
+      "Proximidad al aeropuerto y autopista sur",
+      "Capacidad para 40 coches"
+    ],
+    "income": "Hasta $100,000 por coche",
+    "position": {
+      "x": -950,
+      "y": -2050,
+      "z": 9
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-lsia-west",
+    "name": "Almacén de Vehículos LSIA Oeste",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 2170000,
+    "priceFormatted": "$2,170,000",
+    "zone": "Aeropuerto LSIA",
+    "description": "Situado en Shank Street junto a las pistas comerciales de LSIA.",
+    "features": [
+      "Acceso rápido sin tráfico",
+      "Almacenamiento completo de vehículos especiales",
+      "Zona despejada"
+    ],
+    "income": "Hasta $100,000 por coche",
+    "position": {
+      "x": -1130,
+      "y": -2170,
+      "z": 13
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "veh-wh-elysian",
+    "name": "Almacén de Vehículos Elysian Island",
+    "category": "vehicle_warehouse",
+    "categoryLabel": "Importación / Exportación",
+    "gameMode": "online",
+    "price": 1950000,
+    "priceFormatted": "$1,950,000",
+    "zone": "Elysian Island",
+    "description": "Almacén en la zona portuaria de Elysian Island, ideal para operaciones discretas de contrabando de vehículos.",
+    "features": [
+      "Aislado del bullicio del centro urbano",
+      "Conexión directa por puentes de Los Santos",
+      "Capacidad para 40 coches"
+    ],
+    "income": "Hasta $100,000 por coche",
+    "position": {
+      "x": 160,
+      "y": -3120,
+      "z": 6
+    },
+    "badge": {
+      "icon": "car",
+      "color": "#e74c3c",
+      "symbol": "🏎️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/Nightclubs-GTAO-Elysian_Island.png/revision/latest"
+  },
+  {
+    "id": "animal-rabbit-hills",
+    "name": "Conejo Salvaje (Hábitat General)",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Vinewood Hills & Territorio Rural",
+    "description": "El conejo salvaje es la especie animal más extendida de San Andreas. Aunque este punto marca su presencia habitual en las colinas de Vinewood, aparece de forma espontánea por prácticamente todo el mapa: Mount Chiliad, Paleto Forest, Senora Desert, Tataviam y Tongva Valley.",
+    "features": [
+      "Especie del reto de Fotografía de Fauna Salvaje",
+      "Presencia en casi todas las zonas de hierba y monte del mapa",
+      "Muy rápido y sensible al ruido de pasos o motores"
+    ],
+    "income": "Animal fotografiable para recompensa del Kraken Sub",
+    "position": {
+      "x": -420,
+      "y": 1200,
+      "z": 325
+    },
+    "badge": {
+      "icon": "paw",
+      "color": "#1abc9c",
+      "symbol": "🐇"
+    }
+  },
+  {
+    "id": "animal-deer-chiliad",
+    "name": "Ciervo / Cierva de Cola Blanca",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Reserva Estatal de Mount Chiliad",
+    "description": "Manadas de ciervos que pastan en las laderas boscosas de Mount Chiliad y en el bosque de Paleto. Especie clásica de caza de Trevor.",
+    "features": [
+      "Reto de fotografía y misiones de caza de Trevor",
+      "Habita densamente en los bosques boreales del norte",
+      "Huye al menor sonido o disparo"
+    ],
+    "income": "Caza deportiva y fotografía",
+    "position": {
+      "x": -650,
+      "y": 4520,
+      "z": 140
+    },
+    "badge": {
+      "icon": "paw",
+      "color": "#27ae60",
+      "symbol": "🦌"
+    }
+  },
+  {
+    "id": "animal-cougar-tongva",
+    "name": "Puma / León de Montaña",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Tongva Hills / Banham Canyon",
+    "description": "El depredador más peligroso de tierra firme en San Andreas. Acecha en las colinas y cañones escarpados atacando por sorpresa.",
+    "features": [
+      "Depredador alfa agresivo con ataque letal de un golpe",
+      "Emite rugidos característicos antes de abalanzarse",
+      "Fotografiable a distancia de seguridad"
+    ],
+    "income": "Fotografía de naturaleza de riesgo",
+    "position": {
+      "x": -1520,
+      "y": 1540,
+      "z": 110
+    },
+    "badge": {
+      "icon": "paw",
+      "color": "#e67e22",
+      "symbol": "🐆"
+    }
+  },
+  {
+    "id": "animal-coyote-senora",
+    "name": "Coyote del Desierto",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Grand Senora Desert",
+    "description": "Cánido salvaje carroñero característico del desierto de Grand Senora y las inmediaciones del aeródromo de Sandy Shores.",
+    "features": [
+      "Aúlla durante la noche en el desierto",
+      "Suele deambular en solitario o parejas cerca de carreteras",
+      "Menos agresivo que el puma, huye de vehículos"
+    ],
+    "income": "Fotografía de fauna",
+    "position": {
+      "x": 1240,
+      "y": 3100,
+      "z": 40
+    },
+    "badge": {
+      "icon": "paw",
+      "color": "#d35400",
+      "symbol": "🐺"
+    }
+  },
+  {
+    "id": "animal-boar-bolingbroke",
+    "name": "Jabalí Salvaje",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Colinas de Bolingbroke / Senora",
+    "description": "Jabalí robusto que habita en las colinas que rodean la prisión de Bolingbroke y el parque nacional de Senora.",
+    "features": [
+      "Embestida potente si se siente acorralado",
+      "Habitual en matorrales y zonas de cactus",
+      "Objetivo del reto de naturaleza"
+    ],
+    "income": "Fotografía de fauna",
+    "position": {
+      "x": 1820,
+      "y": 2650,
+      "z": 46
+    },
+    "badge": {
+      "icon": "paw",
+      "color": "#795548",
+      "symbol": "🐗"
+    }
+  },
+  {
+    "id": "animal-hawk-vinewood",
+    "name": "Halcón de Cola Roja",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Cresta de Vinewood Hills",
+    "description": "Ave rapaz que planea en las corrientes térmicas sobre el famoso letrero de Vinewood y el observatorio Galileo.",
+    "features": [
+      "Vuelo circular majestuoso sobre colinas",
+      "Emite chillidos agudos audibles en el aire",
+      "Se puede posar sobre rocas y postes"
+    ],
+    "income": "Fotografía de aves",
+    "position": {
+      "x": 710,
+      "y": 1195,
+      "z": 350
+    },
+    "badge": {
+      "icon": "feather",
+      "color": "#f39c12",
+      "symbol": "🦅"
+    }
+  },
+  {
+    "id": "animal-cormorant-zancudo",
+    "name": "Cormorán Neotropical",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Humedales de Lago Zancudo",
+    "description": "Ave acuática de plumaje oscuro que bucea para pescar en los meandros pantanosos de Lago Zancudo.",
+    "features": [
+      "Habitual en riberas, ríos y costas de agua dulce",
+      "Se seca con las alas abiertas sobre rocas",
+      "Especie del catálogo de fotografía"
+    ],
+    "income": "Fotografía de aves acuáticas",
+    "position": {
+      "x": -2250,
+      "y": 2600,
+      "z": 4
+    },
+    "badge": {
+      "icon": "feather",
+      "color": "#3498db",
+      "symbol": "🦆"
+    }
+  },
+  {
+    "id": "animal-seagull-pier",
+    "name": "Gaviota Plateada",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Del Perro Pier & Playa Vespucci",
+    "description": "Inconfundible ave costera que sobrevuela el parque de atracciones de Del Perro Pier y las playas de Los Santos.",
+    "features": [
+      "Posadas en barandillas del muelle y noria",
+      "Muy fáciles de avistar a pie de playa",
+      "Fotografía rápida"
+    ],
+    "income": "Fotografía costera",
+    "position": {
+      "x": -1680,
+      "y": -1070,
+      "z": 13
+    },
+    "badge": {
+      "icon": "feather",
+      "color": "#00bcd4",
+      "symbol": "🕊️"
+    }
+  },
+  {
+    "id": "animal-shark-paleto",
+    "name": "Gran Tiburón Blanco",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Silvestre",
+    "zone": "Aguas Profundas de Paleto Bay",
+    "description": "Tiburón letal que patrulla las aguas profundas del océano norte. Ataca y destruye lanchas inflables y devora buceadores sin jaula.",
+    "features": [
+      "Depredador marino supremo con animación de muerte única",
+      "Aparece marcado como punto rojo en el minimapa en alta mar",
+      "Fotografiable desde embarcaciones"
+    ],
+    "income": "Fauna marina de alta mar",
+    "position": {
+      "x": -500,
+      "y": 6700,
+      "z": -10
+    },
+    "badge": {
+      "icon": "fish",
+      "color": "#2980b9",
+      "symbol": "🦈"
+    }
+  },
+  {
+    "id": "animal-farm-grapeseed",
+    "name": "Vaca & Cerdo de Granja",
+    "category": "animal",
+    "categoryLabel": "Fauna Salvaje",
+    "gameMode": "both",
+    "price": 0,
+    "priceFormatted": "Fauna Doméstica",
+    "zone": "Granjas Agrícolas de Grapeseed",
+    "description": "Animales de granja domesticados que pastan en los corrales agrícolas de Grapeseed, a las faldas del monte Chiliad.",
+    "features": [
+      "Ambas especies están en los mismos corrales de Grapeseed",
+      "Fáciles de fotografiar sin peligro alguno",
+      "Entorno rural idílico"
+    ],
+    "income": "Reto de fotografía completable al instante",
+    "position": {
+      "x": 2440,
+      "y": 4970,
+      "z": 46
+    },
+    "badge": {
+      "icon": "paw",
+      "color": "#8d6e63",
+      "symbol": "🐄"
+    }
+  },
+  {
+    "id": "mansion-tongva",
+    "name": "The Tongva Estate",
+    "price": 11500000,
+    "category": "mansion",
+    "categoryLabel": "Mansión de Lujo",
+    "gameMode": "online",
+    "badge": {
+      "symbol": "🏰",
+      "color": "#d4af37"
+    },
+    "zone": "Tongva Hills",
+    "position": {
+      "x": -2480,
+      "y": 390,
+      "z": 240
+    },
+    "description": "Espectacular finca privada en Tongva Hills con helipuerto particular, vistas panorámicas al océano Pacífico, piscina infinita y garaje para 20 vehículos.",
+    "features": [
+      "Garaje para 20 vehículos",
+      "Helipuerto privado",
+      "Concierge IA personal",
+      "Acceso a Golpe Kortz Center",
+      "Vistas al Pacífico"
+    ],
+    "priceFormatted": "$11,500,000",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/98/Mansions-GTAOe-TheTongvaEstate.png/revision/latest"
+  },
+  {
+    "id": "mansion-vinewood",
+    "name": "The Vinewood Residence",
+    "price": 12200000,
+    "category": "mansion",
+    "categoryLabel": "Mansión de Lujo",
+    "gameMode": "online",
+    "badge": {
+      "symbol": "🏰",
+      "color": "#d4af37"
+    },
+    "zone": "Vinewood Hills",
+    "position": {
+      "x": 720,
+      "y": 1190,
+      "z": 325
+    },
+    "description": "Mansión moderna en las colinas de Vinewood Hills situada justo bajo el legendario cartel de Vinewood, con helipuerto y vistas a todo Los Santos.",
+    "features": [
+      "Garaje para 20 vehículos",
+      "Helipuerto privado",
+      "Salón de belleza y gimnasio",
+      "Estudio de arte",
+      "Vistas sobre el skyline"
+    ],
+    "priceFormatted": "$12,200,000",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/32/Mansions-GTAOe-TheVinewoodResidence.png/revision/latest"
+  },
+  {
+    "id": "mansion-richman",
+    "name": "The Richman Villa",
+    "price": 12800000,
+    "category": "mansion",
+    "categoryLabel": "Mansión de Lujo",
+    "gameMode": "online",
+    "badge": {
+      "symbol": "🏰",
+      "color": "#d4af37"
+    },
+    "zone": "Richman",
+    "position": {
+      "x": -1600,
+      "y": 440,
+      "z": 125
+    },
+    "description": "Villa de estilo neoclásico en la exclusiva urbanización de Richman, colindante con el Kortz Center y el club de golf, con máxima proximidad al centro urbano.",
+    "features": [
+      "Garaje para 20 vehículos",
+      "Helipuerto privado",
+      "Estudio de arte Kortz",
+      "Piscina y spa",
+      "Ubicación premium céntrica"
+    ],
+    "priceFormatted": "$12,800,000",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bc/Mansions-GTAOe-RichmanVilla.png/revision/latest"
+  },
+  {
+    "id": "store-12779",
+    "name": "Rob's Liquor #1",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -2989.6,
+      "y": 416.9,
+      "z": 20
+    },
+    "description": "- **Average Take:** $100 - **Cash Registers:** 1  Low payout, difficult clerk and a speedy response from the police. Escape vehicle necessary.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12780",
+    "name": "24/7 Supermarket #2",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -3072,
+      "y": 522.9,
+      "z": 20
+    },
+    "description": "- **Average Take:** $700 - **Cash Registers:** 2  Police arrive quickly - find a place to hide on the beach.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12781",
+    "name": "24/7 Supermarket #3",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -3286.2,
+      "y": 978.8,
+      "z": 20
+    },
+    "description": "- **Average Take:** $1100 - **Cash Registers:** 2  Police arrive quickly and you have no time for the clerk's attitude. Grab the money and run for the beach.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12782",
+    "name": "Limited LTD Gasoline #4",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -1818.9,
+      "y": 788.1,
+      "z": 20
+    },
+    "description": "- **Average Take:** $1200 - **Cash Registers:** 2  Run for the hills!",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12783",
+    "name": "Convenience Store #5",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 558.9,
+      "y": 2649.9,
+      "z": 20
+    },
+    "description": "Tienda de comestibles abierta 24/7. Puede ser atracada apuntando al cajero.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12784",
+    "name": "Convenience Store #6",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1194.7,
+      "y": 2695,
+      "z": 20
+    },
+    "description": "Tienda de comestibles abierta 24/7. Puede ser atracada apuntando al cajero.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12785",
+    "name": "Convenience Store #7",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1420.3,
+      "y": 3590.9,
+      "z": 20
+    },
+    "description": "Tienda de comestibles abierta 24/7. Puede ser atracada apuntando al cajero.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12786",
+    "name": "24/7 Supermarket #8",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1995.3,
+      "y": 3729.7,
+      "z": 20
+    },
+    "description": "- Average Take: $200 - Cash Registers: 2",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12787",
+    "name": "24/7 Supermarket #9",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 2706.6,
+      "y": 3251.3,
+      "z": 20
+    },
+    "description": "- **Average Take:** $600 - **Cash Registers:** 2  The desert is your friend when the police arrive.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12788",
+    "name": "Limited LTD Gasoline #10",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1735.3,
+      "y": 4903.2,
+      "z": 20
+    },
+    "description": "- Average Take: $500 - Cash Registers: 2  Don't shoot the second register before the clerk has finished bagging the first. The creek behind the store leads to a bridge.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12789",
+    "name": "24/7 Supermarket #11",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1731.9,
+      "y": 6398.2,
+      "z": 20
+    },
+    "description": "- **Average Take:** $950 - **Cash Registers:** 2  Run into the wilderness to escape the police.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12790",
+    "name": "24/7 Supermarket #12",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 2620.7,
+      "y": 351.4,
+      "z": 20
+    },
+    "description": "- **Average Take:** $1050 - **Cash Registers:** 2  Police respond very quickly - an escape vehicle/aircraft is necessary.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12791",
+    "name": "Rob's Liquor #13",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1154.6,
+      "y": -1013.9,
+      "z": 20
+    },
+    "description": "- Average Take: $250 - $700 - Cash Registers: 1  River is useful for getaway if no vehicle is available.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12792",
+    "name": "Limited LTD Gasoline #14",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 1178.6,
+      "y": -310.9,
+      "z": 20
+    },
+    "description": "- Average Take: $800 - $1,200 - Cash Registers: 2  If escaping on foot, the bridge over the canal is useful.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12793",
+    "name": "24/7 Supermarket #15",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 364.2,
+      "y": 325.5,
+      "z": 20
+    },
+    "description": "- **Expected Take:** $600 - $800 - **Cash Registers:** 2  Police respond slowly and you have time to climb the wall around the back.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12794",
+    "name": "24/7 Supermarket #16",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": 44.7,
+      "y": -1345.6,
+      "z": 20
+    },
+    "description": "- **Average Take:** $400\n- **Cash Registers:** 2\n\nLow payout but easy getaway.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12795",
+    "name": "Limited LTD Gasoline #17",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -43.5,
+      "y": -1757.5,
+      "z": 20
+    },
+    "description": "- Average Take: $1,000 - Cash Registers: 2  If escaping on foot, jump a fence and hide behind a residential house.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12796",
+    "name": "Rob's Liquor #18",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -1203.8,
+      "y": -905.6,
+      "z": 20
+    },
+    "description": "- Average Take: $725 - Cash Registers: 1  Alley system is useful for hiding out when the police arrive. Otherwise, an escape vehicle is necessary.  **Note:** Cashier is usually armed",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12797",
+    "name": "Rob's Liquor #19",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -1495.9,
+      "y": -394.4,
+      "z": 20
+    },
+    "description": "- Average Take: $515 - $600 - Cash Registers: 1  Police arrive quickly - escape vehicle necessary.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "store-12922",
+    "name": "Limited LTD Gasoline #20",
+    "price": 0,
+    "category": "convenience_store",
+    "categoryLabel": "Tienda 24/7",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🏪",
+      "color": "#2ecc71"
+    },
+    "zone": "Los Santos / Blaine County",
+    "position": {
+      "x": -714.3,
+      "y": -913.5,
+      "z": 20
+    },
+    "description": "- Average Take: $550 - $800 - Cash Registers: 2  Police arrive on the scene quickly - escape vehicle necessary.",
+    "features": [
+      "Cajas registradoras",
+      "Comida y aperitivos",
+      "Atracable con arma",
+      "Retirada rápida de dinero"
+    ],
+    "priceFormatted": "Atracable / Tienda",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/247-GTAVee-Strawberry.png/revision/latest"
+  },
+  {
+    "id": "carwash-little-seoul",
+    "name": "Hands On Car Wash",
+    "price": 15,
+    "category": "car_wash",
+    "categoryLabel": "Túnel de Lavado",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🫧",
+      "color": "#3498db"
+    },
+    "zone": "Little Seoul",
+    "position": {
+      "x": -700,
+      "y": -930,
+      "z": 19
+    },
+    "description": "Autolavado automatizado en Little Seoul. Limpia el barro, suciedad y sangre de tu vehículo en segundos.",
+    "features": [
+      "Lavado exprés de carrocería",
+      "Limpieza profunda de suciedad",
+      "Apto para vehículos particulares"
+    ],
+    "priceFormatted": "$15 / lavado"
+  },
+  {
+    "id": "carwash-strawberry",
+    "name": "Autolavado Strawberry",
+    "price": 15,
+    "category": "car_wash",
+    "categoryLabel": "Túnel de Lavado",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🫧",
+      "color": "#3498db"
+    },
+    "zone": "Strawberry (Innocence Blvd)",
+    "position": {
+      "x": 30,
+      "y": -1390,
+      "z": 32
+    },
+    "description": "Túnel de lavado en Innocence Boulevard, Strawberry. Deja cualquier coche o todoterreno reluciente.",
+    "features": [
+      "Túnel de rodillos",
+      "Servicio rápido",
+      "Cercano a Benny's"
+    ],
+    "priceFormatted": "$15 / lavado"
+  },
+  {
+    "id": "service-vanilla-unicorn",
+    "name": "Vanilla Unicorn Strip Club",
+    "price": 0,
+    "category": "strip_club",
+    "categoryLabel": "Club Striptease",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "💃",
+      "color": "#e84393"
+    },
+    "zone": "Strawberry (Elgin Avenue)",
+    "position": {
+      "x": 115,
+      "y": -1290,
+      "z": 29
+    },
+    "description": "Famoso club de striptease en Elgin Avenue, Strawberry. En Modo Historia puede pasar a ser propiedad y base de operaciones de Trevor Philips.",
+    "features": [
+      "Bebidas en barra",
+      "Bailes privados VIP",
+      "Base de Trevor (Historia)",
+      "Disponible desde nivel 6 (Online)"
+    ],
+    "priceFormatted": "Entrada libre"
+  },
+  {
+    "id": "job-pizza-delperro",
+    "name": "Pizza This... (Del Perro)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Repartidor de Pizza",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🍕",
+      "color": "#e67e22"
+    },
+    "zone": "Del Perro Plaza",
+    "position": {
+      "x": -1280,
+      "y": -760,
+      "z": 18
+    },
+    "description": "Puesto de reparto de Pizza This... en Del Perro. Monta en la Pegassi Pizza Boy y realiza hasta 5 entregas consecutivas con propinas por puntualidad.",
+    "features": [
+      "Vehículo: Pegassi Pizza Boy",
+      "Bonificación de propinas calientes",
+      "Desbloqueo de uniforme de repartidor"
+    ],
+    "priceFormatted": "Trabajo / Roleplay",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/95/PizzaBoy-GTAOe-FrontQuarter.png/revision/latest"
+  },
+  {
+    "id": "job-pizza-vinewood",
+    "name": "Pizza This... (Vinewood)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Repartidor de Pizza",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🍕",
+      "color": "#e67e22"
+    },
+    "zone": "Downtown Vinewood",
+    "position": {
+      "x": 380,
+      "y": 280,
+      "z": 103
+    },
+    "description": "Sucursal de Pizza This... en el corazón de Downtown Vinewood. Reparte pizzas frescas por toda la zona residencial.",
+    "features": [
+      "Vehículo: Pegassi Pizza Boy",
+      "Rutas por Vinewood y Rockford",
+      "Descuento en compra de moto"
+    ],
+    "priceFormatted": "Trabajo / Roleplay",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/95/PizzaBoy-GTAOe-FrontQuarter.png/revision/latest"
+  },
+  {
+    "id": "job-pizza-missionrow",
+    "name": "Pizza This... (Mission Row)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Repartidor de Pizza",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🍕",
+      "color": "#e67e22"
+    },
+    "zone": "Mission Row",
+    "position": {
+      "x": 290,
+      "y": -1080,
+      "z": 29
+    },
+    "description": "Sucursal céntrica de Pizza This... en Mission Row. Envíos exprés a los distritos financieros e industriales.",
+    "features": [
+      "Vehículo: Pegassi Pizza Boy",
+      "Entregas en Los Santos central",
+      "Recompensas semanales RP"
+    ],
+    "priceFormatted": "Trabajo / Roleplay",
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/95/PizzaBoy-GTAOe-FrontQuarter.png/revision/latest"
+  },
+  {
+    "id": "job-firefighter",
+    "name": "Estación de Bomberos (El Burro)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Servicio de Bomberos",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🚒",
+      "color": "#e74c3c"
+    },
+    "zone": "El Burro Heights",
+    "position": {
+      "x": 1200,
+      "y": -1465,
+      "z": 35
+    },
+    "description": "Parque de bomberos de Los Santos Fire Dept. en El Burro Heights. Inicia turnos de respuesta inmediata para sofocar incendios estructurales y emergencias.",
+    "features": [
+      "Vehículo: Camión de bomberos LSFD",
+      "Misiones de extinción y rescate",
+      "Traje exclusivo \"Unwavering\""
+    ],
+    "priceFormatted": "Trabajo / Roleplay"
+  },
+  {
+    "id": "job-forklift",
+    "name": "Almacén Alpha Mail (Carretillero)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Operador de Carretilla",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🚜",
+      "color": "#f39c12"
+    },
+    "zone": "Aeropuerto LSIA",
+    "position": {
+      "x": -1015,
+      "y": -2385,
+      "z": 14
+    },
+    "description": "Almacén de paquetería Alpha Mail junto al aeropuerto. Maneja la carretilla elevadora (Forklift) y carga palés de mercancía en las cintas transportadoras.",
+    "features": [
+      "Vehículo: Carretilla elevadora",
+      "Carga de palés de paquetería",
+      "Atuendo \"Alpha Mail Warehouse\""
+    ],
+    "priceFormatted": "Trabajo / Roleplay"
+  },
+  {
+    "id": "job-paperboy",
+    "name": "Los Santos Meteor (Periódicos)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Repartidor de Periódicos",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "📰",
+      "color": "#1abc9c"
+    },
+    "zone": "Strawberry (Power Street)",
+    "position": {
+      "x": 235,
+      "y": -1390,
+      "z": 30
+    },
+    "description": "Sede del diario Los Santos Meteor en Power Street. Carga los paquetes de periódicos en tu bicicleta o moto y lánzalos a los portales de los suscriptores.",
+    "features": [
+      "Ruta clásica de periódicos",
+      "Lanzamiento a buzones y porches",
+      "Roleplay nostálgico"
+    ],
+    "priceFormatted": "Trabajo / Roleplay"
+  },
+  {
+    "id": "job-taxi",
+    "name": "Downtown Cab Co. (Taxista)",
+    "price": 0,
+    "category": "roleplay_job",
+    "categoryLabel": "Servicio de Taxi",
+    "gameMode": "both",
+    "badge": {
+      "symbol": "🚕",
+      "color": "#f1c40f"
+    },
+    "zone": "East Vinewood",
+    "position": {
+      "x": 895,
+      "y": -179,
+      "z": 74
+    },
+    "description": "Compañía central de taxis de Los Santos. Recoge pasajeros por toda la ciudad y llévalos a su destino con rapidez para conseguir propinas extra.",
+    "features": [
+      "Vehículo: Taxi de servicio",
+      "Recogida de clientes NPC",
+      "Propinas por conducción limpia"
+    ],
+    "priceFormatted": "Trabajo / Roleplay"
+  },
+  {
+    "id": "mc-coke-alamo",
+    "name": "Laboratorio de Cocaína (Alamo Sea)",
+    "category": "coke_lockup",
+    "categoryLabel": "Negocio de Cocaína",
+    "gameMode": "online",
+    "price": 975000,
+    "priceFormatted": "$975,000",
+    "zone": "Alamo Sea",
+    "description": "El negocio de moteros más rentable de todos. Ubicado en la orilla norte de Alamo Sea.",
+    "features": [
+      "Mayor beneficio neto por hora de juego",
+      "Abastece a los técnicos del club nocturno",
+      "Misiones de entrega a Los Santos con bonus del 50%"
+    ],
+    "income": "Hasta $525,000 por venta completa",
+    "position": {
+      "x": 1445,
+      "y": 3647,
+      "z": 34
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#ffffff",
+      "symbol": "⚡"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c9/OpenRoad-GTAO-Cocaine-AlamoSea.png/revision/latest"
+  },
+  {
+    "id": "mc-coke-paleto",
+    "name": "Laboratorio de Cocaína (Paleto Bay)",
+    "category": "coke_lockup",
+    "categoryLabel": "Negocio de Cocaína",
+    "gameMode": "online",
+    "price": 1098000,
+    "priceFormatted": "$1,098,000",
+    "zone": "Paleto Bay",
+    "description": "Instalación costera discreta en el extremo norte de Paleto Bay con acceso directo a la Great Ocean Highway.",
+    "features": [
+      "Ubicación aislada de ataques de jugadores",
+      "Acceso marítimo y carretero",
+      "Gran capacidad de almacenamiento"
+    ],
+    "income": "Hasta $525,000 por venta completa",
+    "position": {
+      "x": -140,
+      "y": 6440,
+      "z": 31
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#ffffff",
+      "symbol": "⚡"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/41/OpenRoad-GTAO-Cocaine-PaletoBay.png/revision/latest"
+  },
+  {
+    "id": "mc-coke-elysian",
+    "name": "Laboratorio de Cocaína (Elysian Island)",
+    "category": "coke_lockup",
+    "categoryLabel": "Negocio de Cocaína",
+    "gameMode": "online",
+    "price": 1462500,
+    "priceFormatted": "$1,462,500",
+    "zone": "Elysian Island",
+    "description": "Nave industrial en el puerto de Los Santos, ideal para ventas rápidas dentro de la metrópoli.",
+    "features": [
+      "Entregas ultra rápidas en el sur de Los Santos",
+      "Acceso inmediato a autopistas urbanas",
+      "Cercanía a almacenes de exportación"
+    ],
+    "income": "Hasta $525,000 por venta completa",
+    "position": {
+      "x": 80,
+      "y": -2680,
+      "z": 6
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#ffffff",
+      "symbol": "⚡"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/88/OpenRoad-GTAO-Cocaine-ElysianIsland.png/revision/latest"
+  },
+  {
+    "id": "mc-coke-morningwood",
+    "name": "Laboratorio de Cocaína (Morningwood)",
+    "category": "coke_lockup",
+    "categoryLabel": "Negocio de Cocaína",
+    "gameMode": "online",
+    "price": 1852500,
+    "priceFormatted": "$1,852,500",
+    "zone": "Morningwood",
+    "description": "El laboratorio más exclusivo y cotizado de la ciudad, ubicado bajo la fachada de un callejón de Morningwood.",
+    "features": [
+      "Ubicación privilegiada en zona oeste de la ciudad",
+      "Menor tiempo de desplazamiento a puntos de entrega de Los Santos",
+      "Prestigio supremo"
+    ],
+    "income": "Hasta $525,000 por venta completa",
+    "position": {
+      "x": -1460,
+      "y": -180,
+      "z": 49
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#ffffff",
+      "symbol": "⚡"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/22/OpenRoad-GTAO-Cocaine-Morningwood.png/revision/latest"
+  },
+  {
+    "id": "mc-weed-sanchianski",
+    "name": "Cultivo de Marihuana (San Chianski)",
+    "category": "weed_farm",
+    "categoryLabel": "Negocio de Marihuana",
+    "gameMode": "online",
+    "price": 715000,
+    "priceFormatted": "$715,000",
+    "zone": "San Chianski Mountain Range",
+    "description": "Invernadero hidropónico de alta tecnología oculto en la costa este de San Chianski.",
+    "features": [
+      "El cultivo de marihuana más económico de comprar",
+      "Producción ágil de resina y cogollos",
+      "Alimentación automática a club nocturno"
+    ],
+    "income": "Hasta $252,000 por venta completa",
+    "position": {
+      "x": 2840,
+      "y": 4435,
+      "z": 48
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#27ae60",
+      "symbol": "🌿"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5e/OpenRoad-GTAO-WeedFarm-SanChianski.png/revision/latest"
+  },
+  {
+    "id": "mc-weed-chiliad",
+    "name": "Cultivo de Marihuana (Mount Chiliad)",
+    "category": "weed_farm",
+    "categoryLabel": "Negocio de Marihuana",
+    "gameMode": "online",
+    "price": 805200,
+    "priceFormatted": "$805,200",
+    "zone": "Mount Chiliad",
+    "description": "Plantación clandestina de interior situada al pie del monte Chiliad, cerca de la granja Braddock.",
+    "features": [
+      "Entorno montañoso seguro",
+      "Excelente precio de entrada",
+      "Fácil acceso desde la autopista norte"
+    ],
+    "income": "Hasta $252,000 por venta completa",
+    "position": {
+      "x": 420,
+      "y": 5620,
+      "z": 785
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#27ae60",
+      "symbol": "🌿"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/db/OpenRoad-GTAO-WeedFarm-MtChiliad.png/revision/latest"
+  },
+  {
+    "id": "mc-weed-elysian",
+    "name": "Cultivo de Marihuana (Elysian Island)",
+    "category": "weed_farm",
+    "categoryLabel": "Negocio de Marihuana",
+    "gameMode": "online",
+    "price": 1072500,
+    "priceFormatted": "$1,072,500",
+    "zone": "Elysian Island",
+    "description": "Nave de cultivo interior en el puerto comercial de Los Santos con conexión marítima y por carretera.",
+    "features": [
+      "Salida directa al sur y centro de Los Santos",
+      "Zona portuaria sin semáforos",
+      "Integración logística portuaria"
+    ],
+    "income": "Hasta $252,000 por venta completa",
+    "position": {
+      "x": 230,
+      "y": -2670,
+      "z": 6
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#27ae60",
+      "symbol": "🌿"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/63/OpenRoad-GTAO-WeedFarm-ElysianIsland.png/revision/latest"
+  },
+  {
+    "id": "mc-weed-vinewood",
+    "name": "Cultivo de Marihuana (Downtown Vinewood)",
+    "category": "weed_farm",
+    "categoryLabel": "Negocio de Marihuana",
+    "gameMode": "online",
+    "price": 1358500,
+    "priceFormatted": "$1,358,500",
+    "zone": "Downtown Vinewood",
+    "description": "Instalación de cultivo prémium en pleno corazón de Vinewood con ventas urbanas ultra veloces.",
+    "features": [
+      "Ubicación más céntrica de Los Santos",
+      "Menores tiempos de reparto de producto",
+      "Máxima comodidad"
+    ],
+    "income": "Hasta $252,000 por venta completa",
+    "position": {
+      "x": 300,
+      "y": 180,
+      "z": 103
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#27ae60",
+      "symbol": "🌿"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4d/OpenRoad-GTAO-WeedFarm-DowntownVinewood.png/revision/latest"
+  },
+  {
+    "id": "mc-meth-senora",
+    "name": "Laboratorio de Metanfetamina (Grand Senora)",
+    "category": "meth_lab",
+    "categoryLabel": "Laboratorio de Metanfetamina",
+    "gameMode": "online",
+    "price": 910000,
+    "priceFormatted": "$910,000",
+    "zone": "Grand Senora Desert",
+    "description": "Laboratorio químico de síntesis de máxima pureza situado en el desierto de Grand Senora.",
+    "features": [
+      "Segundo negocio de moteros con mayor beneficio neto",
+      "Ubicación clásica y central",
+      "Gran margen comercial"
+    ],
+    "income": "Hasta $425,000 por venta completa",
+    "position": {
+      "x": 1005,
+      "y": 2680,
+      "z": 39
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#3498db",
+      "symbol": "🧪"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f7/OpenRoad-GTAO-MethLab-GrandSenoraDesert.png/revision/latest"
+  },
+  {
+    "id": "mc-meth-paleto",
+    "name": "Laboratorio de Metanfetamina (Paleto Bay)",
+    "category": "meth_lab",
+    "categoryLabel": "Laboratorio de Metanfetamina",
+    "gameMode": "online",
+    "price": 1024800,
+    "priceFormatted": "$1,024,800",
+    "zone": "Paleto Bay",
+    "description": "Laboratorio clandestino en Paleto Bay con suministro continuo y aislamiento de la metrópoli.",
+    "features": [
+      "Aislamiento estratégico",
+      "Costes de adquisición accesibles"
+    ],
+    "income": "Hasta $425,000 por venta completa",
+    "position": {
+      "x": -370,
+      "y": 6050,
+      "z": 31
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#3498db",
+      "symbol": "🧪"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/df/OpenRoad-GTAO-MethLab-PaletoBay.png/revision/latest"
+  },
+  {
+    "id": "mc-meth-terminal",
+    "name": "Laboratorio de Metanfetamina (Terminal)",
+    "category": "meth_lab",
+    "categoryLabel": "Laboratorio de Metanfetamina",
+    "gameMode": "online",
+    "price": 1365000,
+    "priceFormatted": "$1,365,000",
+    "zone": "Terminal / Puerto",
+    "description": "Instalación de procesado en los muelles de la Terminal en el puerto sur de Los Santos.",
+    "features": [
+      "Rutas rápidas de reparto urbano",
+      "Fácil acceso por vías rápidas"
+    ],
+    "income": "Hasta $425,000 por venta completa",
+    "position": {
+      "x": 890,
+      "y": -2970,
+      "z": 6
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#3498db",
+      "symbol": "🧪"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6f/OpenRoad-GTAO-MethLab-Terminal.png/revision/latest"
+  },
+  {
+    "id": "mc-meth-elburro",
+    "name": "Laboratorio de Metanfetamina (El Burro Heights)",
+    "category": "meth_lab",
+    "categoryLabel": "Laboratorio de Metanfetamina",
+    "gameMode": "online",
+    "price": 1729000,
+    "priceFormatted": "$1,729,000",
+    "zone": "El Burro Heights",
+    "description": "Laboratorio de alta gama en los cerros orientales de El Burro Heights con panorámica sobre la ciudad.",
+    "features": [
+      "Ubicación más cara y prestigiosa",
+      "Excelente proximidad a Los Santos este y autopistas"
+    ],
+    "income": "Hasta $425,000 por venta completa",
+    "position": {
+      "x": 1420,
+      "y": -1600,
+      "z": 65
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#3498db",
+      "symbol": "🧪"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a2/OpenRoad-GTAO-MethLab-ElBurroHeights.png/revision/latest"
+  },
+  {
+    "id": "mc-cash-senora",
+    "name": "Fábrica de Dinero Falso (Grand Senora)",
+    "category": "cash_factory",
+    "categoryLabel": "Fábrica de Dinero Falso",
+    "gameMode": "online",
+    "price": 845000,
+    "priceFormatted": "$845,000",
+    "zone": "Grand Senora Desert",
+    "description": "Imprenta clandestina de billetes de alta calidad en el desierto de Grand Senora.",
+    "features": [
+      "Coste de abastecimiento bajo",
+      "Producción ágil y equilibrada",
+      "Ubicación céntrica para ventas"
+    ],
+    "income": "Hasta $350,000 por venta completa",
+    "position": {
+      "x": 635,
+      "y": 2785,
+      "z": 42
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#f1c40f",
+      "symbol": "💵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f0/OpenRoad-GTAO-Cash-GrandSenoraDesert.png/revision/latest"
+  },
+  {
+    "id": "mc-cash-paleto",
+    "name": "Fábrica de Dinero Falso (Paleto Bay)",
+    "category": "cash_factory",
+    "categoryLabel": "Fábrica de Dinero Falso",
+    "gameMode": "online",
+    "price": 950000,
+    "priceFormatted": "$950,000",
+    "zone": "Paleto Bay",
+    "description": "Taller de impresión de billetes falsos en el norte costero de Paleto Bay.",
+    "features": [
+      "Bajo tráfico de jugadores enemigos",
+      "Entregas por carretera costera"
+    ],
+    "income": "Hasta $350,000 por venta completa",
+    "position": {
+      "x": -280,
+      "y": 6220,
+      "z": 31
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#f1c40f",
+      "symbol": "💵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bd/OpenRoad-GTAO-Cash-PaletoBay.png/revision/latest"
+  },
+  {
+    "id": "mc-cash-cypress",
+    "name": "Fábrica de Dinero Falso (Cypress Flats)",
+    "category": "cash_factory",
+    "categoryLabel": "Fábrica de Dinero Falso",
+    "gameMode": "online",
+    "price": 1267500,
+    "priceFormatted": "$1,267,500",
+    "zone": "Cypress Flats",
+    "description": "Nave de impresión en el distrito industrial de Cypress Flats, a pocos metros del LS Car Meet.",
+    "features": [
+      "Inmersión urbana absoluta",
+      "Ventas relámpago en el este de Los Santos"
+    ],
+    "income": "Hasta $350,000 por venta completa",
+    "position": {
+      "x": 890,
+      "y": -1300,
+      "z": 27
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#f1c40f",
+      "symbol": "💵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/25/OpenRoad-GTAO-Cash-CypressFlats.png/revision/latest"
+  },
+  {
+    "id": "mc-cash-vespucci",
+    "name": "Fábrica de Dinero Falso (Vespucci Canals)",
+    "category": "cash_factory",
+    "categoryLabel": "Fábrica de Dinero Falso",
+    "gameMode": "online",
+    "price": 1605500,
+    "priceFormatted": "$1,605,500",
+    "zone": "Vespucci Canals",
+    "description": "Imprenta de dinero falso de alta gama junto a los pintorescos canales de Vespucci.",
+    "features": [
+      "Ubicación céntrica y cotizada",
+      "Proximidad a las playas y autopistas occidentales"
+    ],
+    "income": "Hasta $350,000 por venta completa",
+    "position": {
+      "x": -1166.8,
+      "y": -1386.2,
+      "z": 5
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#f1c40f",
+      "symbol": "💵"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c3/OpenRoad-GTAO-Cash-VespucciCanals.png/revision/latest"
+  },
+  {
+    "id": "mc-doc-grapeseed",
+    "name": "Falsificación de Documentos (Grapeseed)",
+    "category": "doc_forgery",
+    "categoryLabel": "Falsificación de Documentos",
+    "gameMode": "online",
+    "price": 650000,
+    "priceFormatted": "$650,000",
+    "zone": "Grapeseed",
+    "description": "Taller de pasaportes, visados y carnés de conducir falsos en la campiña de Grapeseed.",
+    "features": [
+      "El negocio de moteros más barato de adquirir",
+      "Producción de bajo coste"
+    ],
+    "income": "Hasta $175,000 por venta completa",
+    "position": {
+      "x": 1690,
+      "y": 4920,
+      "z": 42
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#95a5a6",
+      "symbol": "📋"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/be/OpenRoad-GTAO-DocForgery-Grapeseed.png/revision/latest"
+  },
+  {
+    "id": "mc-doc-paleto",
+    "name": "Falsificación de Documentos (Paleto Bay)",
+    "category": "doc_forgery",
+    "categoryLabel": "Falsificación de Documentos",
+    "gameMode": "online",
+    "price": 732000,
+    "priceFormatted": "$732,000",
+    "zone": "Paleto Bay",
+    "description": "Centro de duplicación de documentos en Paleto Bay.",
+    "features": [
+      "Aislamiento y discreción rural"
+    ],
+    "income": "Hasta $175,000 por venta completa",
+    "position": {
+      "x": -440,
+      "y": 6150,
+      "z": 31
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#95a5a6",
+      "symbol": "📋"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/87/OpenRoad-GTAO-DocForgery-PaletoBay.png/revision/latest"
+  },
+  {
+    "id": "mc-doc-elysian",
+    "name": "Falsificación de Documentos (Elysian Island)",
+    "category": "doc_forgery",
+    "categoryLabel": "Falsificación de Documentos",
+    "gameMode": "online",
+    "price": 975000,
+    "priceFormatted": "$975,000",
+    "zone": "Elysian Island",
+    "description": "Taller portuario de identidades y títulos falsos en Elysian Island.",
+    "features": [
+      "Acceso marítimo y portuario directo"
+    ],
+    "income": "Hasta $175,000 por venta completa",
+    "position": {
+      "x": 170,
+      "y": -2780,
+      "z": 6
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#95a5a6",
+      "symbol": "📋"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9a/OpenRoad-GTAO-DocForgery-ElysianIsland.png/revision/latest"
+  },
+  {
+    "id": "mc-doc-textile",
+    "name": "Falsificación de Documentos (Textile City)",
+    "category": "doc_forgery",
+    "categoryLabel": "Falsificación de Documentos",
+    "gameMode": "online",
+    "price": 1235000,
+    "priceFormatted": "$1,235,000",
+    "zone": "Textile City",
+    "description": "Taller de falsificación de lujo en el distrito textil de Los Santos.",
+    "features": [
+      "En pleno centro de Los Santos",
+      "Ventas ultra cómodas"
+    ],
+    "income": "Hasta $175,000 por venta completa",
+    "position": {
+      "x": 425,
+      "y": -650,
+      "z": 28
+    },
+    "badge": {
+      "icon": "store",
+      "color": "#95a5a6",
+      "symbol": "📋"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6f/OpenRoad-GTAO-DocForgery-TextileCity.png/revision/latest"
+  },
+  {
+    "id": "biz-agency-hawick",
+    "name": "Agencia F. Clinton and Partner (Hawick)",
+    "category": "agency",
+    "categoryLabel": "Agencias (The Contract)",
+    "gameMode": "online",
+    "price": 2830000,
+    "priceFormatted": "$2,830,000",
+    "zone": "Hawick / Vinewood",
+    "description": "Edificio comercial de primer orden en el distrito financiero de Hawick. Base para los contratos de Dr. Dre.",
+    "features": [
+      "Contratos de seguridad y golpes VIP con Franklin y Chop",
+      "Taller de vehículos de la agencia con blindaje Imani Tech",
+      "Armería de la agencia con fusiles pesados y PEM"
+    ],
+    "income": "Hasta $1,000,000 por contrato VIP de Dr. Dre",
+    "position": {
+      "x": 380,
+      "y": 340,
+      "z": 103
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#e67e22",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4f/Agencies-GTAO-Hawick.png/revision/latest"
+  },
+  {
+    "id": "biz-agency-rockford",
+    "name": "Agencia F. Clinton and Partner (Rockford Hills)",
+    "category": "agency",
+    "categoryLabel": "Agencias (The Contract)",
+    "gameMode": "online",
+    "price": 2415000,
+    "priceFormatted": "$2,415,000",
+    "zone": "Rockford Hills",
+    "description": "Agencia situada en el opulento bulevar comercial de Rockford Hills, rodeada de boutiques de alta costura.",
+    "features": [
+      "Acceso directo a helipuerto en la azotea",
+      "Garaje subterráneo de varias plantas",
+      "Caja fuerte con ingresos pasivos"
+    ],
+    "income": "Hasta $20,000 pasivos diarios",
+    "position": {
+      "x": -680,
+      "y": -70,
+      "z": 38
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#e67e22",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/77/Agencies-GTAO-RockfordHills.png/revision/latest"
+  },
+  {
+    "id": "biz-agency-vespucci",
+    "name": "Agencia F. Clinton and Partner (Vespucci Canals)",
+    "category": "agency",
+    "categoryLabel": "Agencias (The Contract)",
+    "gameMode": "online",
+    "price": 2145000,
+    "priceFormatted": "$2,145,000",
+    "zone": "Vespucci Canals",
+    "description": "Sede con vistas a los canales y a la costa oeste de Los Santos.",
+    "features": [
+      "Ubicación costera relajada",
+      "Rápida incorporación a Del Perro Freeway"
+    ],
+    "income": "Contratos de recuperación y asesinatos por encargo",
+    "position": {
+      "x": -1100,
+      "y": -1050,
+      "z": 2
+    },
+    "badge": {
+      "icon": "building",
+      "color": "#e67e22",
+      "symbol": "🏢"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4b/Agencies-GTAO-VespucciCanals.png/revision/latest"
+  },
+  {
+    "id": "biz-salvage-murrieta",
+    "name": "Desguace Red's (Murrieta Heights)",
+    "category": "salvage_yard",
+    "categoryLabel": "Desguaces (The Chop Shop)",
+    "gameMode": "online",
+    "price": 2420000,
+    "priceFormatted": "$2,420,000",
+    "zone": "Murrieta Heights",
+    "description": "Desguace y taller de despiece industrial cerca de El Burro Heights con grúa de remolque para servicio de asistencia.",
+    "features": [
+      "Robos de vehículos de Yusuf Amir con botines de cientos de miles",
+      "Camión grúa para remolcar y desguazar vehículos",
+      "Ingresos pasivos en caja fuerte"
+    ],
+    "income": "Hasta $400,000 por vehículo robado",
+    "position": {
+      "x": 1220,
+      "y": -1300,
+      "z": 35
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#d35400",
+      "symbol": "🏗️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c5/SalvageYards-GTAO-MurrietaHeights.png/revision/latest"
+  },
+  {
+    "id": "biz-salvage-lapuerta",
+    "name": "Desguace Red's (La Puerta)",
+    "category": "salvage_yard",
+    "categoryLabel": "Desguaces (The Chop Shop)",
+    "gameMode": "online",
+    "price": 2690000,
+    "priceFormatted": "$2,690,000",
+    "zone": "La Puerta",
+    "description": "Desguace situado en La Puerta, junto al Maze Bank Arena y el acceso al puerto.",
+    "features": [
+      "Ubicación céntrica privilegiada cerca de autopistas",
+      "Desguace rápido de piezas con doble operario"
+    ],
+    "income": "Robos semanales de vehículos de alta gama",
+    "position": {
+      "x": -840,
+      "y": -1490,
+      "z": 1
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#d35400",
+      "symbol": "🏗️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/69/SalvageYards-GTAO-LaPuerta.png/revision/latest"
+  },
+  {
+    "id": "biz-salvage-sandyshores",
+    "name": "Desguace Red's (Sandy Shores)",
+    "category": "salvage_yard",
+    "categoryLabel": "Desguaces (The Chop Shop)",
+    "gameMode": "online",
+    "price": 2030000,
+    "priceFormatted": "$2,030,000",
+    "zone": "Sandy Shores",
+    "description": "Desguace en el desierto con amplio patio para despiece.",
+    "features": [
+      "Acceso despejado en el condado de Blaine",
+      "Grúa para servicios rurales"
+    ],
+    "income": "Despiece continuo",
+    "position": {
+      "x": 1910,
+      "y": 3820,
+      "z": 32
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#d35400",
+      "symbol": "🏗️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/48/SalvageYards-GTAO-SandyShores.png/revision/latest"
+  },
+  {
+    "id": "biz-salvage-paletobay",
+    "name": "Desguace Red's (Paleto Bay)",
+    "category": "salvage_yard",
+    "categoryLabel": "Desguaces (The Chop Shop)",
+    "gameMode": "online",
+    "price": 1620000,
+    "priceFormatted": "$1,620,000",
+    "zone": "Paleto Bay",
+    "description": "El desguace más económico del juego, en la bahía de Paleto.",
+    "features": [
+      "Inversión reducida",
+      "Tranquilidad total para misiones de grúa"
+    ],
+    "income": "Despiece continuo",
+    "position": {
+      "x": -280,
+      "y": 6050,
+      "z": 31
+    },
+    "badge": {
+      "icon": "wrench",
+      "color": "#d35400",
+      "symbol": "🏗️"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/23/SalvageYards-GTAO-PaletoBay.png/revision/latest"
+  },
+  {
+    "id": "svc-police-missionrow",
+    "name": "Comisaría de Mission Row",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "LSPD",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Mission Row",
+    "description": "Sede central de la policía de Los Santos. Cuenta con helipuerto superior y depósito de vehículos.",
+    "features": [
+      "Sede central de LSPD",
+      "Helipuerto en la azotea",
+      "Depósito municipal de vehículos incautados"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 428.2,
+      "y": -984.3,
+      "z": 30.7
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/MissionRowPoliceStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-police-vespucci",
+    "name": "Comisaría de Vespucci",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "LSPD",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Vespucci Canals",
+    "description": "Estación de policía costera que cubre Vespucci y Del Perro.",
+    "features": [
+      "Cobertura costera",
+      "Punto de reaparición cercano a la playa"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -1108.2,
+      "y": -842.1,
+      "z": 19.3
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/67/VespucciPoliceStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-police-vinewood",
+    "name": "Comisaría de Vinewood",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "LSPD",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Downtown Vinewood",
+    "description": "Estación de policía que supervisa el distrito de ocio y celebridades de Vinewood.",
+    "features": [
+      "Cobertura norte de la ciudad",
+      "Helipuerto operativo"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 638.1,
+      "y": 1.2,
+      "z": 70.0
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f6/VinewoodPoliceStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-police-davis",
+    "name": "Comisaría Sheriff de Davis",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "Los Santos County Sheriff",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Davis",
+    "description": "Estación del departamento del sheriff en la zona sur de Los Santos.",
+    "features": [
+      "Cobertura Davis y Strawberry",
+      "Patrullas locales del Sheriff"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 360.3,
+      "y": -1584.2,
+      "z": 29.3
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/77/DavisSheriffsStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-police-rockford",
+    "name": "Comisaría de Rockford Hills",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "LSPD",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Rockford Hills",
+    "description": "Subestación de policía que cubre los distritos residenciales de lujo.",
+    "features": [
+      "Distrito financiero y residencial",
+      "Respuesta táctica rápida"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -561.4,
+      "y": 131.2,
+      "z": 60.1
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/98/RockfordHillsPoliceStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-police-sandyshores",
+    "name": "Comisaría Sheriff de Sandy Shores",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "Blaine County Sheriff",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Sandy Shores",
+    "description": "Estación de policía rural para la zona del desierto de Grand Senora.",
+    "features": [
+      "Cobertura comarcal del desierto",
+      "Celdas y oficinas médicas adjuntas"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 1853.4,
+      "y": 3686.2,
+      "z": 34.3
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e0/SandyShoresSheriffStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-police-paletobay",
+    "name": "Comisaría Sheriff de Paleto Bay",
+    "category": "police_station",
+    "categoryLabel": "Comisarías de Policía",
+    "gameMode": "both",
+    "owner": "Blaine County Sheriff",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Paleto Bay",
+    "description": "Estación de sheriff en el extremo norte de San Andreas.",
+    "features": [
+      "Control de la costa norte",
+      "Punto de rescate de montaña"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -448.2,
+      "y": 6012.3,
+      "z": 31.7
+    },
+    "badge": {
+      "icon": "shield",
+      "color": "#2980b9",
+      "symbol": "POL"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/23/PaletoBaySheriffOffice-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-hosp-pillbox",
+    "name": "Pillbox Hill Medical Center",
+    "category": "hospital",
+    "categoryLabel": "Hospitales y Urgencias",
+    "gameMode": "both",
+    "owner": "Servicio Sanitario de Los Santos",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Pillbox Hill",
+    "description": "El hospital central más grande y concurrido de Los Santos.",
+    "features": [
+      "Helipuerto doble de emergencias",
+      "Punto principal de reaparición médica en la ciudad"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 356.4,
+      "y": -590.2,
+      "z": 28.8
+    },
+    "badge": {
+      "icon": "plus",
+      "color": "#e74c3c",
+      "symbol": "MED"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c5/PillboxHillMedicalCenter-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-hosp-centralls",
+    "name": "Central Los Santos Medical Center",
+    "category": "hospital",
+    "categoryLabel": "Hospitales y Urgencias",
+    "gameMode": "both",
+    "owner": "Servicio Sanitario de Los Santos",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Davis",
+    "description": "Centro hospitalario que atiende el sector sur y barrios periféricos.",
+    "features": [
+      "Ambulancias de guardia",
+      "Helipuerto médico"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 357.2,
+      "y": -1398.1,
+      "z": 32.5
+    },
+    "badge": {
+      "icon": "plus",
+      "color": "#e74c3c",
+      "symbol": "MED"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6f/CentralLosSantosMedicalCenter-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-hosp-zonah",
+    "name": "Mount Zonah Medical Center",
+    "category": "hospital",
+    "categoryLabel": "Hospitales y Urgencias",
+    "gameMode": "both",
+    "owner": "Servicio Sanitario de Los Santos",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Rockford Hills",
+    "description": "Hospital prestigioso ubicado en el distrito oeste de la ciudad.",
+    "features": [
+      "Instalaciones médicas avanzadas",
+      "Plataforma de helipuerto en la azotea"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -498.3,
+      "y": -335.2,
+      "z": 34.5
+    },
+    "badge": {
+      "icon": "plus",
+      "color": "#e74c3c",
+      "symbol": "MED"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b5/MountZonahMedicalCenter-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-hosp-sandyshores",
+    "name": "Sandy Shores Medical Clinic",
+    "category": "hospital",
+    "categoryLabel": "Hospitales y Urgencias",
+    "gameMode": "both",
+    "owner": "Blaine County Health",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Sandy Shores",
+    "description": "Clínica médica de urgencias en el corazón de Blaine County.",
+    "features": [
+      "Atención de primeros auxilios del desierto",
+      "Reaparición médica rural"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 1839.2,
+      "y": 3672.3,
+      "z": 34.3
+    },
+    "badge": {
+      "icon": "plus",
+      "color": "#e74c3c",
+      "symbol": "MED"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/30/SandyShoresMedicalCenter-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-hosp-paletobay",
+    "name": "The Bay Care Center",
+    "category": "hospital",
+    "categoryLabel": "Hospitales y Urgencias",
+    "gameMode": "both",
+    "owner": "Blaine County Health",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Paleto Bay",
+    "description": "Centro médico de urgencias al pie de Mount Chiliad.",
+    "features": [
+      "Centro médico norte",
+      "Atención a senderistas y residentes costeros"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -247.1,
+      "y": 6331.2,
+      "z": 32.4
+    },
+    "badge": {
+      "icon": "plus",
+      "color": "#e74c3c",
+      "symbol": "MED"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3b/TheBayCareCenter-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-fire-elburro",
+    "name": "Estación de Bomberos El Burro",
+    "category": "fire_station",
+    "categoryLabel": "Cuerpo de Bomberos (LSFD)",
+    "gameMode": "both",
+    "owner": "Los Santos Fire Department",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "El Burro Heights",
+    "description": "Estación Engine Co. 15 del departamento de bomberos.",
+    "features": [
+      "Camiones de bomberos Fire Truck",
+      "Respuesta a incidentes industriales"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 1194.2,
+      "y": -1464.1,
+      "z": 34.8
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#e67e22",
+      "symbol": "BOM"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/32/ElBurroHeightsFireStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-fire-davis",
+    "name": "Estación de Bomberos Davis",
+    "category": "fire_station",
+    "categoryLabel": "Cuerpo de Bomberos (LSFD)",
+    "gameMode": "both",
+    "owner": "Los Santos Fire Department",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Davis",
+    "description": "Estación Engine Co. 7 en Macdonald Street.",
+    "features": [
+      "Camiones cisterna listos",
+      "Respuesta rápida en el cuadrante sur"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 204.3,
+      "y": -1647.2,
+      "z": 29.8
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#e67e22",
+      "symbol": "BOM"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/50/DavisFireStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-fire-rockford",
+    "name": "Estación de Bomberos Rockford Hills",
+    "category": "fire_station",
+    "categoryLabel": "Cuerpo de Bomberos (LSFD)",
+    "gameMode": "both",
+    "owner": "Los Santos Fire Department",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Rockford Hills",
+    "description": "Estación Engine Co. 3 que cubre la zona oeste y colinas.",
+    "features": [
+      "Unidades de extinción rápida",
+      "Ubicación céntrica en bulevar principal"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -634.1,
+      "y": -121.3,
+      "z": 38.2
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#e67e22",
+      "symbol": "BOM"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c5/RockfordHillsFireStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-fire-paleto",
+    "name": "Estación de Bomberos Paleto Bay",
+    "category": "fire_station",
+    "categoryLabel": "Cuerpo de Bomberos (LSFD)",
+    "gameMode": "both",
+    "owner": "Blaine County Fire",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Paleto Bay",
+    "description": "Estación de bomberos que asiste a Paleto Bay y la cordillera Chiliad.",
+    "features": [
+      "Equipo de rescate en montaña",
+      "Camión forestal"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": -379.2,
+      "y": 6118.4,
+      "z": 31.8
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#e67e22",
+      "symbol": "BOM"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7b/PaletoBayFireStation-GTAV.png/revision/latest"
+  },
+  {
+    "id": "svc-fire-sandyshores",
+    "name": "Bomberos de Sandy Shores",
+    "category": "fire_station",
+    "categoryLabel": "Cuerpo de Bomberos (LSFD)",
+    "gameMode": "both",
+    "owner": "Blaine County Fire",
+    "price": 0,
+    "priceFormatted": "Servicio Público",
+    "zone": "Sandy Shores",
+    "description": "Cuerpo de bomberos voluntarios de Sandy Shores.",
+    "features": [
+      "Respuesta en entorno desértico",
+      "Cisterna de apoyo"
+    ],
+    "income": "Servicio de Emergencia",
+    "position": {
+      "x": 1693.3,
+      "y": 3584.2,
+      "z": 35.6
+    },
+    "badge": {
+      "icon": "fire",
+      "color": "#e67e22",
+      "symbol": "BOM"
+    },
+    "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ee/SandyShoresFireStation-GTAV.png/revision/latest"
+  }
+]
