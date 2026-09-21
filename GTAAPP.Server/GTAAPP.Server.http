@@ -1,0 +1,6 @@
+@GTAAPP.Server_HostAddress = http://localhost:5152
+
+GET {{GTAAPP.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

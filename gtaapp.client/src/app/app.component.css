@@ -1,0 +1,9 @@
+﻿:host {
+    display: block;
+    height: 100vh;
+}
+
+.app-shell {
+    position: relative;
+    height: 100vh;
+}

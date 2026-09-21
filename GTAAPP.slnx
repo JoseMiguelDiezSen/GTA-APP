@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="gtaapp.client/gtaapp.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="GTAAPP.Server/GTAAPP.Server.csproj" />
+</Solution>

@@ -1,0 +1,19 @@
+<div class="map-wrapper">
+  <div id="gta-map"></div>
+  <div class="map-controls">
+    <label class="map-type-label" for="mapType">Tipo de mapa</label>
+    <select
+      class="map-type-select"
+      id="mapType"
+      (change)="switchMapType($any($event.target).value)"
+    >
+      <option
+        *ngFor="let type of mapTypes"
+        [value]="type.id"
+        [selected]="currentMapType === type.id"
+      >
+        {{ type.label }}
+      </option>
+    </select>
+  </div>
+</div>
