@@ -1,19 +1,183 @@
-<div class="map-wrapper">
+<div
+  class="map-wrapper"
+  (click)="closeContextMenu()"
+  (contextmenu)="openContextMenu($event)"
+>
   <div id="gta-map"></div>
-  <div class="map-controls">
-    <label class="map-type-label" for="mapType">Tipo de mapa</label>
-    <select
-      class="map-type-select"
-      id="mapType"
-      (change)="switchMapType($any($event.target).value)"
-    >
-      <option
-        *ngFor="let type of mapTypes"
-        [value]="type.id"
-        [selected]="currentMapType === type.id"
+
+  <!-- MENU CONTEXTUAL (click derecho sobre el mapa): maquetacion -->
+  <div
+    class="hud-ctx"
+    *ngIf="ctxOpen"
+    [style.left.px]="ctxX"
+    [style.top.px]="ctxY"
+    (click)="$event.stopPropagation()"
+  >
+    <button type="button" class="hud-ctx-item" (click)="runCtxAction('marcador')">
+      <span class="hud-ctx-ico">M</span>Anadir marcador
+    </button>
+    <button type="button" class="hud-ctx-item" (click)="runCtxAction('centrar')">
+      <span class="hud-ctx-ico">C</span>Centrar mapa aqui
+    </button>
+    <button type="button" class="hud-ctx-item" (click)="runCtxAction('ruta')">
+      <span class="hud-ctx-ico">R</span>Fijar ruta
+    </button>
+    <div class="hud-ctx-sep"></div>
+    <button type="button" class="hud-ctx-item hud-ctx-item-danger" (click)="runCtxAction('borrar')">
+      <span class="hud-ctx-ico">X</span>Borrar marcadores
+    </button>
+  </div>
+
+  <!-- ESQUINA SUP-IZQ: identidad -->
+  <div class="hud hud-tl">
+    <div class="hud-title">GTA V</div>
+    <div class="hud-subtitle">Los Santos + Blaine County</div>
+    <div class="hud-reticle">
+      <span class="reticle-ring"></span>
+      <span class="reticle-dot"></span>
+    </div>
+  </div>
+
+  <!-- ESQUINA SUP-DER: base del mapa (solo el mapa base, sin filtros) -->
+  <div class="hud hud-tr">
+    <div class="hud-group">
+      <label class="hud-label" for="mapType">Base del mapa</label>
+      <select
+        id="mapType"
+        class="hud-select"
+        (change)="switchMapType($any($event.target).value)"
       >
-        {{ type.label }}
-      </option>
-    </select>
+        <option
+          *ngFor="let type of mapTypes"
+          [value]="type.id"
+          [selected]="currentMapType === type.id"
+        >
+          {{ type.label }}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <!-- BARRA SUP-CENTRO: conmutador de conexion (una sola linea, sin salto) -->
+  <div class="hud hud-topbar hud-segbar">
+    <div class="hud-seg">
+      <button
+        type="button"
+        class="hud-seg-btn seg-offline"
+        [class.is-active]="chipOffline"
+        (click)="chipOffline = true; chipOnline = false"
+      >Offline</button>
+      <button
+        type="button"
+        class="hud-seg-btn seg-online"
+        [class.is-active]="chipOnline"
+        (click)="chipOnline = true; chipOffline = false"
+      >Online</button>
+    </div>
+  </div>
+
+  <!-- ESQUINA INF-IZQ: leyenda -->
+  <div class="hud hud-bl">
+    <div class="hud-group">
+      <label class="hud-label">Leyenda</label>
+      <div class="hud-legend">
+        <span class="legend-item"><i class="legend-dot dot-gold"></i>Punto de interes</span>
+        <span class="legend-item"><i class="legend-dot dot-teal"></i>Negocio local</span>
+        <span class="legend-item"><i class="legend-dot dot-blue"></i>Mision</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ESQUINA INF-DER: panel de control con acordeones (maquetacion) -->
+  <div class="hud hud-br">
+    <div class="hud-panel">
+      <div class="hud-panel-head">
+        <span class="hud-panel-title">Panel de control</span>
+        <span class="hud-panel-badge">GTA V</span>
+      </div>
+
+      <!-- Categoria: Modo de juego -->
+      <div class="hud-acc" [class.is-open]="accordion['modo']">
+        <button type="button" class="hud-acc-head" (click)="toggleSection('modo')">
+          <span class="hud-acc-caret"></span>
+          <span class="hud-acc-title">Modo de juego</span>
+        </button>
+        <div class="hud-acc-body" *ngIf="accordion['modo']">
+          <div class="hud-field">
+            <label class="hud-field-label" for="hud-facing">Modo de juego</label>
+            <select id="hud-facing" class="hud-field-select">
+              <option>Historia</option>
+              <option selected>Online</option>
+              <option>Director</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categoria: Radio -->
+      <div class="hud-acc" [class.is-open]="accordion['radio']">
+        <button type="button" class="hud-acc-head" (click)="toggleSection('radio')">
+          <span class="hud-acc-caret"></span>
+          <span class="hud-acc-title">Radio</span>
+        </button>
+        <div class="hud-acc-body" *ngIf="accordion['radio']">
+          <div class="hud-field">
+            <label class="hud-field-label" for="hud-radio">Estacion de radio</label>
+            <select id="hud-radio" class="hud-field-select">
+              <option>Los Santos Rock Radio</option>
+              <option>West Coast Classics</option>
+              <option>Vinewood Boulevard</option>
+              <option selected>Non-Stop Pop FM</option>
+              <option>Rebel Radio</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categoria: Seguridad -->
+      <div class="hud-acc" [class.is-open]="accordion['seguridad']">
+        <button type="button" class="hud-acc-head" (click)="toggleSection('seguridad')">
+          <span class="hud-acc-caret"></span>
+          <span class="hud-acc-title">Seguridad</span>
+        </button>
+        <div class="hud-acc-body" *ngIf="accordion['seguridad']">
+          <div class="hud-field">
+            <label class="hud-field-label" for="hud-wanted">Nivel buscado</label>
+            <select id="hud-wanted" class="hud-field-select">
+              <option>0 - Sin alerta</option>
+              <option>1 - Busqueda local</option>
+              <option selected>2 - Patrullas</option>
+              <option>3 - Helicopteros</option>
+              <option>4 - Unidades SWAT</option>
+              <option>5 - Bloqueo</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categoria: Zona -->
+      <div class="hud-acc" [class.is-open]="accordion['zona']">
+        <button type="button" class="hud-acc-head" (click)="toggleSection('zona')">
+          <span class="hud-acc-caret"></span>
+          <span class="hud-acc-title">Zona</span>
+        </button>
+        <div class="hud-acc-body" *ngIf="accordion['zona']">
+          <div class="hud-field">
+            <label class="hud-field-label" for="hud-zone">Zona activa</label>
+            <select id="hud-zone" class="hud-field-select">
+              <option selected>Todo Los Santos</option>
+              <option>Sandy Shores</option>
+              <option>Paleto Bay</option>
+              <option>Blaine County</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="hud-panel-foot">
+        <button type="button" class="hud-panel-btn">Reiniciar sesion</button>
+        <button type="button" class="hud-panel-btn hud-panel-btn-primary">Guardar</button>
+      </div>
+    </div>
   </div>
 </div>

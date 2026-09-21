@@ -24,6 +24,45 @@ export class GtaMapComponent implements AfterViewInit, OnDestroy {
 
     currentMapType = 'Satellite';
 
+    // HUD: filtros/colecciones + estado de conexion (solo maquetacion, sin datos reales)
+    chipColeccionables = true;
+    chipNegocios = true;
+    chipMisiones = false;
+    chipOnline = false;
+    chipOffline = true;
+
+    // Panel de control: estado de los acordeones por seccion (solo maquetacion)
+    accordion: { [key: string]: boolean } = {
+        modo: true,
+        radio: true,
+        seguridad: false,
+        zona: false
+    };
+
+    toggleSection(section: string): void {
+        this.accordion[section] = !this.accordion[section];
+    }
+
+    // Menu contextual (click derecho sobre el mapa): posicion en px + visibilidad
+    ctxOpen = false;
+    ctxX = 0;
+    ctxY = 0;
+
+    openContextMenu(event: MouseEvent): void {
+        event.preventDefault();
+        this.ctxOpen = true;
+        this.ctxX = event.clientX;
+        this.ctxY = event.clientY;
+    }
+
+    closeContextMenu(): void {
+        this.ctxOpen = false;
+    }
+
+    runCtxAction(action: string): void {
+        this.ctxOpen = false;
+    }
+
     ngAfterViewInit(): void {
         this.initMap(this.currentMapType);
         window.addEventListener('resize', this.onWindowResize);
@@ -107,5 +146,26 @@ export class GtaMapComponent implements AfterViewInit, OnDestroy {
     switchMapType(mapType: string): void {
         this.currentMapType = mapType;
         this.initMap(mapType);
+    }
+
+    // ---------------------------------------------------------------
+    // HUD: acciones rapidas del mapa
+    // ---------------------------------------------------------------
+    zoomIn(): void {
+        if (this.map) {
+            this.map.zoomIn();
+        }
+    }
+
+    zoomOut(): void {
+        if (this.map) {
+            this.map.zoomOut();
+        }
+    }
+
+    recenterMap(): void {
+        if (this.map) {
+            this.map.setView([-32, 32], this.map.getZoom());
+        }
     }
 }
