@@ -1,17 +1,15 @@
 {
   "rockstarId": null,
-  "nickname": "Jugador de Los Santos",
+  "nickname": "Josemi",
   "avatarUrl": null,
   "platform": "ps5",
   "characterSlot": 0,
   "isSyncedWithSocialClub": false,
   "lastSyncDate": null,
-  "rank": null,
+  "rank": 104,
   "cash": null,
-  "bank": null,
-  "ownedPropertyIds": [
-    "warehouse-darnell-bros"
-  ],
+  "bank": 5000000,
+  "ownedPropertyIds": [],
   "collectedItemIds": [],
   "highlightOwnedProperties": true,
   "hideCollectedItems": true

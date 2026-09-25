@@ -70,6 +70,7 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         'auto_shop',
         'agency',
         'salvage_yard',
+        'arena_war',
         'ceo_office',
         'vehicle_warehouse',
         'warehouse'
@@ -119,6 +120,24 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         'job-taxi'
     ];
 
+    // Claves individuales de Personajes y Contactos Emblemáticos
+    readonly characterKeys = [
+        'contact-simeon',
+        'contact-lester-factory',
+        'contact-lester-house',
+        'contact-lamar',
+        'contact-madrazo',
+        'contact-gerald',
+        'contact-trevor',
+        'contact-ron',
+        'contact-dax-freakshop',
+        'contact-franklin-agency',
+        'contact-michael-mansion',
+        'contact-tony-prince',
+        'contact-agatha-baker',
+        'contact-agent-14'
+    ];
+
     get currentPropertyKeys(): string[] {
         return this.selectedGameMode === 'story' ? this.storyPropertyKeys : this.onlinePropertyKeys;
     }
@@ -132,6 +151,48 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
             p.category === 'roleplay_job' &&
             (p.gameMode === 'both' || p.gameMode === this.selectedGameMode)
         );
+    }
+
+    get contactCharacters(): PropertyLocation[] {
+        return this.allProperties.filter(p =>
+            p.category === 'character' &&
+            (p.gameMode === 'both' || p.gameMode === this.selectedGameMode)
+        );
+    }
+
+    /**
+     * Determina si un elemento del mapa es un inmueble o negocio realmente comprable por el jugador.
+     * Excluye servicios públicos (comisarías, hospitales, bomberos, autolavados, tiendas),
+     * talleres de uso libre y actividades / misiones de roleplay.
+     */
+    isPurchasable(p: PropertyLocation | undefined): boolean {
+        if (!p) return false;
+        if (p.category === 'roleplay_job' || p.category === 'character') return false;
+
+        const nonPurchasableCategories = [
+            'police_station',
+            'hospital',
+            'fire_station',
+            'car_wash',
+            'convenience_store',
+            'service',
+            'strip_club',
+            'ls_customs',
+            'bennys',
+            'hao_garage',
+            'ls_car_meet',
+            'character'
+        ];
+
+        if (nonPurchasableCategories.includes(p.category)) return false;
+        return (p.price || 0) > 0;
+    }
+
+    get purchasablePropertiesCount(): number {
+        return this.allProperties.filter(p =>
+            this.isPurchasable(p) &&
+            (p.gameMode === 'both' || p.gameMode === this.selectedGameMode)
+        ).length;
     }
 
     // Estado de filtros de categorías (Leyenda interactiva)
@@ -149,6 +210,7 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         auto_shop: true,
         agency: true,
         salvage_yard: true,
+        arena_war: true,
         vehicle_warehouse: true,
         warehouse: true,
         nightclub: true,
@@ -176,6 +238,21 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         'job-forklift': true,
         'job-paperboy': true,
         'job-taxi': true,
+        // Personajes y Contactos Emblemáticos
+        'contact-simeon': true,
+        'contact-lester-factory': true,
+        'contact-lester-house': true,
+        'contact-lamar': true,
+        'contact-madrazo': true,
+        'contact-gerald': true,
+        'contact-trevor': true,
+        'contact-ron': true,
+        'contact-dax-freakshop': true,
+        'contact-franklin-agency': true,
+        'contact-michael-mansion': true,
+        'contact-tony-prince': true,
+        'contact-agatha-baker': true,
+        'contact-agent-14': true,
         // Coleccionables Online (por defecto desactivados para mapa limpio)
         playing_card: false,
         action_figure: false,
@@ -195,15 +272,17 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
     private playerMarkersLayer: L.LayerGroup | undefined;
 
     // Estado unificado de acordeones (Panel de control y Ajustes)
+    // Las tarjetas principales permanecen abiertas pero los acordeones interiores inician replegados
     accordion: { [key: string]: boolean } = {
-        propiedades: true,      // Panel de control: Propiedades
-        vehiculos: true,        // Panel de control: Vehículos
-        servicios: true,        // Panel de control: Servicios
-        roleplay: true,         // Panel de control: Trabajos Roleplay (7)
+        propiedades: false,     // Panel de control: Propiedades
+        vehiculos: false,       // Panel de control: Vehículos
+        servicios: false,       // Panel de control: Servicios
+        roleplay: false,        // Panel de control: Trabajos Roleplay
+        personajes: false,      // Panel de control: Personajes y Contactos
         coleccionables: false,  // Panel de control: Coleccionables
-        modo: true,             // Ajustes: Modo de juego (primero)
-        mapa: true,             // Ajustes: Base del mapa (segundo)
-        zona: false             // Ajustes: Salto rápido de zona
+        modo: false,            // Ajustes: Modo de juego
+        mapa: false,            // Ajustes: Selector de mapa
+        zona: false             // Ajustes: Estilo y tamaño de iconos
     };
 
     selectedZone = 'all';
@@ -237,11 +316,23 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
     private profileSub?: Subscription;
 
     editNickname = '';
-    editPlatform: 'pc' | 'ps5' | 'xboxsx' = 'pc';
-    editCharacterSlot = 0;
+    editRank = 100;
+    editBank = 5000000;
+    drawerGroupOpen: { [category: string]: boolean } = {};
     manualJsonInput = '';
     syncFeedbackMsg = '';
     scriptCopied = false;
+
+    // Autenticación ligera Multi-dispositivo (Gamertag + PIN)
+    authGamertag = '';
+    authPin = '';
+    authErrorMsg = '';
+    authSuccessMsg = '';
+    authLoading = false;
+    isCloudConnected = false;
+    activeGamertag: string | null = null;
+    private cloudSub?: Subscription;
+    private gamertagSub?: Subscription;
 
     constructor(
         private locationService: LocationService,
@@ -275,16 +366,27 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
 
         this.userProfile = this.userProfileService.currentProfile;
         this.editNickname = this.userProfile.nickname;
-        this.editPlatform = this.userProfile.platform;
-        this.editCharacterSlot = this.userProfile.characterSlot;
+        this.editRank = this.userProfile.rank || 100;
+        this.editBank = this.userProfile.bank || 5000000;
 
         this.profileSub = this.userProfileService.profile$.subscribe(prof => {
             this.userProfile = prof;
             this.editNickname = prof.nickname;
-            this.editPlatform = prof.platform;
-            this.editCharacterSlot = prof.characterSlot;
+            this.editRank = prof.rank || 100;
+            this.editBank = prof.bank || 5000000;
             this.renderPropertyMarkers();
             this.renderCollectibleMarkers();
+        });
+
+        this.cloudSub = this.userProfileService.isCloudSynced$.subscribe(connected => {
+            this.isCloudConnected = connected;
+        });
+
+        this.gamertagSub = this.userProfileService.activeGamertag$.subscribe(tag => {
+            this.activeGamertag = tag;
+            if (tag) {
+                this.authGamertag = tag;
+            }
         });
     }
 
@@ -445,6 +547,12 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         if (this.profileSub) {
             this.profileSub.unsubscribe();
         }
+        if (this.cloudSub) {
+            this.cloudSub.unsubscribe();
+        }
+        if (this.gamertagSub) {
+            this.gamertagSub.unsubscribe();
+        }
         if (this.map) {
             this.map.remove();
         }
@@ -563,8 +671,8 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         this.propertyMarkers = [];
 
         this.allProperties.forEach(p => {
-            // Comprobar filtro: si es roleplay_job, comprobar por su id individual
-            if (p.category === 'roleplay_job') {
+            // Comprobar filtro: si es roleplay_job o character, comprobar por su id individual
+            if (p.category === 'roleplay_job' || p.category === 'character') {
                 if (!this.layerFilters[p.id]) return;
             } else {
                 if (!this.layerFilters[p.category]) return;
@@ -575,17 +683,26 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
                 return;
             }
 
-            const isOwned = this.userProfileService.isPropertyOwned(p.id);
+            const isPurchasable = this.isPurchasable(p);
+            const isOwned = isPurchasable && this.userProfileService.isPropertyOwned(p.id);
             const isHighlight = isOwned && this.userProfile?.highlightOwnedProperties;
             const ownedClass = isHighlight ? 'pin-is-owned' : '';
 
             const [lat, lng] = this.worldToLatLng(p.position.x, p.position.y);
 
+            // Determinar símbolo gráfico para el pin (garantizar iconos limpios en comisarías, hospitales, bomberos y arena)
+            let pinSymbol = p.badge.symbol || '•';
+            if (p.category === 'police_station' && (!pinSymbol || pinSymbol === 'POL')) pinSymbol = '🚓';
+            if (p.category === 'hospital' && (!pinSymbol || pinSymbol === 'MED' || pinSymbol === '✚')) pinSymbol = '🏥';
+            if (p.category === 'fire_station' && (!pinSymbol || pinSymbol === 'BOM')) pinSymbol = '🚒';
+            if (p.category === 'car_wash') pinSymbol = '🚿';
+            if (p.category === 'arena_war') pinSymbol = '🏟️';
+
             const icon = L.divIcon({
                 className: `gta-pin-wrapper ${ownedClass}`,
                 html: `
                     <div class="gta-pin gta-pin-${p.category} ${ownedClass}" style="--pin-color: ${p.badge.color}">
-                        <span class="gta-pin-symbol">${p.badge.symbol || '•'}</span>
+                        <span class="gta-pin-symbol">${pinSymbol}</span>
                         ${isHighlight ? '<span class="pin-crown-badge">✓</span>' : ''}
                     </div>
                 `,
@@ -614,6 +731,36 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
                 ? `<div class="popup-owned-tag">PROPIEDAD ADQUIRIDA (EN POSESIÓN)</div>`
                 : '';
 
+            // Bloque de precio vs servicio público
+            const priceSectionHtml = isPurchasable
+                ? `
+                    <div class="popup-price-box">
+                        <span class="price-title">PRECIO</span>
+                        <span class="price-num">${p.priceFormatted}</span>
+                    </div>
+                  `
+                : `
+                    <div class="popup-service-tag-box">
+                        <span class="service-type-badge">${p.categoryLabel}</span>
+                        <span class="service-status-text">${p.priceFormatted || 'Punto de Interés'}</span>
+                    </div>
+                  `;
+
+            // Botón de compra SOLO para propiedades reales comprables
+            const actionButtonHtml = isPurchasable
+                ? `
+                    <div class="popup-action-row">
+                        <button
+                            id="popup-btn-prop-${p.id}"
+                            type="button"
+                            class="popup-card-action-btn ${isOwned ? 'is-owned' : ''}"
+                        >
+                            ${isOwned ? 'En Posesión · Clic para Desmarcar' : '＋ Marcar como Comprada'}
+                        </button>
+                    </div>
+                  `
+                : '';
+
             const popupHtml = `
                 <div class="gta-popup-card">
                     ${imageHtml}
@@ -624,42 +771,38 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
                     </div>
                     <div class="popup-content">
                         ${ownedTagHtml}
-                        <div class="popup-price-box">
-                            <span class="price-title">PRECIO</span>
-                            <span class="price-num">${p.priceFormatted}</span>
-                        </div>
+                        ${priceSectionHtml}
                         ${incomeHtml}
                         ${ownerHtml}
                         <p class="popup-desc">${p.description}</p>
                         ${featuresHtml}
-                        <div class="popup-action-row">
-                            <button
-                                id="popup-btn-prop-${p.id}"
-                                type="button"
-                                class="popup-card-action-btn ${isOwned ? 'is-owned' : ''}"
-                            >
-                                ${isOwned ? 'En Posesión · Clic para Desmarcar' : '＋ Marcar como Comprada'}
-                            </button>
-                        </div>
+                        ${actionButtonHtml}
                     </div>
                 </div>
             `;
 
+            const tooltipPrice = isPurchasable
+                ? `<br><span style="color:#2ecc71">${p.priceFormatted}</span>`
+                : `<br><span style="color:#3498db">${p.categoryLabel}</span>`;
+            const tooltipOwned = isOwned ? ' <b style="color:#2ecc71">[Comprada]</b>' : '';
+
             const marker = L.marker([lat, lng], { icon })
                 .bindPopup(popupHtml, { maxWidth: 300, className: 'gta-leaflet-popup' })
-                .bindTooltip(`<b>${p.name}</b><br><span style="color:#2ecc71">${p.priceFormatted}</span>${isOwned ? ' <b style="color:#2ecc71">[Comprada]</b>' : ''}`, {
+                .bindTooltip(`<b>${p.name}</b>${tooltipPrice}${tooltipOwned}`, {
                     direction: 'top',
                     offset: [0, -26],
                     className: 'gta-leaflet-tooltip'
                 });
 
             marker.on('popupopen', () => {
-                const btn = document.getElementById(`popup-btn-prop-${p.id}`);
-                if (btn) {
-                    btn.onclick = () => {
-                        this.togglePropertyOwned(p.id);
-                        marker.closePopup();
-                    };
+                if (isPurchasable) {
+                    const btn = document.getElementById(`popup-btn-prop-${p.id}`);
+                    if (btn) {
+                        btn.onclick = () => {
+                            this.togglePropertyOwned(p.id);
+                            marker.closePopup();
+                        };
+                    }
                 }
             });
 
@@ -765,6 +908,38 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
         this.layerFilters[categoryKey] = !this.layerFilters[categoryKey];
         this.renderPropertyMarkers();
         this.renderCollectibleMarkers();
+    }
+
+    /**
+     * Vuela la cámara y centra el mapa con zoom directo sobre un personaje
+     */
+    zoomToCharacter(char: PropertyLocation, event?: MouseEvent): void {
+        if (event) {
+            event.stopPropagation();
+        }
+        if (!this.map) return;
+
+        // Si el personaje está desactivado en los filtros, activarlo
+        if (!this.layerFilters[char.id]) {
+            this.layerFilters[char.id] = true;
+            this.renderPropertyMarkers();
+        }
+
+        const [lat, lng] = this.worldToLatLng(char.position.x, char.position.y);
+        const targetZoom = Math.min(this.maxZoom, 5.5);
+
+        this.map.flyTo([lat, lng], targetZoom, {
+            animate: true,
+            duration: 1.1
+        });
+
+        // Abrir automáticamente el popup del personaje tras el vuelo de cámara
+        setTimeout(() => {
+            const match = this.propertyMarkers.find(pm => pm.property.id === char.id);
+            if (match) {
+                match.marker.openPopup();
+            }
+        }, 850);
     }
 
     /**
@@ -940,13 +1115,29 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
     saveLocalProfile(): void {
+        const rawNick = (this.editNickname || '').trim().replace(/<[^>]*>?/gm, '');
+        const cleanNick = rawNick.substring(0, 50) || 'Jugador de Los Santos';
+        const cleanRank = Math.min(Math.max(Number(this.editRank) || 1, 1), 8000);
+        const cleanBank = Math.max(Number(this.editBank) || 0, 0);
+
+        this.editNickname = cleanNick;
+        this.editRank = cleanRank;
+        this.editBank = cleanBank;
+
         this.userProfileService.saveProfile({
-            nickname: this.editNickname.trim() || 'Jugador de Los Santos',
-            platform: this.editPlatform,
-            characterSlot: this.editCharacterSlot
-        }).subscribe(() => {
-            this.syncFeedbackMsg = '¡Guardado!';
-            setTimeout(() => this.syncFeedbackMsg = '', 2500);
+            nickname: cleanNick,
+            rank: cleanRank,
+            bank: cleanBank
+        }).subscribe({
+            next: () => {
+                this.syncFeedbackMsg = '¡Ficha guardada!';
+                setTimeout(() => this.syncFeedbackMsg = '', 2500);
+            },
+            error: (err) => {
+                if (err?.status === 429) {
+                    this.syncFeedbackMsg = 'Límite de guardados excedido. Espera unos segundos.';
+                }
+            }
         });
     }
 
@@ -959,6 +1150,11 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
     togglePropertyOwned(propertyId: string): void {
+        const prop = this.allProperties.find(p => p.id === propertyId);
+        if (!this.isPurchasable(prop)) {
+            return;
+        }
+
         const current = this.userProfile.ownedPropertyIds || [];
         const index = current.indexOf(propertyId);
         const updated = [...current];
@@ -988,12 +1184,168 @@ export class GtaMapComponent implements OnInit, AfterViewInit, OnDestroy {
 
     getOwnedPropertyList(): PropertyLocation[] {
         const ids = new Set(this.userProfile.ownedPropertyIds || []);
-        return this.allProperties.filter(p => ids.has(p.id));
+        return this.allProperties.filter(p => ids.has(p.id) && this.isPurchasable(p));
+    }
+
+    getTotalEmpireValue(): number {
+        const owned = this.getOwnedPropertyList();
+        return owned.reduce((sum, p) => sum + (p.price || 0), 0);
+    }
+
+    getFormattedEmpireValue(): string {
+        const val = this.getTotalEmpireValue();
+        return '$' + val.toLocaleString('es-ES');
+    }
+
+    getOwnedPropertiesGrouped(): { category: string; categoryLabel: string; count: number; totalValueFormatted: string; properties: PropertyLocation[] }[] {
+        const owned = this.getOwnedPropertyList();
+        const map = new Map<string, { category: string; categoryLabel: string; count: number; totalValue: number; properties: PropertyLocation[] }>();
+
+        for (const p of owned) {
+            const cat = p.category || 'otros';
+            if (!map.has(cat)) {
+                map.set(cat, {
+                    category: cat,
+                    categoryLabel: p.categoryLabel || cat,
+                    count: 0,
+                    totalValue: 0,
+                    properties: []
+                });
+            }
+            const group = map.get(cat)!;
+            group.count++;
+            group.totalValue += (p.price || 0);
+            group.properties.push(p);
+        }
+
+        return Array.from(map.values()).map(g => ({
+            ...g,
+            totalValueFormatted: '$' + g.totalValue.toLocaleString('es-ES')
+        }));
+    }
+
+    toggleDrawerGroup(category: string): void {
+        this.drawerGroupOpen[category] = !this.isDrawerGroupOpen(category);
+    }
+
+    isDrawerGroupOpen(category: string): boolean {
+        return this.drawerGroupOpen[category] !== false;
     }
 
     clearOwnedProperties(): void {
         this.userProfileService.saveProfile({ ownedPropertyIds: [] }).subscribe(() => {
             this.renderPropertyMarkers();
+        });
+    }
+
+    onConnectAccount(): void {
+        this.authErrorMsg = '';
+        this.authSuccessMsg = '';
+
+        const tag = (this.authGamertag || '').trim();
+        const pin = (this.authPin || '').trim();
+
+        if (tag.length < 2 || tag.length > 30) {
+            this.authErrorMsg = 'El Gamertag debe tener entre 2 y 30 caracteres.';
+            return;
+        }
+
+        if (!/^[a-zA-Z0-9_-]+$/.test(tag)) {
+            this.authErrorMsg = 'El Gamertag solo puede contener letras, números, guiones y guiones bajos.';
+            return;
+        }
+
+        if (!/^\d{4,6}$/.test(pin)) {
+            this.authErrorMsg = 'El PIN debe ser un código numérico de 4 a 6 dígitos.';
+            return;
+        }
+
+        this.authLoading = true;
+        this.userProfileService.connectAccount(tag, pin).subscribe({
+            next: (res) => {
+                this.authLoading = false;
+                if (res.success) {
+                    this.authSuccessMsg = res.message;
+                    this.authPin = '';
+                    this.editNickname = res.profile?.nickname || tag;
+                    setTimeout(() => this.authSuccessMsg = '', 4000);
+                } else {
+                    this.authErrorMsg = res.message;
+                }
+            },
+            error: (err) => {
+                this.authLoading = false;
+                if (err?.status === 429) {
+                    this.authErrorMsg = 'Demasiados intentos. Por seguridad, espera 1 minuto antes de reintentar.';
+                } else {
+                    this.authErrorMsg = err?.error?.message || 'No se pudo conectar con el servidor.';
+                }
+            }
+        });
+    }
+
+    onDisconnectAccount(): void {
+        this.userProfileService.disconnectAccount();
+        this.authSuccessMsg = 'Sesión cerrada. Ahora estás en modo local.';
+        this.authPin = '';
+        setTimeout(() => this.authSuccessMsg = '', 3500);
+    }
+
+    onAvatarFileSelected(event: Event): void {
+        const input = event.target as HTMLInputElement;
+        if (!input.files || input.files.length === 0) return;
+
+        const file = input.files[0];
+        if (!file.type.startsWith('image/')) {
+            alert('Por favor selecciona un archivo de imagen válido (JPG, PNG, WebP).');
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = (e: ProgressEvent<FileReader>) => {
+            const img = new Image();
+            img.onload = () => {
+                // Redimensionar con canvas a máximo 160x160 para que ocupe ~10-15KB y sea instantáneo
+                const maxSize = 160;
+                let width = img.width;
+                let height = img.height;
+
+                if (width > height) {
+                    if (width > maxSize) {
+                        height = Math.round((height * maxSize) / width);
+                        width = maxSize;
+                    }
+                } else {
+                    if (height > maxSize) {
+                        width = Math.round((width * maxSize) / height);
+                        height = maxSize;
+                    }
+                }
+
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                if (ctx) {
+                    ctx.drawImage(img, 0, 0, width, height);
+                    const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+
+                    this.userProfileService.saveProfile({ avatarUrl: compressedDataUrl }).subscribe(() => {
+                        this.syncFeedbackMsg = '¡Foto de perfil actualizada!';
+                        setTimeout(() => this.syncFeedbackMsg = '', 3000);
+                    });
+                }
+            };
+            img.src = e.target?.result as string;
+        };
+        reader.readAsDataURL(file);
+        input.value = '';
+    }
+
+    removeAvatar(): void {
+        this.userProfileService.saveProfile({ avatarUrl: undefined }).subscribe(() => {
+            this.syncFeedbackMsg = 'Foto eliminada. Iniciales restauradas.';
+            setTimeout(() => this.syncFeedbackMsg = '', 3000);
         });
     }
 }

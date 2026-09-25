@@ -42,7 +42,7 @@
   <!-- ESQUINA SUP-IZQ: Identidad y HUD Status (barra horizontal alargada) -->
   <div class="hud hud-tl">
     <div class="hud-title">GTA V</div>
-    <div class="hud-counter-badge" title="Elementos mapeados">{{ allProperties.length }} Propiedades · {{ allCollectibles.length }} Coleccionables</div>
+    <div class="hud-counter-badge" title="Inmuebles y negocios comprables mapeados">{{ purchasablePropertiesCount }} Propiedades · {{ allCollectibles.length }} Coleccionables</div>
     <div class="hud-time-badge" title="Hora del juego (Los Santos)">{{ inGameTimeStr }}</div>
     <a class="hud-home-btn" routerLink="/" title="Volver a la pantalla de inicio">Inicio</a>
   </div>
@@ -270,6 +270,18 @@
               <i class="legend-dot dot-salvage"></i>
               <span class="legend-name">Desguaces (The Chop Shop)</span>
               <span class="legend-count">{{ getCategoryCount('salvage_yard') }}</span>
+            </button>
+
+            <!-- Taller de la Arena (Arena War) -->
+            <button
+              type="button"
+              class="legend-btn"
+              [class.is-active]="layerFilters['arena_war']"
+              (click)="toggleLayer('arena_war')"
+            >
+              <i class="legend-dot dot-arenawar"></i>
+              <span class="legend-name">Taller de la Arena (Arena War)</span>
+              <span class="legend-count">{{ getCategoryCount('arena_war') }}</span>
             </button>
 
             <!-- Oficinas CEO -->
@@ -517,6 +529,61 @@
         </div>
       </div>
 
+      <!-- DESPLEGABLE: Personajes y Contactos -->
+      <div class="hud-acc" [class.is-open]="accordion['personajes']">
+        <div class="hud-acc-head">
+          <div class="hud-acc-toggle" (click)="toggleSection('personajes')">
+            <span class="hud-acc-caret"></span>
+            <span class="hud-acc-title">Personajes y Contactos</span>
+          </div>
+          <input
+            type="checkbox"
+            class="hud-acc-check"
+            [checked]="isSectionAllActive(characterKeys)"
+            (click)="$event.stopPropagation()"
+            (change)="onSectionCheckboxChange(characterKeys, $event)"
+            title="Activar o desactivar todos los personajes y contactos"
+          />
+        </div>
+
+        <div class="hud-acc-body hud-acc-scroll" *ngIf="accordion['personajes']">
+          <div
+            *ngFor="let char of contactCharacters"
+            class="legend-char-row"
+            [class.is-active]="layerFilters[char.id]"
+          >
+            <button
+              type="button"
+              class="legend-btn legend-char-btn"
+              [class.is-active]="layerFilters[char.id]"
+              (click)="toggleLayer(char.id)"
+              [title]="layerFilters[char.id] ? 'Ocultar ' + char.name : 'Mostrar ' + char.name"
+            >
+              <i class="legend-dot" [style.background]="char.badge.color" [style.box-shadow]="'0 0 6px ' + char.badge.color"></i>
+              <span class="legend-name">{{ char.name }}</span>
+              <span class="legend-count">{{ char.badge.symbol }}</span>
+            </button>
+
+            <!-- Botón de localización y zoom directo -->
+            <button
+              type="button"
+              class="char-zoom-btn"
+              (click)="zoomToCharacter(char, $event)"
+              [title]="'Centrar mapa y zoom en ' + char.name"
+            >
+              <svg viewBox="0 0 24 24" class="char-zoom-svg">
+                <circle cx="12" cy="12" r="7" stroke="currentColor" stroke-width="1.8" fill="none" />
+                <circle cx="12" cy="12" r="2" fill="currentColor" />
+                <line x1="12" y1="2" x2="12" y2="5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                <line x1="2" y1="12" x2="5" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <!-- DESPLEGABLE 5: Coleccionables -->
       <div class="hud-acc" [class.is-open]="accordion['coleccionables']">
         <div class="hud-acc-head">
@@ -755,11 +822,16 @@
     title="Abrir Mi Perfil y Progreso"
   >
     <div class="side-trigger-avatar">
-      <span class="side-avatar-placeholder">LS</span>
+      <img *ngIf="userProfile.avatarUrl" [src]="userProfile.avatarUrl" alt="Avatar" class="side-avatar-img" />
+      <span *ngIf="!userProfile.avatarUrl" class="side-avatar-placeholder">{{ (userProfile.nickname ? userProfile.nickname.substring(0, 2) : 'LS') | uppercase }}</span>
+      <span class="side-cloud-indicator" [class.is-online]="isCloudConnected" [title]="isCloudConnected ? 'Sincronizado en la nube' : 'Modo local'"></span>
     </div>
     <div class="side-trigger-info">
-      <span class="side-tag">MI PROGRESO</span>
-      <span class="side-name">{{ userProfile.nickname || 'Jugador' }}</span>
+      <span class="side-tag">{{ isCloudConnected ? 'NUBE ACTIVA' : 'MI PROGRESO' }}</span>
+      <div class="side-name-row">
+        <span class="side-name">{{ (isCloudConnected && activeGamertag) ? activeGamertag : (userProfile.nickname || 'Jugador') }}</span>
+        <span class="side-lvl-pill" *ngIf="userProfile.rank || editRank">NV. {{ userProfile.rank || editRank }}</span>
+      </div>
     </div>
     <span class="side-count-badge" title="Propiedades compradas">
       {{ userProfile.ownedPropertyIds.length }}
@@ -772,18 +844,122 @@
     <!-- Cabecera del Drawer -->
     <div class="drawer-header">
       <div class="drawer-title-group">
-        <span class="drawer-badge">GTA V · PROGRESO</span>
+        <span class="drawer-badge">GTA V · IMPERIO CRIMINAL</span>
         <h3 class="drawer-title">Ficha de Jugador</h3>
       </div>
       <button type="button" class="drawer-close-btn" (click)="closeProfileDrawer()" title="Cerrar">✕</button>
     </div>
 
     <div class="drawer-body">
-      <!-- Tarjeta Elegante de Identidad del Jugador -->
+      <!-- TARJETA DE CONEXIÓN EN LA NUBE (MULTI-DISPOSITIVO) -->
+      <div class="cloud-sync-card" [class.is-connected]="isCloudConnected">
+        <!-- Estado Conectado -->
+        <ng-container *ngIf="isCloudConnected">
+          <div class="cloud-sync-header">
+            <div class="cloud-status-badge is-online">
+              <span class="status-dot pulse"></span>
+              <span>PARTIDA EN LA NUBE ACTIVA</span>
+            </div>
+            <button
+              type="button"
+              class="cloud-disconnect-btn"
+              (click)="onDisconnectAccount()"
+              title="Cerrar sesión en este dispositivo"
+            >
+              Cambiar cuenta
+            </button>
+          </div>
+          <div class="cloud-user-meta">
+            <span class="cloud-user-label">Gamertag vinculado:</span>
+            <span class="cloud-user-name">@{{ activeGamertag }}</span>
+          </div>
+          <p class="cloud-sync-hint">
+            ✓ Guardado automático en tiempo real. Abre este mapa en tu móvil u otro equipo, introduce <b>@{{ activeGamertag }}</b> y tu PIN para cargar todo tu imperio.
+          </p>
+        </ng-container>
+
+        <!-- Estado Desconectado / Local -->
+        <ng-container *ngIf="!isCloudConnected">
+          <div class="cloud-sync-header">
+            <div class="cloud-status-badge is-offline">
+              <span class="status-dot"></span>
+              <span>MODO LOCAL (NO SINCRONIZADO)</span>
+            </div>
+          </div>
+          <p class="cloud-auth-desc">
+            Introduce tu <b>Gamertag</b> y un <b>PIN</b> para guardar tu partida en el servidor y poder continuar en tu móvil o cualquier otro navegador:
+          </p>
+          <div class="cloud-auth-form">
+            <div class="cloud-input-group">
+              <label class="cloud-input-label">Gamertag / Usuario</label>
+              <input
+                type="text"
+                class="cloud-input"
+                [(ngModel)]="authGamertag"
+                placeholder="Ej: JoseMiguel"
+                maxlength="30"
+                autocomplete="username"
+                [disabled]="authLoading"
+              />
+            </div>
+            <div class="cloud-input-group">
+              <label class="cloud-input-label">PIN (4-6 dígitos)</label>
+              <input
+                type="password"
+                maxlength="6"
+                inputmode="numeric"
+                pattern="[0-9]*"
+                class="cloud-input cloud-input-pin"
+                [(ngModel)]="authPin"
+                placeholder="••••"
+                (keyup.enter)="onConnectAccount()"
+                autocomplete="current-password"
+                [disabled]="authLoading"
+              />
+            </div>
+            <button
+              type="button"
+              class="cloud-submit-btn"
+              (click)="onConnectAccount()"
+              [disabled]="authLoading"
+            >
+              <span *ngIf="!authLoading">CONECTAR / GUARDAR</span>
+              <span *ngIf="authLoading">SINCRONIZANDO...</span>
+            </button>
+          </div>
+
+          <div class="cloud-auth-msg error" *ngIf="authErrorMsg">
+            ⚠️ {{ authErrorMsg }}
+          </div>
+          <div class="cloud-auth-msg success" *ngIf="authSuccessMsg">
+            ✓ {{ authSuccessMsg }}
+          </div>
+          <div class="cloud-auth-note">
+            💡 Si el Gamertag no existe, se creará tu cuenta automáticamente con este PIN guardando tu progreso actual.
+          </div>
+        </ng-container>
+      </div>
+
+      <!-- Tarjeta de Identidad del Jugador estilo GTA Online -->
       <div class="player-card">
         <div class="player-card-header">
-          <div class="player-avatar-box">
-            <span class="player-avatar-fallback">LS</span>
+          <div
+            class="player-avatar-box"
+            (click)="avatarFileInput.click()"
+            title="Haz clic para subir o cambiar tu foto de perfil"
+          >
+            <img *ngIf="userProfile.avatarUrl" [src]="userProfile.avatarUrl" alt="Avatar" class="player-avatar-img" />
+            <span *ngIf="!userProfile.avatarUrl" class="player-avatar-fallback">{{ (userProfile.nickname ? userProfile.nickname.substring(0, 2) : 'LS') | uppercase }}</span>
+            <div class="player-avatar-overlay">
+              <span class="avatar-camera-icon">📷</span>
+            </div>
+            <input
+              #avatarFileInput
+              type="file"
+              accept="image/png, image/jpeg, image/webp, image/gif"
+              style="display: none"
+              (change)="onAvatarFileSelected($event)"
+            />
           </div>
           <div class="player-identity">
             <input
@@ -792,24 +968,64 @@
               [(ngModel)]="editNickname"
               (blur)="saveLocalProfile()"
               (keyup.enter)="saveLocalProfile()"
+              maxlength="50"
               placeholder="Tu nombre / alias..."
-              title="Haz clic para cambiar tu nombre"
+              title="Haz clic para editar tu nombre"
             />
-            <div class="player-ids">
-              <span class="player-platform-badge uppercase">{{ userProfile.platform || 'PC' }}</span>
-              <span class="player-slot-badge">Personaje {{ userProfile.characterSlot + 1 }}</span>
+            <div class="player-quick-fields">
+              <div class="player-chip player-chip-rank" title="Nivel del personaje en GTA Online">
+                <span class="chip-label">NIVEL</span>
+                <input
+                  type="number"
+                  class="chip-input chip-input-rank"
+                  [(ngModel)]="editRank"
+                  (blur)="saveLocalProfile()"
+                  (keyup.enter)="saveLocalProfile()"
+                  min="1"
+                  max="8000"
+                  placeholder="280"
+                />
+              </div>
+              <div class="player-chip player-chip-bank" title="Dinero en banco">
+                <span class="chip-label">$</span>
+                <input
+                  type="number"
+                  class="chip-input chip-input-money"
+                  [(ngModel)]="editBank"
+                  (blur)="saveLocalProfile()"
+                  (keyup.enter)="saveLocalProfile()"
+                  min="0"
+                />
+              </div>
+              <button
+                *ngIf="userProfile.avatarUrl"
+                type="button"
+                class="avatar-del-btn"
+                (click)="removeAvatar()"
+                title="Eliminar foto y restaurar iniciales"
+              >
+                ✕ Foto
+              </button>
             </div>
           </div>
         </div>
 
-        <!-- Métricas Rápidas de Progreso -->
+        <!-- Métricas Financieras del Imperio y Nivel -->
         <div class="player-stats-grid">
+          <div class="stat-pill stat-pill-empire">
+            <span class="stat-val stat-val-empire">{{ getFormattedEmpireValue() }}</span>
+            <span class="stat-lbl">Patrimonio Inmobiliario</span>
+          </div>
+          <div class="stat-pill stat-pill-rank">
+            <span class="stat-val stat-val-rank">{{ userProfile.rank || editRank || 100 }}</span>
+            <span class="stat-lbl">Nivel (RP)</span>
+          </div>
           <div class="stat-pill">
             <span class="stat-val">{{ userProfile.ownedPropertyIds.length }}</span>
             <span class="stat-lbl">Propiedades</span>
           </div>
           <div class="stat-pill">
-            <span class="stat-val">{{ userProfile.collectedItemIds.length }}</span>
+            <span class="stat-val">{{ userProfile.collectedItemIds.length }} / {{ allCollectibles.length }}</span>
             <span class="stat-lbl">Coleccionables</span>
           </div>
         </div>
@@ -847,7 +1063,7 @@
         </div>
       </div>
 
-      <!-- Lista de Mis Propiedades Compradas -->
+      <!-- Lista de Mis Propiedades Compradas Agrupadas por Categoría -->
       <div class="drawer-section">
         <div class="drawer-section-header">
           <h5 class="drawer-section-title">Mis Propiedades ({{ userProfile.ownedPropertyIds.length }})</h5>
@@ -856,56 +1072,54 @@
             type="button"
             class="drawer-clear-btn"
             (click)="clearOwnedProperties()"
-            title="Desmarcar todas"
+            title="Desmarcar todas las propiedades"
           >
             Vaciar todas
           </button>
         </div>
 
         <p class="drawer-hint" *ngIf="userProfile.ownedPropertyIds.length === 0">
-          Haz clic en cualquier propiedad en el mapa y pulsa <b>"Marcar como Comprada"</b> para añadirla a tu lista.
+          Haz clic en cualquier propiedad en el mapa y pulsa <b>"Marcar como Comprada"</b> para sumarla a tu imperio.
         </p>
 
-        <div class="drawer-owned-list" *ngIf="userProfile.ownedPropertyIds.length > 0">
+        <!-- Acordeones por Categoría de Propiedades Compradas -->
+        <div class="drawer-owned-groups" *ngIf="userProfile.ownedPropertyIds.length > 0">
           <div
-            *ngFor="let prop of getOwnedPropertyList()"
-            class="drawer-owned-item"
+            *ngFor="let group of getOwnedPropertiesGrouped()"
+            class="drawer-cat-group"
+            [class.is-open]="isDrawerGroupOpen(group.category)"
           >
-            <div class="owned-item-info">
-              <span class="owned-item-badge">{{ prop.categoryLabel }}</span>
-              <span class="owned-item-name">{{ prop.name }}</span>
-            </div>
             <button
               type="button"
-              class="owned-item-del"
-              (click)="togglePropertyOwned(prop.id)"
-              title="Quitar de mi lista"
+              class="drawer-cat-head"
+              (click)="toggleDrawerGroup(group.category)"
             >
-              ✕
+              <div class="cat-head-left">
+                <span class="cat-head-caret"></span>
+                <span class="cat-head-title">{{ group.categoryLabel }} ({{ group.count }})</span>
+              </div>
+              <span class="cat-head-val">{{ group.totalValueFormatted }}</span>
             </button>
-          </div>
-        </div>
-      </div>
 
-      <!-- Configuración Rápida de Plataforma -->
-      <div class="drawer-section">
-        <h5 class="drawer-section-title">Plataforma de Juego</h5>
-        <div class="drawer-field-row">
-          <div class="drawer-field">
-            <label class="drawer-field-label">Plataforma</label>
-            <select class="drawer-field-select" [(ngModel)]="editPlatform" (change)="saveLocalProfile()">
-              <option value="pc">PC</option>
-              <option value="ps5">PlayStation 5</option>
-              <option value="xboxsx">Xbox Series X|S</option>
-            </select>
-          </div>
-
-          <div class="drawer-field">
-            <label class="drawer-field-label">Personaje</label>
-            <select class="drawer-field-select" [(ngModel)]="editCharacterSlot" (change)="saveLocalProfile()">
-              <option [ngValue]="0">Personaje 1</option>
-              <option [ngValue]="1">Personaje 2</option>
-            </select>
+            <div class="drawer-cat-body" *ngIf="isDrawerGroupOpen(group.category)">
+              <div *ngFor="let prop of group.properties" class="drawer-owned-item">
+                <div class="owned-item-info">
+                  <span class="owned-item-name">{{ prop.name }}</span>
+                  <div class="owned-item-sub">
+                    <span class="owned-item-zone">{{ prop.zone }}</span>
+                    <span class="owned-item-price">{{ prop.priceFormatted }}</span>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="owned-item-del"
+                  (click)="togglePropertyOwned(prop.id)"
+                  title="Quitar de mi lista"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

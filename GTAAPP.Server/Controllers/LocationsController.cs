@@ -1,13 +1,18 @@
+using System.Net;
+using System.Text.RegularExpressions;
 using GTAAPP.Server.Models;
 using GTAAPP.Server.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace GTAAPP.Server.Controllers;
 
 [ApiController]
 [Route("api/locations")]
+[EnableRateLimiting("data-policy")]
 public class LocationsController : ControllerBase
 {
+    private static readonly Regex SafeQueryRegex = new(@"^[a-zA-Z0-9_\-]+$", RegexOptions.Compiled);
     private readonly AtmImporter _atms;
     private readonly PropertyImporter _properties;
     private readonly CollectibleImporter _collectibles;
@@ -33,7 +38,27 @@ public class LocationsController : ControllerBase
     [HttpGet("properties")]
     public ActionResult<List<PropertyLocation>> GetProperties([FromQuery] string? gameMode, [FromQuery] string? category)
     {
-        return Ok(_properties.GetProperties(gameMode, category));
+        string? cleanGameMode = null;
+        if (!string.IsNullOrWhiteSpace(gameMode))
+        {
+            var trimmedMode = gameMode.Trim().ToLowerInvariant();
+            if (trimmedMode is "story" or "online")
+            {
+                cleanGameMode = trimmedMode;
+            }
+        }
+
+        string? cleanCategory = null;
+        if (!string.IsNullOrWhiteSpace(category))
+        {
+            var trimmedCat = category.Trim();
+            if (trimmedCat.Length <= 50 && SafeQueryRegex.IsMatch(trimmedCat))
+            {
+                cleanCategory = WebUtility.HtmlEncode(trimmedCat);
+            }
+        }
+
+        return Ok(_properties.GetProperties(cleanGameMode, cleanCategory));
     }
 
     /// <summary>
@@ -43,6 +68,16 @@ public class LocationsController : ControllerBase
     [HttpGet("collectibles")]
     public ActionResult<List<CollectibleItem>> GetCollectibles([FromQuery] string? category)
     {
-        return Ok(_collectibles.GetCollectibles(category));
+        string? cleanCategory = null;
+        if (!string.IsNullOrWhiteSpace(category))
+        {
+            var trimmedCat = category.Trim();
+            if (trimmedCat.Length <= 50 && SafeQueryRegex.IsMatch(trimmedCat))
+            {
+                cleanCategory = WebUtility.HtmlEncode(trimmedCat);
+            }
+        }
+
+        return Ok(_collectibles.GetCollectibles(cleanCategory));
     }
 }

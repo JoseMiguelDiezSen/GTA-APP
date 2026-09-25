@@ -38,10 +38,15 @@ export type PropertyCategory =
   | 'ls_car_meet'
   | 'animal'
   | 'service'
+  | 'police_station'
+  | 'hospital'
+  | 'fire_station'
   | 'convenience_store'
   | 'car_wash'
   | 'strip_club'
-  | 'roleplay_job';
+  | 'roleplay_job'
+  | 'arena_war'
+  | 'character';
 
 export interface PropertyLocation {
   id: string;

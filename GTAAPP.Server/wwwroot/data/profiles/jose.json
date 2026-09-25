@@ -1,0 +1,25 @@
+{
+  "gamertag": "Jose",
+  "pinHash": "cc72f651a5366c8529d8430ae8651573085ec697dca865ec0e82c73ce7c1010a",
+  "createdAt": "2026-09-21T18:07:17.1022487Z",
+  "lastLogin": "2026-09-21T18:07:17.1671212Z",
+  "profile": {
+    "rockstarId": null,
+    "nickname": "Jose",
+    "avatarUrl": null,
+    "platform": "pc",
+    "characterSlot": 0,
+    "isSyncedWithSocialClub": false,
+    "lastSyncDate": null,
+    "rank": 120,
+    "cash": null,
+    "bank": 8500000,
+    "ownedPropertyIds": [
+      "mansion_1",
+      "bunker_chumash"
+    ],
+    "collectedItemIds": [],
+    "highlightOwnedProperties": true,
+    "hideCollectedItems": false
+  }
+}
